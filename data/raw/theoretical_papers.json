@@ -1,0 +1,643 @@
+{
+  "metadata": {
+    "description": "Artigos teoricos/conceituais — IA na Educacao",
+    "queries_used": [
+      "Artificial Intelligence Education \"Critical Theory\"",
+      "Generative AI Education Ethics \"Sociological\"",
+      "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "\"Artificial Intelligence\" Education Ethics \"Theoretical Framework\"",
+      "\"Generative AI\" Education \"Philosophical\" \"Conceptual\""
+    ],
+    "year_filter": "2020-2026",
+    "pub_types": [
+      "Review",
+      "JournalArticle"
+    ],
+    "total_papers": 30,
+    "generated_at": "2026-04-20 19:05"
+  },
+  "papers": [
+    {
+      "paper_id": "355b67df945a7b5d52f41a0f389b901f34f7958c",
+      "title": "How do generative artificial intelligence (AI) tools and large language models (LLMs) influence language learners’ critical thinking in EFL education? A systematic review",
+      "year": 2025,
+      "venue": "Smart Learning Environments",
+      "abstract": null,
+      "authors": [
+        "Jing Liu",
+        "A. J. Sihes",
+        "Ye Lu"
+      ],
+      "citation_count": 19,
+      "reference_count": 64,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "6dc184723435ef505c58eec6cf2cd4c1b5fc9503",
+      "title": "Transforming science education with artificial intelligence: Enhancing inquiry-based learning and critical thinking in South African science classrooms",
+      "year": 2025,
+      "venue": "Eurasia Journal of Mathematics, Science and Technology Education",
+      "abstract": "In this conceptual paper, we explore how Artificial Intelligence (AI) educational applications can enhance Inquiry-Based Learning (IBL) and Critical Thinking in science classrooms. Despite widespread support for IBL from scholars around the globe, its implementation in classrooms often falls short. Grounded in social constructivist theory, which promotes active participation, collaboration, and inquiry in knowledge construction, this paper presents a case for using AI educational apps as teaching tools to simulate scientific inquiry. Two research questions were addressed: What challenges hinder the implementation of inquiry-based science learning in South African classrooms? And how can AI-infused educational apps promote inquiry-based science learning? The literature suggests that science educators often face challenges such as a lack of knowledge of IBL, negative attitudes towards IBL, and limited resources concerning the use of IBL, which hinder their ability to implement IBL effectively. It is found that AI-infused educational apps like Magic School, Labxchange and Edpuzzle can help overcome these challenges. Their free-to-use nature facilitates the automatic creation of lessons that enable pupils to engage with scientific concepts through inquiry-based prompts, critical thinking questions, and real-world applications. In light of these findings, we argue that teacher development programs must do more to equip science educators with the skills required to integrate AI into their teaching. Future research could explore how AI can be utilized in other subjects such as mathematics to create a more engaging learning experience.",
+      "authors": [
+        "Anita John Kunnath",
+        "Wiets Botes"
+      ],
+      "citation_count": 7,
+      "reference_count": 23,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "086cfe672d0c0f14db88f198f9c8eab37703cee8",
+      "title": "Artificial Intelligence-Assisted Music Education: A Critical Synthesis of Challenges and Opportunities",
+      "year": 2024,
+      "venue": "Education sciences",
+      "abstract": "Artificial intelligence (AI) is a hot topic that presents new challenges and opportunities for the improvement of educational processes. The disruptive and transformative force of this new technological development implies the adaptation of educational ecosystems for its use and integration as a didactic and pedagogical resource. From this perspective, a systematic literature review has been conducted to analyze the didactic potential of generative AI tools in the field of promoting artistic creativity in music education. The research results confirm that the incorporation of AI in music education is paving the way for a more personalized, interactive and efficient learning experience. In addition, the analysis suggests nine fundamental fields of IA implementation in music education: virtual and augmented reality (VR; VA); learning personalization, intelligent tutoring systems; composition assistants; improved historical and contextual learning; assessment systems; interactive ear training and music theory systems; tools for music collaboration and performance; and assistive technologies. Furthermore, the challenges presented by the intersection of AI and digital didactics in the field of music education are discussed.",
+      "authors": [
+        "Javier Félix Merchán Sánchez-Jara",
+        "Sara González Gutiérrez",
+        "J. Cruz Rodríguez",
+        "Bohdan Syroyid Syroyid"
+      ],
+      "citation_count": 40,
+      "reference_count": 24,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "f2b2996a6248dd3aad405f202e565207ccd09a53",
+      "title": "Artificial intelligence in teacher education: Examining critical thinking and creativity through AI usage",
+      "year": 2025,
+      "venue": "Forum for Education Studies",
+      "abstract": "The integration of Artificial Intelligence (AI) in teacher education has raised important questions about its impact on higher-order cognitive skills, particularly critical thinking and creativity. This study investigates the mediating role of critical thinking in the relationship between AI usage and creativity among pre-service teachers. Grounded in Cognitive Load Theory (CLT) and Dual-Process Theory, the research conceptualizes critical thinking as a second-order reflective construct comprising adaptive exploration (AE) and systematic validation (SV). Using a cross-sectional survey design, data were collected from 107 pre-service teachers at a teacher training institution in Southwest China. Partial Least Squares Structural Equation Modeling (PLS-SEM) was employed to analyze the relationships among AI usage, critical thinking, and creativity. Results indicate that AI usage significantly enhances critical thinking (β = 0.560, p < 0.001), which, in turn, has a strong positive effect on creativity (β = 0.707, p < 0.001). Moreover, critical thinking serves as a partial mediator, amplifying the effect of AI usage on creativity (β = 0.397, p < 0.001, VAF = 65.89%). These findings underscore the necessity of fostering AI-supported critical thinking skills in teacher education. As generative AI technologies become increasingly prevalent in digital learning environments, integrating adaptive exploration and systematic validation into pedagogical strategies is essential for cultivating both critical thinking and creativity. The study contributes to the discourse on digital learning innovations and teacher education by providing empirical evidence on AI’s role in enhancing cognitive development.",
+      "authors": [
+        "Xianfeng Li"
+      ],
+      "citation_count": 4,
+      "reference_count": 36,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "83afded0935f1920d735dfdbccf907a44dda60f1",
+      "title": "Towards a New Conceptual Model of AI-Enhanced Learning for College Students: The Roles of Artificial Intelligence Capabilities, General Self-Efficacy, Learning Motivation, and Critical Thinking Awareness",
+      "year": 2024,
+      "venue": "Syst.",
+      "abstract": "In the aftermath of the COVID-19 pandemic, college students have faced various challenges that could negatively impact their critical thinking abilities due to disruptions to education, increased stress and anxiety, less social interaction, and the advancement of distance learning relying more heavily on digital tools. With the increasing integration of AI technology across sectors, higher education institutions have deployed various AI capabilities for intelligent campuses and modernized teaching. However, how to fully utilize AI capabilities to promote students’ thinking awareness on learning effectiveness is still not clear, as critical thinking is an essential skill set holding significant implications for college students’ development. This research adopts the resource-based theory (RBT) to conceptualize the university as a unified entity of artificial intelligence (AI) resources. It aims to investigate whether AI capabilities can foster critical thinking awareness among students by enhancing general self-efficacy and learning motivation. In particular, it examines the causal relationships between AI capabilities, general self-efficacy, motivation and critical thinking awareness. Primary data was collected through a questionnaire administered to 637 college students. Structural equation modeling was employed to test hypotheses pertaining to causality. The results showed that AI capabilities could indirectly enhance students’ critical thinking awareness by strengthening general self-efficacy and learning motivation, but the effect on critical thinking awareness was not significant. Meanwhile, general self-efficacy significantly affected the formation of learning motivation and critical thinking awareness. This indicates that AI capabilities are able to reshape the cognitive learning process, but its direct influence on thinking awareness needs to be viewed with caution. This study explored the role of AI capabilities in education from the perspective of organizational capabilities. It not only proves how AI facilitates cognition, but also discovered the important mediating role of general self-efficacy and motivation in this process. This finding explains the inherent connections between the mechanism links. Furthermore, the study expands research on AI capabilities research from the technical level to the educational field. It provides a comprehensive and in-depth theoretical explanation theoretically, guiding the practice and application of AI in education. The study is of positive significance for understanding the need for the future development of the cultivation of critical thinking awareness talents needed for future development through AI capabilities in education.",
+      "authors": [
+        "Xi-Hui Jia",
+        "Jui-Che Tu"
+      ],
+      "citation_count": 142,
+      "reference_count": 151,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "6aaae2d60ce6bebed44547c5abba585413f71f9e",
+      "title": "Artificial Intelligence-Generated Content Empowers College Students’ Critical Thinking Skills: What, How, and Why",
+      "year": 2025,
+      "venue": "Education sciences",
+      "abstract": "Despite the increasing number of studies indicating that generative artificial intelligence is conducive to cultivating college students’ critical thinking skills, research on the impact of college students’ use of generative artificial intelligence on their critical thinking skills in an open learning environment is still scarce. This study aims to investigate whether the use of generative artificial intelligence by college students in an open learning environment can effectively enhance their critical thinking skills. The study is centered around the following questions: Does the use of generative artificial intelligence in an open learning environment enhance college students’ critical thinking skills (what)? What is the mechanism by which the use of generative artificial intelligence affects college students’ critical thinking (how)? From the perspective of self-regulated learning theory and learning motivation theory, what are the reasons for the impact of generative artificial intelligence on college students’ critical thinking skills (why)? To this end, the study employs questionnaires and interviews to collect data. The questionnaire data are subjected to descriptive statistical analysis, correlation analysis, multiple stepwise regression analysis, and mediation effect analysis. Based on the analysis of interview materials and survey questionnaire data, the study reveals the impacts and mechanisms of college students’ use of generative artificial intelligence tools on their critical thinking skills. The findings of the study are as follows. First, the frequency of artificial intelligence use is unrelated to critical thinking skills, but using it for reflective thinking helps to develop critical thinking skills. Second, students with strong self-regulated learning skills are more likely to use generative artificial intelligence for reflective thinking and achieve better development in critical thinking skills. Third, students with strong intrinsic learning motivation are more likely to use generative artificial intelligence for reflective thinking and achieve better development in critical thinking skills. Consequently, the article analyzes the reasons from the perspectives of self-regulated learning theory and learning motivation theory and offers insights into how to properly use generative artificial intelligence to promote the development of critical thinking skills from the perspectives of higher education institutions, college teachers, and college students.",
+      "authors": [
+        "Weiping Zhang",
+        "Xinxin Liu"
+      ],
+      "citation_count": 7,
+      "reference_count": 31,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "5aca8c94236c1b4fc7f53c48470453b7277b285c",
+      "title": "Roles of Artificial Intelligence in Promoting Education for Sustainable Development in Lower-Middle-Income ASEAN Economies",
+      "year": 2025,
+      "venue": "American Journal of Business Science Philosophy (AJBSP)",
+      "abstract": "This study examines the role of artificial intelligence (AI) in promoting Education for Sustainable Development (ESD) in lower-middle-income ASEAN economies, focusing on two critical areas: the challenges to AI adoption and strategies to optimize AI alignment with sustainable development goals. The research identifies key barriers to AI integration, including technological readiness, financial constraints, policy gaps, and socio-cultural factors, through document analysis and case studies. It highlights region-specific challenges, such as inadequate digital infrastructure and limited teacher training, that hinder AI adoption in education. Additionally, the study explores how AI can be optimized to support Sustainable Development Goals (SDGs), particularly SDG 4 (Quality Education) and SDG 9 (Innovation and Infrastructure), by enhancing educational access, promoting gender equality, and enabling personalized learning. Using the Grounded Theory model, the findings suggest that AI can reduce inequalities and empower underserved communities by improving educational outcomes. However, successful AI integration requires a balanced approach that prioritizes ethical considerations and inclusivity. The study advocates for collaborative efforts between governments, educational institutions, and technology providers to establish an ecosystem that supports responsible AI deployment. By addressing these challenges and leveraging AI’s potential, stakeholders can unlock new opportunities to foster sustainable development and improve educational outcomes in ASEAN lower-middle-income economies.",
+      "authors": [
+        "Masatoshi Hara"
+      ],
+      "citation_count": 10,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "5ae52ffe8fe737f2f9dad51aa3f35e9b7c48360f",
+      "title": "Desiring-futures in education policy: assemblage theory, artificial intelligence, and UNESCO’s futures of education",
+      "year": 2024,
+      "venue": "Educause Review",
+      "abstract": "ABSTRACT The United Nations Educational, Scientific and Cultural Organization (UNESCO) launched its Futures of Education policy initiative in early 2020. The process sought to open a sustained global policy debate on educational futures in a world typified by climatological instability, social inequity, and political unrest. Drawing on Deleuze and Guattari’s theory of assemblages, this paper explores how the Futures of Education initiative simultaneously produces, captures, and reroutes flows of desire by opening its policymaking process to global consultation. Following this line of thinking, the paper introduces a speculative method for critical policy analysis that utilises AI-powered tools to generate expressive images and imaginaries of education futures based on UNESCO’s three stages of policy development. The authors argue that this method enables a step beyond conventional interpretations of a policy’s discursive content toward a speculative analysis of its processual dynamics and expressive potentials. Ultimately, the paper underscores the generative possibilities of AI-assisted methods for tracking flows and expressions of desire within education policy assemblages under conditions of climatological and political upheaval. The authors encourage further experimentation with plugging emerging technologies into global policy assemblages to better understand how desire is invested into particular images and imaginaries of educational futures.",
+      "authors": [
+        "David Rousell",
+        "Matthew P. Sinclair"
+      ],
+      "citation_count": 9,
+      "reference_count": 65,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "965209f2fb01be9a58074f7ddfa54bbb12bc605d",
+      "title": "Artificial Intelligence in Early Childhood STEM Education: A Review of Pedagogical Paradigms, Ethical Issues, and Socio-Political Implications",
+      "year": 2025,
+      "venue": "Journal of Education in Science Environment and Health",
+      "abstract": "This study examines the pedagogical, ethical, and political dimensions of artificial intelligence (AI) in early childhood STEM education from a theoretical perspective. As digital technologies become increasingly prevalent in education, AI applications offer significant opportunities in areas such as personalized learning experiences, game-based education, and data analytics. However, they also pose critical ethical concerns, including data security, algorithmic bias, and privacy, while influencing children's cognitive, linguistic, and social development. Drawing on Piaget’s theory of active discovery and learning, Vygotsky’s emphasis on social interaction and teacher guidance, and Bronfenbrenner’s ecological systems theory, this study explores how AI-supported learning environments can enrich children's natural developmental processes. A qualitative literature review and theoretical analysis reveal the necessity of achieving a balanced integration between the individualized educational opportunities offered by AI and the potential risks it entails. The findings highlight the critical importance of developing human-centered, ethically sound, and inclusive educational models for educators, policymakers, and researchers in the face of technological transformation. In this context, teacher training, parental collaboration, and interdisciplinary strategies are identified as fundamental prerequisites for the sustainable and effective integration of AI in early childhood education.",
+      "authors": [
+        "Elif Ozturk"
+      ],
+      "citation_count": 8,
+      "reference_count": 92,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "48214a025e80bf161c537579f2934f9280ead1a3",
+      "title": "Research on the Practical Dilemmas and Countermeasures of Artificial Intelligence Applications in Education",
+      "year": 2025,
+      "venue": "Critical Humanistic Social Theory",
+      "abstract": "In recent years, artificial intelligence (AI) has rapidly evolved, triggering substantial transformations across various sectors. However, it has also spawned multiple dilemmas within the realm of education. These include technical challenges such as ambiguous division of labor between humans and machines and adaptation barriers for intelligent technologies, practical issues like disorder in smart educational spaces and the sense of alienation and detachment engendered by these technologies, and ethical quandaries such as the risk of information leakage for teachers and students, biased models leading to unfairness in intelligent education, among others. Consequently, at the technical level, there is an urgent need for top-down guidance from policy documents and a clearer demarcation of roles between humans and machines in the process of smart education. Practically, established teaching methodologies and technologies of the information age should not be discarded, and a conscious effort must be made to cultivate talent specialized in AI-assisted education. Ethically, the design of ethical guidelines for AI technologies is imperative, accompanied by rigorous verification of tool safety measures, to ensure that the integration of AI in education is not only innovative but also responsible and equitable.",
+      "authors": [
+        "Huayang Zhang",
+        "Jinjin Bai",
+        "Shixi Fan"
+      ],
+      "citation_count": 1,
+      "reference_count": 30,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "96f48203fed3126d20e1c69ae2bbab69c3d2724a",
+      "title": "‘OMG! You used AI’ – A critical exploration of linguistic stigmatization in the era of generative artificial intelligence",
+      "year": 2025,
+      "venue": "Online Journal of Communication and Media Technologies",
+      "abstract": "The popularity of generative artificial intelligence (GenAI) in higher education institutions has sparked significant debate among scholars, lecturers, markers, and students. Reactions range from enthusiasm to concern. On the one hand, GenAI is embraced for its incidental benefits in language learning; and, on the other, it is met with resistance due to issues such as reduced cognitive engagement, technophobia, and fears of academic dishonesty. An area of concern involves the emergence and frequent recurrence of certain linguistic features and vocabulary associated with GenAI texts. This study explores the stigmatization of these linguistic patterns in an open distance e-learning (ODeL) context and explores how their usage influences perceptions of students’ work. A case study design was used in this mixed-methods approach. Data were collected through an online questionnaire distributed to students and an open-ended evaluation form completed by markers. The study is grounded in the framing theory, which examines how GenAI content is presented in academic contexts, either as unethical and inauthentic or as a tool for empowerment. The findings reveal that markers have developed biases against linguistic features commonly associated with GenAI and students use GenAI to improve their writing. Although GenAI can be a useful linguistic aid, ethical use and transparent disclosure are critical to maintain academic integrity. These findings call for the development of clear institutional guidelines and marker training to ensure fair and informed assessment in the age of GenAI in ODeL.",
+      "authors": [
+        "Ntshimane Elphas Mohale",
+        "Kershnee Sevnarayan",
+        "K. Maphoto",
+        "Zuleika Suliman"
+      ],
+      "citation_count": 1,
+      "reference_count": 31,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "Artificial Intelligence Education \"Critical Theory\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:02"
+    },
+    {
+      "paper_id": "fe03e75b25d4c46b17e3d6df639d403d380409d3",
+      "title": "Teaching for peace and social justice in Myanmar: identity, agency, and critical pedagogy",
+      "year": 2023,
+      "venue": "Journal of Peace Education",
+      "abstract": "This book about peace and social justice provides fascinating conceptual information. This book discusses how to teach peace, especially at the local level. The concept of wisdom and insight into efforts to build peace in a country is represented through Myanmar. This country is a country with a long brotherly role in history. This book consists of three parts and is divided into nine chapters. In chapter 1, there is fascinating information, namely regarding the position of citizenship education, which is described as having a critical position. Citizenship education is a bridge to shape students’ personalities to improve their futures. Students can learn to prepare themselves to face various efforts and problems that exist in society through participatory learning.",
+      "authors": [
+        "Aulia Sholichah Iman Nurchotimah",
+        "S. Habibah",
+        "Anggara Disuma",
+        "Dian Ratu Ayu Uswatun Khasanah",
+        "Alif Aditya Candra"
+      ],
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "e60c5dad0c4caaf54d4e7a712ed7f1f26e595c8f",
+      "title": "Critical Pedagogy Implementation in Science Education as Perceived by Science Educators",
+      "year": 2025,
+      "venue": "International Journal of Science Education and Science",
+      "abstract": "Critical pedagogy (CP) is a crucial instructional approach that aims to increase students' knowledge while fostering a greater awareness of justice and social equality. This approach is used in different disciplines to foster meaningful learning. In science education, CP is used by educators to deepen conceptual learnings by allowing learners to think the social implications of the concept being learned. Thus, this study is created to assess science educators' understanding of CP in basic science education, considering their length of service and gender. The used of quantitative research design is employed to accomplish the objectives of the study. In addition, respondents were drawn using simple random sampling technique and curated with the inclusion criteria. Based on this, 109 science educators across the province of Davao del Sur, Philippines were randomly selected as respondents to the study. The use of mean, standard deviation, Mann-Whitney U-Test, and Kruskal-Wallis H Test were used to analyze the data. The findings of the study revealed that science educators have an overall high level of understanding of CP with a very high level in the indicator, program structure. Moreover, data shows a moderate level of understanding in the indicators evaluation and teacher development. The analysis further revealed that gender does not play a significant role in understanding CP. However, when analyzed by length of service, data shows a statistically significant difference in the overall CP along with the indicators of philosophical orientation and teacher-student relationship. The findings of the study imply that science educators should be empowered to integrate CP in the classroom and implement professional development programs to improve CP understanding, especially for newly employed science educators",
+      "authors": [
+        "Jaydione Makiaway",
+        "Shaina Ella Raganas",
+        "Divine Nicole Serbo",
+        "Tomas Jr Diquito"
+      ],
+      "citation_count": 0,
+      "reference_count": 75,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "207eb9f736d1118d50f3e131d61f8ceb5750cf8c",
+      "title": "Legal pedagogy through AI: A justice-oriented approach for equity and transformation in South African higher education",
+      "year": 2026,
+      "venue": "International Journal of Research In Business and Social Science",
+      "abstract": "Higher education institutions face both opportunities and risks when adopting Artificial Intelligence (AI), offering possibilities for educational progress while simultaneously deepening existing social inequalities. With the rapid adoption of AI in the legal profession, there is a growing need to reimagine legal pedagogy. Within the scholarship of teaching and learning, the pedagogical and ethical aspects of AI in education have received extensive global research, yet South African legal pedagogy has received limited study as far as its transformative potential is concerned, despite its ongoing social inequalities. The study examines AI-mediated learning environments through person–environment theory as well as Freire’s critical/postcolonial pedagogy in exploring their impact AI may have on students' legal reasoning abilities, research skills, and access to knowledge. The study employs qualitative document analysis of South African higher education policy documents alongside international AI-based legal education platforms. Preliminary analysis suggests that AI has the potential to enhance legal reasoning and research efficiency, yet also risks maintaining epistemic exclusion and the digital divide unless structural inequalities are addressed. The research adds to teaching and learning scholarship by proposing a justice-oriented framework that unites theoretical and practical approaches to integrate AI into South African legal education, thereby promoting socially just transformation. The research proposes inclusive curriculum design, critical digital literacy training, and context-sensitive pedagogical approaches. Situated within a Global South perspective, the study thus offers one of the first to combine theoretical insights and practical recommendations for using AI to challenge entrenched inequalities and promote socially just legal education transformation.",
+      "authors": [
+        "Lizelle Ramaccio Clavino"
+      ],
+      "citation_count": 0,
+      "reference_count": 56,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "84f731ea1ad83b25450ec62d959a46f897476b4a",
+      "title": "AI for Social Responsibility: Critical Reflections on the Marketization of Education",
+      "year": 2026,
+      "venue": "The social science",
+      "abstract": "This study critically examines how Artificial Intelligence for Social Responsibility (AI for SR) is enacted within Thai education, using this Global South context to expose the universal dynamics of educational marketization. Drawing on Freire’s critical pedagogy and Habermas’s theory of lifeworld, the research employs a qualitative design grounded in critical phenomenology. Analysis of interviews, observations, and policy documents reveals that AI for SR is driven less by ethical participation than by policy compliance, funding agendas, and portfolio-driven competition. This dynamic transform responsibility from a moral practice into symbolic capital. Students become producers of symbolic output, and educators act as image managers for institutional displays. The study concludes by proposing a critical pedagogical framework that reclaims AI for SR as a public good, emphasizing dialog and social justice to resist this commodification.",
+      "authors": [
+        "Praphat Sinlapakitjanon",
+        "S. Noklang",
+        "P. Prakongpan"
+      ],
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "51ac9401f7e460704bef22fc91b9d2fb10194cec",
+      "title": "\"They bring the topic [of social justice] but stop there\": Nursing students' perceptions of teaching practices that develop awareness and engagement with social justice.",
+      "year": 2024,
+      "venue": "Nurse Education Today",
+      "abstract": "BACKGROUND\nPedagogical frameworks grounded in social justice, such as decolonizing and anti-racist educational practices, are essential in nursing programs. While scholars have begun to examine nurse educators' conceptualizations of social justice, there remains a lack of knowledge about student perspectives regarding nurse educators' approaches to incorporating social justice in education.\n\n\nOBJECTIVE\nTo understand nursing students' perceptions about educational strategies that develop critical awareness and engagement with social justice and positively influence professional practice.\n\n\nDESIGN\nA qualitative study informed by Critical Feminist Pedagogy and guided by Interpretive Description methodology.\n\n\nSETTINGS\nA school of nursing in Western Canada.\n\n\nPARTICIPANTS\nTen undergraduate and graduate nursing students recruited through convenience sampling.\n\n\nMETHODS\nStudents participated in one-on-one semi-structured interviews. A set of questions developed to facilitate data analysis allowed the deconstruction of the data to identify broad-based inductive categories. Contrast and comparison methods were also used. Members of the research team provided analytic insights into the categories, and subsequently, all members discussed the findings and developed the interpretive frame.\n\n\nRESULTS\nStudent participants reported that educational strategies promoting awareness and engagement with social justice need to go beyond superficial engagement and awareness of social justice. Researchers' analysis suggests that cohesiveness between awareness and action in social justice is urgently needed within academia to adopt a decolonizing and anti-racist pedagogy in nursing and better prepare students for professional practice. From the data analysis, teaching strategies that enhance cohesiveness include: embracing personal development, creating community spaces and disrupting knowledge and curriculum hierarchies.\n\n\nCONCLUSIONS\nUnderstanding students' perceptions and incorporating their suggestions is critical to integrating socially just teaching practices that embrace a learner-centred pedagogy. Our findings offer suggestions for teaching strategies that foster critical awareness and engagement with social justice. Combined, these contribute to our understanding of signature pedagogies in nursing with the intention of increasing the adoption of anti-racist and decolonizing approaches.",
+      "authors": [
+        "I. De Sousa",
+        "Lydia Wytenbroek",
+        "Elisabeth Bailey",
+        "S. H. Campbell"
+      ],
+      "citation_count": 11,
+      "reference_count": 61,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "c2c60927db4586e84af8b0d9d24ecd29373152a1",
+      "title": "Critical Pedagogy and Student Learning Outcomes: A Systematic Literature Review",
+      "year": 2024,
+      "venue": "Path of Science",
+      "abstract": ". This study aims to evaluate the impact of Critical Pedagogy on student learning outcomes, focusing on academic and social dimensions across various educational levels and settings. A systematic literature review followed PRISMA 2020 guidelines, analyzing 13 peer-reviewed articles published between 2014 and 2024 – the inclusion criteria centred on journal articles and reviews, excluding book chapters and proceedings. The studies employed qualitative, quantitative, and mixed methodologies. The review revealed that Critical Pedagogy positively influences critical thinking, academic achievement, social awareness, and civic engagement. It demonstrated adaptability to online and technology-enhanced learning environments. The studies covered primary to higher education educational levels, significantly impacting student engagement and academic outcomes. Critical Pedagogy significantly enhances educational outcomes and student engagement, advocating for democratic values and social justice. Its integration with emerging educational technologies like AI and VR shows promise for modern pedagogical strategies. Future research should explore the implementation of Critical Pedagogy in early childhood settings, assess its effectiveness in online education, and develop quantitative measures for social outcomes. Further studies should also investigate interdisciplinary applications and incorporate student perspectives to enrich the understanding and application of Critical Pedagogy.",
+      "authors": [
+        "H. Hunaepi",
+        "Khaeruma Khaeruma",
+        "Titi Laily Hajiriah",
+        "K. S. K. Wardani",
+        "I. G. A. N. K. Sukiastini",
+        "P. Nitiasih",
+        "P. Riastini",
+        "I. G. W. Sudatha"
+      ],
+      "citation_count": 7,
+      "reference_count": 48,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "c7977d7c2589ce6c0b2778b66f333de52669fa4e",
+      "title": "Artificial Intelligence Integration in TESOL Teacher Education: Promoting a Critical Lens Guided by TPACK and SAMR",
+      "year": 2025,
+      "venue": "TESOL Quarterly (Print)",
+      "abstract": "As generative artificial intelligence (GenAI) transforms language education, teacher educators are uniquely positioned to equip teachers with the skills to engage with artificial intelligence (AI) tools. Although AI offers opportunities for automating tasks and personalizing learning, educators must ensure these tools align with pedagogical integrity, equity, and social justice. This Teaching Issue article explores AI integration in TESOL teacher education using the Technological Pedagogical Content Knowledge (TPACK) and the Substitution, Augmentation, Modification, and Redefinition (SAMR) models. The TPACK model provides a lens for understanding the interplay of technology, pedagogy, and content knowledge, whereas the SAMR model evaluates the transformative potential of AI tools. Through these frameworks, we show how TESOL teacher educators can address AI's critical sociopolitical, ethical, and cultural dimensions in TESOL. Focusing on issues such as bias in feedback, equity in access, and cultural representation, we also provide a roadmap for integrating AI into TESOL teacher education in ways that promote equity and social justice.",
+      "authors": [
+        "Lucas Kohnke",
+        "Di Zou"
+      ],
+      "citation_count": 28,
+      "reference_count": 11,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "6fd1671e5e235f5bed62311c20a5ee98bc2fbe61",
+      "title": "Pedagogy for the Future in the Context of Nepal: An Exploration with Critical Mathematics Education",
+      "year": 2022,
+      "venue": "Academic Journal of Mathematics Education",
+      "abstract": "Critical mathematics education undermines the neutrality of mathematics teaching and learning; it confronts societal barriers and suppression, social justice, and opens up new pathways for students to participate in social and political life. This paper intends to analyze critical mathematics education and how it can be used as a tool to create a bright future for mathematics in Nepal by altering teaching pedagogy and applying it to practice. For this study, the search engine Google, Google scholar, Eric, and ProQuest were used. Three major themes were explored: thoughts of teachers towards critical mathematics education, mathematics education in relation to society, and technology-based teaching. To discuss the result content analysis on the themes were used. This study finds that optimistic attitude, innovation of teachers, and the use of critical pedagogy appear to be too responsible for the bright future of mathematics. To attain the objectives, our teachers must be enthusiastic, knowledgeable about information and technology, and critical and reflective.",
+      "authors": [
+        "Krishna Prasad Sharma Chapai"
+      ],
+      "citation_count": 2,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "4c98b68b7f8760f81d6b6c7b9096f1cb282aa34f",
+      "title": "Emancipatory Education Of Paulo Freire From An Islamic Educational Perspective: A Conceptual Analysis Of Liberation And Critical Consciousness",
+      "year": 2025,
+      "venue": "Interdisciplinary Journal of Social Sciences",
+      "abstract": "This study aims to analyse Paulo Freire's concept of emancipatory education about Islamic educational values, particularly in the aspects of liberation and critical consciousness. The main focus of this research is to explore the alignment between Freire’s problem-posing education approach and the principles of Islamic education, which emphasise the development of individuals who are knowledgeable, ethical, and socially responsible. This study employs a descriptive qualitative approach using library research methods, drawing on various academic sources including books, nationally accredited journals (SINTA), and reputable international journals such as those indexed by Scopus. Data analysis is conducted through data reduction, presentation, and conclusion drawing using a comparative approach between Freire's theory and the Islamic educational perspective. The findings indicate that Freire’s critical pedagogy shares fundamental values with Islamic principles such as tawhid (monotheism), justice, and social responsibility. Freire’s idea of education as a process of liberation aligns with the aims of Islamic education, which seeks to free individuals from ignorance and oppression toward spiritual and social enlightenment. The value of critical consciousness in Islam is reflected in Qur'anic verses such as Surah Az-Zumar: 9 and Al-Baqarah: 269. This study opens opportunities for integrating critical pedagogy into a more humanistic and transformative contemporary Islamic education..",
+      "authors": [
+        "Madkan",
+        "Fauziyah",
+        "Siti Suwaibatul Aslamiyah"
+      ],
+      "citation_count": 2,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "bf1a50ca55532e94bc91538df350ba662a3677b4",
+      "title": "Being a Teacher in the Age of AI: Between Technology, Values, and the Humanisation of Education",
+      "year": 2025,
+      "venue": "Journal of Islamic Studies and Civilization",
+      "abstract": "The rapid development of artificial intelligence (AI) has transformed education from a predominantly human-centred enterprise into a technologically mediated ecosystem that reshapes how knowledge is produced, distributed, and validated. This article examines the epistemological, ethical, and humanistic implications of AI’s growing influence on learning environments, drawing on philosophical perspectives and critical pedagogy. AI is increasingly functioning as an epistemic actor capable of predicting outcomes, personalising learning pathways, and making automated decisions, thereby shifting educational authority away from teachers and toward algorithmic systems. This shift raises profound questions about bias, privacy, social justice, and the normative purpose of education. Through an analysis of epistemic transformation, the reconceptualization of teacher roles, and emerging ethical challenges, the article argues for a humanistic framework that resists metric reductionism and reaffirms education as a project of liberation and human dignity. Teachers are positioned not merely as technology operators but as curators of knowledge, moral mediators, and critical agents who ensure that AI serves humane and democratic educational aims. The article concludes by offering a normative horizon for AI-integrated education and outlining future research directions for building ethically grounded, humanising educational ecosystems.",
+      "authors": [
+        "Ida Farida"
+      ],
+      "citation_count": 0,
+      "reference_count": 1,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "5ae797ce9284528cc5d421168952d4b3050d10a8",
+      "title": "Citizenship, Science Education, and Artificial Intelligence: Critical perspectives for citizenship education in the digital age",
+      "year": 2025,
+      "venue": "Caderno Pedagógico",
+      "abstract": "This article, derived from a doctoral dissertation, investigates how researchers in the field of Science Education articulate scientific teaching with citizenship education, extending the analysis to encompass the challenges of the era of generative Artificial Intelligence (AI). Grounded in Pierre Bourdieu’s sociology and Paulo Freire’s critical pedagogy, the study examines academic discourses and pedagogical practices through a documentary review (1996–2024) and narrative interviews with nine recognized scholars in the field. The qualitative approach, supported by quantitative elements, sought to identify trends, conceptions, and practices associated with citizenship in science education. The findings indicate that citizenship is conceived in plural ways, ranging from critical and emancipatory perspectives to more pragmatic approaches. Two central categories emerged—practical action and reflective action—which encompass practices of activism, promotion of social justice, critical awareness, and the projection of utopian actions. The inclusion of AI in the debate broadens the complexity, revealing its potential to democratize access to knowledge while also exposing risks of reinforcing inequalities and algorithmic biases. The study concludes that Science Education must integrate, beyond scientific literacy, a critical scientific-technological literacy that addresses algorithmic ethics, digital equity, and cognitive justice. Such a perspective contributes to the formation of citizens capable of understanding, regulating, and transforming technologies, thereby acting ethically and in a participatory manner in complex, technologically mediated societies.",
+      "authors": [
+        "D. Sousa"
+      ],
+      "citation_count": 0,
+      "reference_count": 2,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "78b474b3b9232df1a9cf741503cb2b8747edd44b",
+      "title": "Beyond Technocentrism: A Tripartite Framework for Humanizing AI Integrated Scientific Modeling in Climate-Related Geography Education",
+      "year": 2025,
+      "venue": "Equator Science Journal",
+      "abstract": "This study aims to explore how critically designed digital content can foster spatial-social reasoning and critical thinking in Geography education within AI-integrated learning environments. Using a systematic literature review method based on a modified PRISMA protocol, 35 peer-reviewed studies (2000–2024) were selected from Scopus, SINTA, and Google Scholar databases. The analysis employed thematic coding and critical interpretive synthesis to examine four pedagogical dimensions: digital interactivity, spatial-social reasoning, AI personalization, and critical-reflective pedagogy. Findings reveal that digital content can act as an epistemological scaffold through three core functions: as a cognitive tool for spatial inquiry, a medium for ethical deliberation, and a dialogic platform for collaborative knowledge-building. Quantitative gains were observed in spatial literacy (32–47%), ethical awareness, and metacognitive regulation when digital tools were integrated within authentic and justice-oriented learning contexts. The study highlights the value of a tripartite pedagogical framework that bridges connectivism and Freirean critical pedagogy, particularly in Global South education. It also underscores the urgency of embedding AI ethics and critical digital pedagogy in teacher training and curriculum reform. These findings suggest that transformative learning outcomes are achievable when technology is positioned not merely as a delivery tool, but as a dialectical medium for democratic, contextual, and ethical education.",
+      "authors": [
+        "M. Khairul",
+        "N. Saminan"
+      ],
+      "citation_count": 1,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "42006923d70fb430d2d3d5326953ffa21ad63214",
+      "title": "Repositioning indigenous knowledge in digitally-enhanced global classrooms: A South African perspective on epistemic justice and curriculum innovation",
+      "year": 2026,
+      "venue": "E-Journal of Humanities, Arts and Social Sciences",
+      "abstract": "This conceptual paper examines how Indigenous Knowledge Systems (IKS) can be repositioned within digitally-enhanced global classrooms to advance epistemic justice and curriculum relevance in South African higher education. A critical-interpretive conceptual design combines an integrative literature review (2013–2025), with illustrative South African cases in Technology Education and higher-education internationalisation. Sources include peer-reviewed scholarship, national policy, and scholarly books, synthesised through three lenses, epistemic justice, decoloniality, and Ubuntu-informed self-directed learning. Eurocentric defaults in digital pedagogy risk reproducing exclusions; a hybrid framework integrating IKS with 4IR tools (AI, AR, OER) enables multilingual, community-embedded, and ethically grounded curriculum design. Enablers include policy alignment, capacitation of academics, ethical protocols for Indigenous intellectual property, and South–South collaborations. Targeted actions are proposed for DHET/CHE (epistemic-diversity criteria in QA/accreditation), universities (governance, funding, digital inclusion), curriculum committees (IKS-aligned review rubrics), academics (culturally responsive, multilingual digital pedagogies), EdTech partners (co-design with communities), and funders (IKS-centred digital archives/infrastructure). The paper offers a theoretically coherent hybrid knowledge framework and a policy-to-practice roadmap connecting IKS, digital pedagogy, and curriculum internationalisation, thereby advancing scholarship on epistemic justice in global higher education.",
+      "authors": [
+        "Benjamin Seleke"
+      ],
+      "citation_count": 0,
+      "reference_count": 25,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "dbf79b6a315cc147b64a4f8c50bc55b78c92d1e4",
+      "title": "The Leadership Tree Model: A Global and AI‐Enhanced Framework for Leadership Development",
+      "year": 2025,
+      "venue": "New Directions for Student Leadership",
+      "abstract": "This article presents the Leadership Tree Model, a metaphorical and conceptual framework for transformative leadership development in higher education. Rooted in critical pedagogy and social justice, the model encourages educators to create inclusive, reflective, and action‐oriented learning environments. It positions leadership as a relational and ethical process that challenges systemic inequities and centers marginalized voices. The article outlines applications for curricular and co‐curricular programming and highlights the model's relevance across diverse institutional contexts. Ultimately, the Leadership Tree Model aims to support students in becoming transformative leaders committed to equity, inclusion, and collective well‐being.",
+      "authors": [
+        "Yihe Yang",
+        "Antonio Jimenez-Luque"
+      ],
+      "citation_count": 0,
+      "reference_count": 29,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "9dd2351f9ef1d2b1b1ecc645c62143aeb2835a79",
+      "title": "Towards an Education Through and for Social Justice: Humanizing a Life Sciences Curriculum Through Co-Creation, Critical Thinking and Anti-Racist Pedagogy",
+      "year": 2025,
+      "venue": "The social science",
+      "abstract": "Degree awarding gaps highlight the inequitable outcomes of higher education (HE) for racially minoritized students in the UK. This ongoing issue has been described as a “wicked problem”, directly related to structural racism, or policies and practices that continually disadvantage racialized students. Movements to decolonize the curriculum bring hope and the tools to rebuild more socially-just institutions and societies. However, it is sometimes questioned whether the field of science, with its guise of objectivity, needs decolonizing, or what that process involves. We argue that student partnerships are central to building decolonized science curricula that are critical, anti-racist and will evoke social change. In this study, conducted with life sciences students in a UK HE institution, we share critical reflections captured through a mixed methods approach to address how we create an education that is through and for social justice. Education through social justice aims to create equitable learning environments by addressing how structures and curricula invite, engage and support racially minoritized students to be partners in the learning journey. Whereas education for social justice is about co-creating curricula, teaching practices and principles that lead to change makers and fostering more socially-just societies. Our research indicates that an education that is both through and for social justice requires co-creation where traditional power hierarchies are dismantled, and mattering is emphasized. Partnerships and curricula must be centered in anti-racist practices, with a structured and intentional approach to developing critical thinking skills for continual reflection, self-development and actions to promote inclusion and equity in life sciences and society.",
+      "authors": [
+        "Amy Maclatchy",
+        "L. Nguyễn",
+        "Olorunlogbon Olulanke",
+        "Lara Pownall",
+        "Moonisah Usman"
+      ],
+      "citation_count": 2,
+      "reference_count": 41,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "AI Education \"Critical Pedagogy\" \"Social Justice\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "d6e8998585bf0a928feb80ec27eda1441dd0a5f8",
+      "title": "Exploring research ethics through the lens of critical posthumanism in the age of Artificial Intelligence",
+      "year": 2025,
+      "venue": "Teaching in Higher Education",
+      "abstract": "ABSTRACT Drawing on critical posthumanism, I attempt to theorize an alternative, non-linear conceptualization of graduate students’ experiences with AI ethics in the context of an educational research methodology course. The conceptual tools of assemblage, distributive agency and ethical criticality were used as the theoretical framework to examine the complex, relational processes that graduate students ought to engage in to develop AI ethics. As the advent of AI has added further complexity to research ethics, my reflections focus on three key tensions explored in this conceptual paper: (1) blurring lines of authorship, (2) relinquishing agency and (3) abating criticality. The emergent pedagogy adopted in the teaching of this course was useful in responding to the ethical challenges that graduate students, as novice researchers, face in the age of AI. The paper concludes with a discussion on how to better support graduate students in developing AI ethics through pedagogy and policy.",
+      "authors": [
+        "Youmen Chaaban"
+      ],
+      "citation_count": 10,
+      "reference_count": 40,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "\"Artificial Intelligence\" Education Ethics \"Theoretical Framework\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "da47b95b2b1a6d3757b2b6c84d1fd4905a14a4ca",
+      "title": "Exploring the integration of Artificial Intelligence into Geography education through a hybridised TPACK–Place–AI framework",
+      "year": 2025,
+      "venue": "The Journal of Geography Education in Africa",
+      "abstract": "Since the 1960s, Geography educators have used digital technologies such as GIS and remote sensing to enrich spatial learning. The rise of artificial intelligence (AI) extends these tools by enabling transformative, data-driven, and personalised learning experiences while fostering essential 21a Century skills. However, many educators remain unaware of AI’s potential benefits and risks. Situated within South Africa’s unequal digital landscape, this study aims to raise awareness and broaden Geography educators’ understanding of effective and ethical AI integration in Geography education. It proposes a hybrid TPACKPlace- AI framework that extends the established Technological, Pedagogical and Content Knowledge model through insights from a critical pedagogy of place. The framework emphasises that AI integration must be pedagogically sound and socially responsive, foregrounding ethics, justice, power, and context. The paper thus offers a theoretical foundation for critically engaging with AI in Geography education.",
+      "authors": [
+        "K. Ontong"
+      ],
+      "citation_count": 0,
+      "reference_count": 46,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "\"Artificial Intelligence\" Education Ethics \"Theoretical Framework\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "583a47a48b791c58fdcb36964ddbeb0f2fb27fc0",
+      "title": "Artificial intelligence in data-driven decision making: the challenges and opportunities of data ethics",
+      "year": 2025,
+      "venue": "Cogent Education",
+      "abstract": "Abstract This article is a critical review of relevant literature that explores how the use of technologies, particularly those powered by artificial intelligence, are impacting data-driven decision making. Artificial intelligence can provide powerful opportunities for the teaching and learning process. However, it also poses significant risks. The article discusses how the technologies that underlie artificial intelligence can create problematic data use, especially in terms of data ethics. The article raises the concerns with the intention of bringing awareness to educators about both the benefits and risks of the technologies. Thus, the article uniquely contributes to practice and research by providing the integration of a theoretical framework for data ethics to emerging technologies in practice.",
+      "authors": [
+        "Ellen Mandinach"
+      ],
+      "citation_count": 0,
+      "reference_count": 48,
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "open_access": true,
+      "source_query": "\"Artificial Intelligence\" Education Ethics \"Theoretical Framework\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    },
+    {
+      "paper_id": "57023293cd64592e7943b9809ed392eb8548f31e",
+      "title": "A Theoretical Framework for AIGC-Enabled Pedagogy in Digital Media Art and the Transformation of Digital Character Design Education",
+      "year": 2025,
+      "venue": "Pacific International Journal",
+      "abstract": "Artificial Intelligence–Generated Content (AIGC) is rapidly reshaping creative industries and transforming the epistemology, processes, and pedagogies of digital media art. Despite widespread adoption of generative models in concept art, digital illustration, and character design, the theoretical foundations guiding their integration into higher education remain insufficiently developed. This theoretical–framework article examines how AIGC reconfigures creative cognition, studio pedagogy, and ethical discourse within digital character design education. Synthesizing interdisciplinary literature on human–AI co-creativity, constructivist learning, studio-based pedagogy, and AI ethics, the study proposes the TAE Framework as a holistic model for understanding the multidimensional influence of AIGC on curriculum design and creative learning. The framework conceptualizes AIGC as a cognitive collaborator, an artistic catalyst, and an ethical negotiation site. It provides implications for curriculum redesign, human–AI co-creative studio instruction, assessment reform, and responsible AI literacy. This work contributes a foundational theoretical lens for future empirical research and offers practical directions for educators seeking to cultivate creativity, criticality, and ethical discernment in an intelligent learning environment.",
+      "authors": [
+        "Jinlong Wu"
+      ],
+      "citation_count": 1,
+      "reference_count": 50,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "source_query": "\"Artificial Intelligence\" Education Ethics \"Theoretical Framework\"",
+      "paper_type": "Theoretical / Conceptual",
+      "collected_at": "2026-04-20 19:05"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+# ============================================================
+# .gitignore — IA na Educação Research
+# ============================================================
+
+# --- Ambiente Virtual ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Jupyter checkpoints ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Variáveis de ambiente / segredos ---
+.env
+.env.local
+*.env
+secrets.py
+config_local.py
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Modelos grandes ---
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.bin
+
+# --- Figuras grandes (regeneráveis) ---
+results/figures/*.png
+results/figures/*.pdf
+results/figures/*.svg
+
+# NOTA: Dados de pesquisa (data/) e referências (references/) 
+# são versionados intencionalmente — são o corpus do projeto.

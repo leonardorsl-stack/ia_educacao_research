@@ -1,0 +1,10 @@
+{
+  "collection_date": "2026-04-20T18:18:52.392778",
+  "query": "(\"Artificial Intelligence\" OR \"Generative AI\") AND (\"Education\") AND (\"Social Impact\")",
+  "year_range": "2020-2026",
+  "total_raw_results": 0,
+  "total_filtered_results": 0,
+  "exclusion_rate_pct": 100.0,
+  "api_source": "Semantic Scholar Graph API v1",
+  "protocol_reference": "docs/protocol/prisma_protocol.md"
+}
