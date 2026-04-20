@@ -57,10 +57,9 @@ models/
 *.pt
 *.bin
 
-# --- Figuras grandes (regeneráveis) ---
-results/figures/*.png
-results/figures/*.pdf
+# --- Figuras grandes (exceto as do artigo) ---
 results/figures/*.svg
+# As figuras do artigo (fig1/2/3) são versionadas intencionalmente
 
 # NOTA: Dados de pesquisa (data/) e referências (references/) 
 # são versionados intencionalmente — são o corpus do projeto.
