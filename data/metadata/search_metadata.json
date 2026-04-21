@@ -1,10 +1,10 @@
 {
-  "collection_date": "2026-04-20T18:18:52.392778",
-  "query": "(\"Artificial Intelligence\" OR \"Generative AI\") AND (\"Education\") AND (\"Social Impact\")",
+  "collection_date": "2026-04-21T01:08:06.138996",
+  "query": "TITLE-ABS-KEY(\"Artificial Intelligence\" OR \"Generative AI\" OR \"Large Language Models\" OR \"LLM\") AND TITLE-ABS-KEY(\"Education\" OR \"Schools\" OR \"Higher Education\" OR \"Pedagogy\") AND TITLE-ABS-KEY(\"Social Impact\" OR \"Inequality\" OR \"Equity\" OR \"Ethics\" OR \"Bias\")",
   "year_range": "2020-2026",
   "total_raw_results": 0,
   "total_filtered_results": 0,
   "exclusion_rate_pct": 100.0,
-  "api_source": "Semantic Scholar Graph API v1",
+  "api_source": "Scopus API",
   "protocol_reference": "docs/protocol/prisma_protocol.md"
 }

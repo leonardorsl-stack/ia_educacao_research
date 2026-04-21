@@ -29,7 +29,9 @@ install:
 # Roda o pipeline completo de análise de dados
 run_pipeline:
 	@echo "--- 🚀 Iniciando o pipeline de análise completo..."
+	$(PYTHON) $(SCRIPT_DIR)/process_scraped_data.py
 	$(PYTHON) $(SCRIPT_DIR)/generate_summary.py
+	$(PYTHON) $(SCRIPT_DIR)/generate_figures.py
 	$(PYTHON) $(SCRIPT_DIR)/generate_synthesis_docs.py
 	$(PYTHON) $(SCRIPT_DIR)/generate_tables.py
 	$(PYTHON) $(SCRIPT_DIR)/export_to_zotero.py

@@ -1,6 +1,6 @@
 # Síntese Teórica — Correntes de Pensamento sobre IA na Educação
 
-> Gerado em 2026-04-21 00:07 por `scripts/generate_synthesis_docs.py`  
+> Gerado em 2026-04-21 01:23 por `scripts/generate_synthesis_docs.py`  
 > Corpus: 30 artigos teóricos / conceituais (2020–2026)
 
 ---

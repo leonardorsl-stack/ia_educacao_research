@@ -1,8 +1,9 @@
 """
 generate_summary.py
 --------------------
-Lê data/processed/meta_analysis_matrix.csv e salva um relatório de análise
-em docs/analysis_summary.md com as seguintes tabelas de frequência:
+Lê data/processed/meta_analysis_matrix.csv e data/processed/scraped_papers.csv,
+e salva um relatório de análise em docs/analysis_summary.md com as seguintes
+tabelas de frequência:
   1. Direção dos achados (main_finding_direction)
   2. Nível educacional (education_level)
   3. Cruzamento Metodologia × Iniquidade (methodology_type × inequity)
@@ -13,16 +14,18 @@ import os
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
+import pandas as pd
+
 
 # ── Caminhos e Imports ────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
-from src.utils import load_csv
 from src.markdown_utils import freq_table, crosstab
 
-CSV_PATH = BASE_DIR / "data" / "processed" / "meta_analysis_matrix.csv"
+META_CSV_PATH = BASE_DIR / "data" / "processed" / "meta_analysis_matrix.csv"
+SCRAPED_CSV_PATH = BASE_DIR / "data" / "processed" / "scraped_papers.csv"
 OUT_PATH = BASE_DIR / "docs" / "analysis_summary.md"
 
 
@@ -32,26 +35,26 @@ def generate_report(records: list[dict]) -> str:
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     # 1. Direção dos achados
-    direction_counter = Counter(r["main_finding_direction"] for r in records)
+    direction_counter = Counter(r.get("main_finding_direction", "Not Specified") for r in records)
 
     # 2. Nível educacional – simplificando rótulos
     def simplify_edu(val: str) -> str:
-        v = val.strip()
+        v = str(val).strip() if val else ""
         if "Higher" in v or "Universit" in v or "University" in v:
             return "Higher Ed"
         if "K-12" in v or "Basic" in v or "Elementary" in v:
             return "K-12"
         return v if v else "Not Specified"
 
-    edu_counter = Counter(simplify_edu(r["education_level"]) for r in records)
+    edu_counter = Counter(simplify_edu(r.get("education_level")) for r in records)
 
     # 3. Cruzamento Metodologia × Iniquidade
     def simplify_method(val: str) -> str:
-        v = val.strip()
+        v = str(val).strip() if val else ""
         return v if v else "Not Specified"
 
     def simplify_inequity(val: str) -> str:
-        v = val.strip().lower()
+        v = str(val).strip().lower() if val else ""
         if v in ("true", "1", "yes"):
             return "Sim"
         if v in ("false", "0", "no"):
@@ -60,16 +63,16 @@ def generate_report(records: list[dict]) -> str:
 
     crosstab_records = [
         {
-            "Metodologia": simplify_method(r["methodology_type"]),
-            "Iniquidade": simplify_inequity(r["inequity"]),
+            "Metodologia": simplify_method(r.get("methodology_type")),
+            "Iniquidade": simplify_inequity(r.get("inequity")),
         }
         for r in records
     ]
 
     lines = []
-    lines.append("# Relatório de Análise — Meta-Analysis Matrix")
+    lines.append("# Relatório de Análise — Meta-Analysis Matrix + Scraped Data")
     lines.append(f"\n> Gerado automaticamente em {now}  ")
-    lines.append(f"> Arquivo fonte: `data/processed/meta_analysis_matrix.csv`  ")
+    lines.append(f"> Arquivos fonte: `data/processed/meta_analysis_matrix.csv`, `data/processed/scraped_papers.csv`  ")
     lines.append(f"> Total de artigos: **{n_total}**\n")
     lines.append("---\n")
 
@@ -93,11 +96,19 @@ def generate_report(records: list[dict]) -> str:
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 def main():
-    if not CSV_PATH.exists():
-        raise FileNotFoundError(f"Arquivo não encontrado: {CSV_PATH}")
+    if not META_CSV_PATH.exists():
+        raise FileNotFoundError(f"Arquivo não encontrado: {META_CSV_PATH}")
+    if not SCRAPED_CSV_PATH.exists():
+        raise FileNotFoundError(f"Arquivo não encontrado: {SCRAPED_CSV_PATH}")
 
-    records = load_csv(CSV_PATH)
-    print(f"[✓] {len(records)} artigos carregados de {CSV_PATH.name}")
+    df_meta = pd.read_csv(META_CSV_PATH)
+    print(f"[✓] {len(df_meta)} artigos carregados de {META_CSV_PATH.name}")
+
+    df_scraped = pd.read_csv(SCRAPED_CSV_PATH)
+    print(f"[✓] {len(df_scraped)} artigos carregados de {SCRAPED_CSV_PATH.name}")
+
+    combined_df = pd.concat([df_meta, df_scraped], ignore_index=True)
+    records = combined_df.where(pd.notna(combined_df), None).to_dict('records')
 
     report = generate_report(records)
 

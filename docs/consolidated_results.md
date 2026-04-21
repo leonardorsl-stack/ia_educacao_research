@@ -1,3 +1,77 @@
+# Results Consolidation: AI in Education Research
+
+> Generated automatically on 2026-04-21 01:26:45
+
+---
+
+## 1. Global Analysis Summary
+
+# Relatório de Análise — Meta-Analysis Matrix + Scraped Data
+
+> Gerado automaticamente em 2026-04-21 01:23  
+> Arquivos fonte: `data/processed/meta_analysis_matrix.csv`, `data/processed/scraped_papers.csv`  
+> Total de artigos: **53**
+
+---
+
+## 1. Direção dos Achados (`main_finding_direction`)
+
+| Direção | Contagem | % |
+| --- | --- | --- |
+| nan | 40 | 75.5% |
+| Negative | 7 | 13.2% |
+| Mixed / Neutral | 5 | 9.4% |
+| Positive | 1 | 1.9% |
+| **Total** | 53 | 100% |
+
+## 2. Nível Educacional (`education_level`)
+
+| Nível Educacional | Contagem | % |
+| --- | --- | --- |
+| nan | 40 | 75.5% |
+| Not Specified | 9 | 17.0% |
+| Higher Ed | 2 | 3.8% |
+| K-12 | 2 | 3.8% |
+| **Total** | 53 | 100% |
+
+## 3. Metodologia × Iniquidade (`methodology_type × inequity`)
+
+| Metodologia \ Iniquidade | N/A | Sim | Total |
+| --- | --- | --- | --- |
+| Mixed Methods | 1 | 0 | 1 |
+| Not Specified | 3 | 3 | 6 |
+| Qualitative | 0 | 2 | 2 |
+| Quantitative | 2 | 2 | 4 |
+| nan | 40 | 0 | 40 |
+| **Total** | 46 | 7 | 53 |
+
+---
+
+*Relatório gerado por `scripts/generate_summary.py`*
+
+---
+
+## 2. Visual Results (Figures)
+
+Below are the visual representations of the research findings.
+
+### Fig1 Empirical Findings
+![Fig1 Empirical Findings](../results/figures/fig1_empirical_findings.png)
+
+### Fig2 Prisma Flow
+![Fig2 Prisma Flow](../results/figures/fig2_prisma_flow.png)
+
+### Fig3 Dialectical Axes
+![Fig3 Dialectical Axes](../results/figures/fig3_dialectical_axes.png)
+
+### Impact Clusters
+![Impact Clusters](../results/figures/impact_clusters.png)
+
+
+---
+
+## 3. Brazilian Context Analysis
+
 # Análise Crítica da Pesquisa Brasileira sobre IA na Educação
 
 > Gerado em 2026-04-21 01:23 por `scripts/generate_synthesis_docs.py`  
@@ -125,3 +199,32 @@ Isso cria uma dupla vulnerabilidade:
 ---
 
 *Análise gerada por `scripts/generate_synthesis_docs.py` | Projeto: IA & Educação Research*
+
+---
+
+## 4. Evidence Table
+
+<!-- Gerado automaticamente em 2026-04-21 01:23 por scripts/generate_tables.py -->
+
+# Tabela de Evidências — Meta-Análise
+
+| ID | Metodologia | Tecnologia de IA | Efeito Empírico |
+| --- | --- | --- | --- |
+| SAMPLE_001 | Not Specified | AI (Generic / Multiple) | Mixed / Neutral |
+| D001 | Not Specified | ChatGPT / LLM (Generative AI) | Negative |
+| D002 | Qualitative | ChatGPT / LLM (Generative AI) | Mixed / Neutral – Results show positive outcomes for high-income schools; inequitable access re… |
+| D003 | Not Specified | Automated Assessment (AES) | Negative – Empirical evidence from 12 universities reveals systematic discrimination against no… |
+| D004 | Mixed Methods | Not Specified | Positive – 23% reduction in administrative burden but in |
+| D005 | Quantitative | ITS (Intelligent Tutoring) | Mixed / Neutral – Effect size d=0 |
+| D006 | Not Specified | ITS (Intelligent Tutoring) | Negative |
+| D007 | Not Specified | ChatGPT / LLM (Generative AI) | Mixed / Neutral – 68% of students report improved outcomes |
+| D008 | Quantitative | Recommendation System | Negative – Results show significant performance gains for students with learning disabilities. |
+| D009 | Quantitative | AI (Generic / Multiple) | Negative |
+| D010 | Qualitative | Not Specified | Negative – Empirical findings show mixed impact on student achievement, with equity and access… |
+| D011 | Quantitative | ChatGPT / LLM (Generative AI) | Negative – Results indicate reduced analytical performance when AI is overused. |
+| D012 | Not Specified | Not Specified | Mixed / Neutral |
+
+
+---
+
+*End of Consolidated Report*

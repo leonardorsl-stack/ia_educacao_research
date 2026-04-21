@@ -34,13 +34,14 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Constantes e Parâmetros
 # ---------------------------------------------------------------------------
-BASE_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
+BASE_URL = "https://api.elsevier.com/content/search/scopus"
 
 # String de busca conforme protocolo PRISMA (docs/protocol/prisma_protocol.md)
+# Atualizada para expandir o corpus empírico global
 QUERY = (
-    '("Artificial Intelligence" OR "Generative AI") '
-    'AND ("Education") '
-    'AND ("Social Impact")'
+    'TITLE-ABS-KEY("Artificial Intelligence" OR "Generative AI" OR "Large Language Models" OR "LLM") '
+    'AND TITLE-ABS-KEY("Education" OR "Schools" OR "Higher Education" OR "Pedagogy") '
+    'AND TITLE-ABS-KEY("Social Impact" OR "Inequality" OR "Equity" OR "Ethics" OR "Bias")'
 )
 
 # Filtros temporais (conforme protocolo)
@@ -49,22 +50,25 @@ YEAR_END = 2026
 
 # Campos a recuperar para cada artigo
 FIELDS = [
-    "paperId",
-    "title",
-    "abstract",
-    "year",
-    "authors",
-    "venue",
-    "citationCount",
-    "externalIds",
-    "publicationTypes",
-    "openAccessPdf",
+    "dc:title",
+    "dc:creator",
+    "prism:publicationName",
+    "prism:coverDate",
+    "dc:description",
+    "prism:doi",
+    "citedby-count",
 ]
 
 # Chave de API (opcional — obtida em https://www.semanticscholar.org/product/api)
 # Defina a variável de ambiente SS_API_KEY para usar chave própria
-import os as _os
-SS_API_KEY = _os.getenv("SS_API_KEY", "")
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Chave de API da Scopus
+SCOPUS_API_KEY = os.getenv("SCOPUS_API_KEY", "")
 
 # Controle de paginação
 LIMIT_PER_REQUEST = 100   # Máximo permitido pela API
@@ -83,13 +87,14 @@ METADATA_FILE = Path("data/metadata") / "search_metadata.json"
 # ---------------------------------------------------------------------------
 
 def build_request_params(offset: int) -> dict:
-    """Monta os parâmetros da requisição HTTP para a API Semantic Scholar."""
+    """Monta os parâmetros da requisição HTTP para a API da Scopus."""
     return {
         "query": QUERY,
-        "fields": ",".join(FIELDS),
-        "limit": LIMIT_PER_REQUEST,
-        "offset": offset,
-        "year": f"{YEAR_START}-{YEAR_END}",
+        "apiKey": SCOPUS_API_KEY,
+        "count": LIMIT_PER_REQUEST,
+        "start": offset,
+        "date": f"{YEAR_START}-{YEAR_END}",
+        "field": ",".join(FIELDS),
     }
 
 
@@ -152,10 +157,10 @@ def filter_by_relevance(papers: list[dict]) -> list[dict]:
     excluded_no_title = 0
 
     for paper in papers:
-        if not paper.get("title"):
+        if not paper.get("dc:title"):
             excluded_no_title += 1
             continue
-        if not paper.get("abstract"):
+        if not paper.get("dc:description"):
             excluded_no_abstract += 1
             continue
         filtered.append(paper)
@@ -199,7 +204,7 @@ def run_collection() -> None:
     Segue a ordem de execução definida no docs/protocol/prisma_protocol.md.
     """
     logger.info("=" * 60)
-    logger.info("INÍCIO DA COLETA — API Semantic Scholar")
+    logger.info("INÍCIO DA COLETA — API Scopus")
     logger.info(f"Query: {QUERY}")
     logger.info(f"Período: {YEAR_START}–{YEAR_END}")
     logger.info("=" * 60)
@@ -209,12 +214,12 @@ def run_collection() -> None:
     offset = 0
 
     session = requests.Session()
-    headers = {"User-Agent": "ia-educacao-research/1.0 (revisao-sistematica@pesquisa.br)"}
-    if SS_API_KEY:
-        headers["x-api-key"] = SS_API_KEY
-        logger.info("✅ API Key detectada — limite elevado ativo.")
+    headers = {"Accept": "application/json"}
+    if SCOPUS_API_KEY:
+        headers["X-ELS-APIKey"] = SCOPUS_API_KEY
+        logger.info("✅ API Key da Scopus detectada — limite elevado ativo.")
     else:
-        logger.warning("⚠️  Sem API Key — rate limit público (~1 req/s). Defina SS_API_KEY.")
+        logger.warning("⚠️  Sem API Key da Scopus — rate limit público. Defina SCOPUS_API_KEY.")
     session.headers.update(headers)
 
     with tqdm(total=MAX_RESULTS, desc="Coletando artigos", unit="artigo") as pbar:
@@ -225,7 +230,7 @@ def run_collection() -> None:
                 logger.warning(f"Requisição falhou em offset={offset}. Encerrando.")
                 break
 
-            papers_batch = data.get("data", [])
+            papers_batch = data.get("search-results", {}).get("entry", [])
             if not papers_batch:
                 logger.info("Nenhum resultado adicional encontrado. Coleta concluída.")
                 break
@@ -248,7 +253,7 @@ def run_collection() -> None:
         "total_raw_results": total_raw,
         "total_filtered_results": len(all_papers),
         "exclusion_rate_pct": round((1 - len(all_papers) / max(total_raw, 1)) * 100, 2),
-        "api_source": "Semantic Scholar Graph API v1",
+        "api_source": "Scopus API",
         "protocol_reference": "docs/protocol/prisma_protocol.md",
     }
 

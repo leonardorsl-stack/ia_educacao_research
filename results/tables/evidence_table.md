@@ -1,4 +1,4 @@
-<!-- Gerado automaticamente em 2026-04-21 00:07 por scripts/generate_tables.py -->
+<!-- Gerado automaticamente em 2026-04-21 01:23 por scripts/generate_tables.py -->
 
 # Tabela de Evidências — Meta-Análise
 
