@@ -1,6 +1,6 @@
 # Análise Crítica da Pesquisa Brasileira sobre IA na Educação
 
-> Gerado em 2026-04-20 20:13 por `scripts/generate_synthesis_docs.py`  
+> Gerado em 2026-04-21 00:07 por `scripts/generate_synthesis_docs.py`  
 > Corpus: 30 artigos — 27 empíricos (90%) · 3 teóricos (10%)
 
 ---

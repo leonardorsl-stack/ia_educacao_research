@@ -1,6 +1,6 @@
 # Relatório de Análise — Meta-Analysis Matrix
 
-> Gerado automaticamente em 2026-04-20 18:45  
+> Gerado automaticamente em 2026-04-21 00:07  
 > Arquivo fonte: `data/processed/meta_analysis_matrix.csv`  
 > Total de artigos: **13**
 

@@ -1,6 +1,6 @@
 # Master Landscape — Roteiro Comparativo dos Três Eixos
 
-> Pesquisador Sênior | Gerado em 2026-04-20 20:13  
+> Pesquisador Sênior | Gerado em 2026-04-21 00:07  
 > Corpus total: **73 artigos** — 13 empíricos globais · 30 teóricos · 30 brasileiros
 
 ---

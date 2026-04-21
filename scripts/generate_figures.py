@@ -1,299 +1,504 @@
 """
 generate_figures.py
 ===================
-Gera as três figuras estratégicas do artigo:
+Gera as três figuras estratégicas do artigo para publicação em periódico Q1:
 
-  fig1_empirical_findings.png  — Donut: distribuição de achados empíricos
-  fig2_prisma_flow.png         — Fluxo PRISMA + CSC metodológico
-  fig3_dialectical_axes.png    — Eixos dialéticos (Master Research Landscape)
+  fig1_empirical_findings.png  — Gráfico de setores: distribuição dos achados
+  fig2_prisma_flow.png         — Diagrama PRISMA 2020 + CSC metodológico
+  fig3_dialectical_axes.png    — Master Research Landscape (eixos dialéticos)
 
-Saída: results/figures/
-Uso  : python scripts/generate_figures.py
+Saída  : results/figures/
+Uso    : python scripts/generate_figures.py
+Padrão : 300 DPI, bbox_inches='tight', fundo branco/neutro
 """
 
 import os
 import matplotlib
-matplotlib.use("Agg")          # backend sem display
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import matplotlib.patheffects as pe
+import matplotlib.gridspec as gridspec
 import numpy as np
 
 OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "results", "figures")
 os.makedirs(OUT_DIR, exist_ok=True)
 
-DPI = 300
-FONT_FAMILY = "DejaVu Sans"
+DPI          = 300
+FONT_FAMILY  = "DejaVu Sans"
+BG_PAGE      = "#FFFFFF"
 
-# ──────────────────────────────────────────────────────────────────────────────
-# FIGURA 1 — Donut: distribuição dos achados empíricos
-# ──────────────────────────────────────────────────────────────────────────────
+# Paleta institucional (acessível, WCAG AA)
+RED    = "#C0392B"
+ORANGE = "#D35400"
+GREEN  = "#1A7A4A"
+BLUE   = "#1B4F8A"
+PURPLE = "#6C3483"
+GRAY   = "#5D6D7E"
+DARK   = "#1C2833"
+LIGHT  = "#F2F3F4"
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# FIGURA 1 — Gráfico de setores: Direção dos Achados Empíricos
+# ══════════════════════════════════════════════════════════════════════════════
 def fig1_empirical_findings():
-    labels   = ["Negativo\n53,8%", "Misto / Neutro\n38,5%", "Positivo\n7,7%"]
-    sizes    = [53.8, 38.5, 7.7]
-    colors   = ["#C0392B", "#E67E22", "#27AE60"]
-    explode  = (0.04, 0.02, 0.06)
+    """
+    Gráfico de setores (donut) mostrando a dissonância entre a promessa
+    tecnológica e a evidência científica nos 13 estudos empíricos globais.
+    """
+    labels  = ["Negativo", "Misto /\nNeutro", "Positivo"]
+    sizes   = [53.8, 38.5, 7.7]
+    ns      = [7, 5, 1]
+    colors  = [RED, ORANGE, GREEN]
+    explode = (0.05, 0.02, 0.08)
 
-    fig, ax = plt.subplots(figsize=(7, 6), facecolor="#FAFAFA")
-    wedges, texts = ax.pie(
+    fig, ax = plt.subplots(figsize=(8, 6.5), facecolor=BG_PAGE)
+    ax.set_facecolor(BG_PAGE)
+
+    wedges, _ = ax.pie(
         sizes,
         explode=explode,
-        labels=labels,
         colors=colors,
-        startangle=140,
-        wedgeprops=dict(width=0.52, edgecolor="white", linewidth=2.5),
-        textprops=dict(fontsize=11, fontfamily=FONT_FAMILY, fontweight="bold"),
+        startangle=135,
+        wedgeprops=dict(width=0.55, edgecolor="white", linewidth=3.0),
+        pctdistance=0.78,
     )
 
-    # rótulo central
-    ax.text(0, 0, "13\nestudos\nempíricos",
-            ha="center", va="center", fontsize=13,
-            fontfamily=FONT_FAMILY, fontweight="bold", color="#2C3E50")
-
-    ax.set_title(
-        "Distribuição dos Achados Empíricos Globais\n"
-        "(Revisão Sistemática — PRISMA 2020)",
-        fontsize=13, fontfamily=FONT_FAMILY, fontweight="bold",
-        color="#2C3E50", pad=18,
+    # Anotações externas com setas elegantes
+    annot_params = dict(
+        fontsize=10.5, fontfamily=FONT_FAMILY, fontweight="bold",
+        bbox=dict(boxstyle="round,pad=0.35", facecolor="white",
+                  edgecolor=GRAY, linewidth=0.8, alpha=0.92),
+        arrowprops=dict(arrowstyle="-", color=GRAY, lw=1.2),
+        va="center",
     )
 
-    # legenda extra
-    legend_patches = [
-        mpatches.Patch(color=colors[0], label="Negativo — 7 estudos (53,8%)"),
-        mpatches.Patch(color=colors[1], label="Misto / Neutro — 5 estudos (38,5%)"),
-        mpatches.Patch(color=colors[2], label="Positivo — 1 estudo (7,7%)"),
+    # Posições manuais para cada fatia
+    annotations = [
+        # (ângulo_graus, texto, xy_offset_frac, xytext_offset)
+        (135 - 53.8/2,   f"Negativo\n{sizes[0]:.1f}%  ({ns[0]})",  RED,    (-1.55, 0.65)),
+        (135 - 53.8 - 38.5/2, f"Misto / Neutro\n{sizes[1]:.1f}%  ({ns[1]})", ORANGE, (1.55, 0.0)),
+        (135 - 53.8 - 38.5 - 7.7/2, f"Positivo\n{sizes[2]:.1f}%  ({ns[2]})", GREEN,  (1.45, -0.75)),
     ]
-    ax.legend(handles=legend_patches, loc="lower center",
-              bbox_to_anchor=(0.5, -0.12), ncol=1,
-              fontsize=9.5, framealpha=0.8)
 
-    fig.tight_layout()
+    for ang_deg, txt, clr, (xt, yt) in annotations:
+        ang = np.deg2rad(ang_deg)
+        r   = 0.78
+        ax.annotate(
+            txt,
+            xy=(r * np.cos(ang), r * np.sin(ang)),
+            xytext=(xt, yt),
+            fontsize=10.5, fontfamily=FONT_FAMILY, fontweight="bold",
+            color=clr,
+            bbox=dict(boxstyle="round,pad=0.35", facecolor="white",
+                      edgecolor=clr, linewidth=1.2, alpha=0.95),
+            arrowprops=dict(arrowstyle="-", color=clr, lw=1.2,
+                            connectionstyle="arc3,rad=0.1"),
+            va="center", ha="center",
+        )
+
+    # Texto central
+    ax.text(0, 0.12, "13", ha="center", va="center",
+            fontsize=30, fontfamily=FONT_FAMILY, fontweight="bold",
+            color=DARK)
+    ax.text(0, -0.28, "estudos\nempíricos\nglobais", ha="center", va="center",
+            fontsize=9.5, fontfamily=FONT_FAMILY, color=GRAY,
+            multialignment="center")
+
+    # Título
+    ax.set_title(
+        "Direção dos Achados nos 13 Estudos Empíricos Globais\n"
+        "Revisão Sistemática PRISMA 2020  ·  Período: 2021–2024",
+        fontsize=11.5, fontfamily=FONT_FAMILY, fontweight="bold",
+        color=DARK, pad=20, loc="center",
+    )
+
+    # Nota de rodapé
+    fig.text(
+        0.5, 0.01,
+        "Nota: 53,8% dos achados negativos estão associados a amplificação de desigualdades "
+        "e erosão da agência pedagógica.\nFonte: elaboração própria.",
+        ha="center", fontsize=8, color=GRAY, fontfamily=FONT_FAMILY,
+        style="italic",
+    )
+
+    fig.tight_layout(rect=[0, 0.05, 1, 1])
     out = os.path.join(OUT_DIR, "fig1_empirical_findings.png")
-    fig.savefig(out, dpi=DPI, bbox_inches="tight", facecolor="#FAFAFA")
+    fig.savefig(out, dpi=DPI, bbox_inches="tight", facecolor=BG_PAGE)
     plt.close(fig)
     print(f"[✓] {out}")
 
 
-# ──────────────────────────────────────────────────────────────────────────────
-# FIGURA 2 — Fluxo PRISMA + CSC
-# ──────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# FIGURA 2 — Fluxo PRISMA 2020 adaptado para CSC
+# ══════════════════════════════════════════════════════════════════════════════
 def fig2_prisma_flow():
-    fig, ax = plt.subplots(figsize=(10, 7), facecolor="#FAFAFA")
-    ax.set_xlim(0, 10)
-    ax.set_ylim(0, 10)
+    """
+    Diagrama PRISMA 2020 adaptado para Ciências Sociais Computacionais.
+    Quatro etapas verticais + caixas laterais de exclusão.
+    73 artigos selecionados a partir de N > 315 registros via API.
+    """
+    fig, ax = plt.subplots(figsize=(12, 8.5), facecolor=BG_PAGE)
+    ax.set_xlim(0, 12)
+    ax.set_ylim(0, 8.5)
     ax.axis("off")
+    ax.set_facecolor(BG_PAGE)
 
-    # ─── cores ───────────────────────────────────────────────────────────────
-    C_HEADER  = "#1A252F"
-    C_BOX1    = "#2980B9"   # identificação
-    C_BOX2    = "#8E44AD"   # triagem
-    C_BOX3    = "#16A085"   # elegibilidade
-    C_BOX4    = "#C0392B"   # inclusão final
-    C_SIDE    = "#7F8C8D"   # caixas laterais de exclusão
-    WHITE     = "white"
+    # Cores por etapa
+    C = {
+        "id":   "#1B4F8A",   # Identificação
+        "tri":  "#6C3483",   # Triagem
+        "elig": "#117A65",   # Elegibilidade
+        "inc":  "#922B21",   # Inclusão
+        "excl": "#626567",   # Exclusões
+        "head": DARK,
+    }
+    WHITE = "#FFFFFF"
 
-    def rect(x, y, w, h, color, text, fontsize=10):
-        r = mpatches.FancyBboxPatch(
+    # ─── helpers ──────────────────────────────────────────────────────────────
+    def draw_box(ax, x, y, w, h, color, lines, fsizes=None, bold_first=True):
+        """Caixa arredondada com texto multi-linha."""
+        box = mpatches.FancyBboxPatch(
             (x, y), w, h,
-            boxstyle="round,pad=0.12",
-            facecolor=color, edgecolor=WHITE,
-            linewidth=2.2, zorder=3,
+            boxstyle="round,pad=0.14",
+            facecolor=color, edgecolor="white",
+            linewidth=2.5, zorder=3,
         )
-        ax.add_patch(r)
-        ax.text(x + w/2, y + h/2, text,
+        ax.add_patch(box)
+        if fsizes is None:
+            fsizes = [10] * len(lines)
+        total_lines = len(lines)
+        for i, (line, fs) in enumerate(zip(lines, fsizes)):
+            fw = "bold" if (bold_first and i == 0) else "normal"
+            ax.text(
+                x + w / 2,
+                y + h - (i + 0.7) * h / total_lines,
+                line,
                 ha="center", va="center",
-                fontsize=fontsize, color=WHITE,
-                fontfamily=FONT_FAMILY, fontweight="bold",
-                multialignment="center", zorder=4)
+                fontsize=fs, fontfamily=FONT_FAMILY,
+                fontweight=fw, color=WHITE,
+                zorder=4, multialignment="center",
+            )
 
-    def arrow(x1, y1, x2, y2):
-        ax.annotate("", xy=(x2, y2), xytext=(x1, y1),
-                    arrowprops=dict(arrowstyle="-|>",
-                                   color="#2C3E50", lw=2),
-                    zorder=2)
+    def draw_arrow(ax, x1, y1, x2, y2, color=DARK, lw=2.0):
+        ax.annotate(
+            "", xy=(x2, y2), xytext=(x1, y1),
+            arrowprops=dict(arrowstyle="-|>", color=color, lw=lw),
+            zorder=2,
+        )
 
-    def side_box(x, y, w, h, text):
-        r = mpatches.FancyBboxPatch(
+    def draw_excl(ax, x, y, w, h, lines):
+        box = mpatches.FancyBboxPatch(
             (x, y), w, h,
             boxstyle="round,pad=0.1",
-            facecolor=C_SIDE, edgecolor=WHITE,
-            linewidth=1.5, linestyle="--", zorder=3,
+            facecolor=C["excl"], edgecolor="white",
+            linewidth=1.5, linestyle="dashed", zorder=3,
         )
-        ax.add_patch(r)
-        ax.text(x + w/2, y + h/2, text,
+        ax.add_patch(box)
+        for i, line in enumerate(lines):
+            ax.text(
+                x + w / 2,
+                y + h - (i + 0.65) * h / len(lines),
+                line,
                 ha="center", va="center",
-                fontsize=8.5, color=WHITE,
-                fontfamily=FONT_FAMILY,
-                multialignment="center", zorder=4)
+                fontsize=8.0, fontfamily=FONT_FAMILY,
+                color=WHITE, zorder=4, multialignment="center",
+            )
 
-    # ─── caixas principais (coluna central) ──────────────────────────────────
-    #          x,   y,   w,   h
-    rect(2.8, 8.2, 4.4, 1.2, C_BOX1,
-         "① IDENTIFICAÇÃO\n315+ registros — API Semantic Scholar\n(8 queries × 3 protocolos NLP)")
+    # ─── caixas principais ────────────────────────────────────────────────────
+    BW, BH = 5.2, 1.35
+    BX     = 3.3
+    GAP    = 0.55
 
-    rect(2.8, 6.1, 4.4, 1.2, C_BOX2,
-         "② TRIAGEM\nDeduplicação por paperId\nFiltro temporal 2020-2026 | Keyword NLP")
+    # y-coords (de cima para baixo)
+    y_id   = 8.5 - BH - 0.35           # ≈ 6.80
+    y_tri  = y_id  - BH - GAP          # ≈ 4.90
+    y_elig = y_tri - BH - GAP          # ≈ 3.00
+    y_inc  = y_elig - BH - GAP         # ≈ 1.10
 
-    rect(2.8, 4.0, 4.4, 1.2, C_BOX3,
-         "③ ELEGIBILIDADE\nAvaliação por título, resumo e corpus\nPeer-reviewed | EN + PT")
+    draw_box(ax, BX, y_id, BW, BH, C["id"],
+             ["① IDENTIFICAÇÃO",
+              "315+ registros coletados via API Semantic Scholar",
+              "8 queries × 3 protocolos  ·  Strings EN + PT"],
+             fsizes=[11, 9.5, 9.0])
 
-    rect(2.8, 1.9, 4.4, 1.2, C_BOX4,
-         "④ INCLUSÃO FINAL\n73 artigos selecionados\n13 empíricos · 30 teóricos · 30 BR")
+    draw_box(ax, BX, y_tri, BW, BH, C["tri"],
+             ["② TRIAGEM",
+              "Deduplicação por paperId  ·  Filtro temporal 2020–2026",
+              "Classificação NLP por tema e relevância"],
+             fsizes=[11, 9.5, 9.0])
+
+    draw_box(ax, BX, y_elig, BW, BH, C["elig"],
+             ["③ ELEGIBILIDADE",
+              "Leitura de título, resumo e texto completo",
+              "Peer-reviewed  ·  Idiomas: EN / PT"],
+             fsizes=[11, 9.5, 9.0])
+
+    draw_box(ax, BX, y_inc, BW, BH, C["inc"],
+             ["④ INCLUSÃO FINAL  —  73 artigos",
+              "13 estudos empíricos globais  ·  30 artigos teóricos",
+              "30 artigos da produção brasileira"],
+             fsizes=[11.5, 9.5, 9.0])
 
     # ─── setas verticais ─────────────────────────────────────────────────────
-    arrow(5.0, 8.2,  5.0, 7.35)
-    arrow(5.0, 6.1,  5.0, 5.25)
-    arrow(5.0, 4.0,  5.0, 3.15)
+    cx = BX + BW / 2
+    draw_arrow(ax, cx, y_id,   cx, y_tri  + BH)
+    draw_arrow(ax, cx, y_tri,  cx, y_elig + BH)
+    draw_arrow(ax, cx, y_elig, cx, y_inc  + BH)
 
-    # ─── caixas laterais (exclusões) ─────────────────────────────────────────
-    side_box(7.6, 7.9, 1.9, 0.9,  "Excluídos:\nDuplicatas /\nFora do período")
-    side_box(7.6, 5.8, 1.9, 0.9,  "Excluídos:\nSem peer-review /\nIdioma irrelevante")
-    side_box(7.6, 3.7, 1.9, 0.9,  "Excluídos:\nSem foco em IA\ne Educação")
-
-    # setas laterais
-    for y_center in [8.35, 6.25, 4.15]:
-        ax.annotate("", xy=(7.6, y_center), xytext=(7.2, y_center),
-                    arrowprops=dict(arrowstyle="-|>", color=C_SIDE, lw=1.5),
+    # ─── caixas de exclusão ──────────────────────────────────────────────────
+    EX, EW, EH = 9.1, 2.7, 1.05
+    excl_y = [y_id + (BH - EH)/2, y_tri + (BH - EH)/2, y_elig + (BH - EH)/2]
+    excl_texts = [
+        ["Excluídos:", "Duplicatas / fora do", "período 2020–2026"],
+        ["Excluídos:", "Sem peer-review /", "idioma irrelevante"],
+        ["Excluídos:", "Sem foco em IA e", "Educação crítica"],
+    ]
+    for ey, etxt in zip(excl_y, excl_texts):
+        draw_excl(ax, EX, ey, EW, EH, etxt)
+        # seta horizontal
+        ax.annotate("", xy=(EX, ey + EH/2),
+                    xytext=(BX + BW, ey + EH/2),
+                    arrowprops=dict(arrowstyle="-|>",
+                                   color=C["excl"], lw=1.4),
                     zorder=2)
-        ax.plot([7.2, 7.2], [y_center, y_center - 0.75], color=C_SIDE, lw=1.5, zorder=2)
+
+    # ─── rótulos de fase (lado esquerdo) ─────────────────────────────────────
+    phase_labels = [
+        (y_id,   "FASE 1", C["id"]),
+        (y_tri,  "FASE 2", C["tri"]),
+        (y_elig, "FASE 3", C["elig"]),
+        (y_inc,  "FASE 4", C["inc"]),
+    ]
+    for yp, lbl, clr in phase_labels:
+        ax.text(BX - 0.22, yp + BH/2, lbl,
+                ha="right", va="center",
+                fontsize=8, fontfamily=FONT_FAMILY,
+                fontweight="bold", color=clr,
+                rotation=90, zorder=5)
 
     # ─── título ──────────────────────────────────────────────────────────────
-    ax.set_title(
-        "Fluxo Metodológico — PRISMA 2020 adaptado para\n"
-        "Ciências Sociais Computacionais (CSC)",
-        fontsize=13, fontfamily=FONT_FAMILY, fontweight="bold",
-        color=C_HEADER, pad=8,
+    ax.text(6.0, 8.38,
+            "Fluxo Metodológico PRISMA 2020 — Ciências Sociais Computacionais",
+            ha="center", va="top",
+            fontsize=12.5, fontfamily=FONT_FAMILY,
+            fontweight="bold", color=DARK, zorder=5)
+
+    # ─── nota rodapé ─────────────────────────────────────────────────────────
+    fig.text(
+        0.5, 0.005,
+        "Fonte: elaboração própria. Protocolo adaptado de Page et al. (2021) "
+        "para coleta automatizada via API e filtragem por NLP.",
+        ha="center", fontsize=8, color=GRAY, fontfamily=FONT_FAMILY,
+        style="italic",
     )
 
-    fig.tight_layout()
+    fig.tight_layout(rect=[0, 0.03, 1, 1])
     out = os.path.join(OUT_DIR, "fig2_prisma_flow.png")
-    fig.savefig(out, dpi=DPI, bbox_inches="tight", facecolor="#FAFAFA")
+    fig.savefig(out, dpi=DPI, bbox_inches="tight", facecolor=BG_PAGE)
     plt.close(fig)
     print(f"[✓] {out}")
 
 
-# ──────────────────────────────────────────────────────────────────────────────
-# FIGURA 3 — Eixos dialéticos (Master Research Landscape)
-# ──────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# FIGURA 3 — Master Research Landscape (Eixos Dialéticos)
+# ══════════════════════════════════════════════════════════════════════════════
 def fig3_dialectical_axes():
-    fig, ax = plt.subplots(figsize=(11, 7.5), facecolor="#12232E")
-    ax.set_xlim(0, 11)
-    ax.set_ylim(0, 7.5)
+    """
+    Mapa conceitual com os três eixos analíticos articulados dialeticamente:
+    ① Crise da Promessa  ·  ② Ameaça da Datificação  ·  ③ Contexto Brasileiro
+    Converge para as 5 teses de política pública.
+    """
+    BG = "#0D1B2A"
+    WHITE = "#E8EAF6"
+    GOLD  = "#F0A500"
+
+    C_AX1 = "#E74C3C"   # vermelho — Crise da Promessa
+    C_AX2 = "#8E44AD"   # roxo — Datificação
+    C_AX3 = "#27AE60"   # verde — Contexto BR
+    C_CTR = GOLD        # dourado — centro
+
+    fig, ax = plt.subplots(figsize=(13, 8.5), facecolor=BG)
+    ax.set_xlim(0, 13)
+    ax.set_ylim(0, 8.5)
     ax.axis("off")
+    ax.set_facecolor(BG)
 
-    # ─── cores ───────────────────────────────────────────────────────────────
-    C_AXIS1 = "#E74C3C"   # Crise da Promessa
-    C_AXIS2 = "#9B59B6"   # Datificação
-    C_AXIS3 = "#27AE60"   # Contexto BR
-    C_CTR   = "#F39C12"   # centro
-    BG      = "#12232E"
-    WHITE   = "#ECF0F1"
-
-    def hex_box(cx, cy, w, h, color, title, bullets, fontsize_title=10.5):
-        """Caixa arredondada com título e bullets."""
-        r = mpatches.FancyBboxPatch(
-            (cx - w/2, cy - h/2), w, h,
-            boxstyle="round,pad=0.15",
-            facecolor=color + "22",   # transparência
-            edgecolor=color, linewidth=2.5, zorder=3,
+    # ─── helper: painel temático ──────────────────────────────────────────────
+    def panel(cx, cy, w, h, edge_color, title, items, badge=None):
+        # sombra
+        shadow = mpatches.FancyBboxPatch(
+            (cx - w/2 + 0.06, cy - h/2 - 0.06), w, h,
+            boxstyle="round,pad=0.18",
+            facecolor="#000000", alpha=0.35, zorder=2,
         )
-        ax.add_patch(r)
-        # título
-        ax.text(cx, cy + h/2 - 0.28, title,
-                ha="center", va="top",
-                fontsize=fontsize_title, color=color,
-                fontfamily=FONT_FAMILY, fontweight="bold", zorder=4)
-        # bullets
-        bullet_text = "\n".join(f"• {b}" for b in bullets)
-        ax.text(cx, cy - h/2 + 0.18, bullet_text,
-                ha="center", va="bottom",
-                fontsize=8.5, color=WHITE,
-                fontfamily=FONT_FAMILY, zorder=4,
-                multialignment="center")
+        ax.add_patch(shadow)
 
-    def connector(x1, y1, x2, y2, color):
+        # painel
+        box = mpatches.FancyBboxPatch(
+            (cx - w/2, cy - h/2), w, h,
+            boxstyle="round,pad=0.18",
+            facecolor=edge_color + "1A",
+            edgecolor=edge_color, linewidth=2.8, zorder=3,
+        )
+        ax.add_patch(box)
+
+        # faixa de título
+        title_band = mpatches.FancyBboxPatch(
+            (cx - w/2 + 0.06, cy + h/2 - 0.52), w - 0.12, 0.46,
+            boxstyle="round,pad=0.05",
+            facecolor=edge_color + "55",
+            edgecolor="none", zorder=4,
+        )
+        ax.add_patch(title_band)
+
+        ax.text(cx, cy + h/2 - 0.29, title,
+                ha="center", va="center",
+                fontsize=10.5, fontfamily=FONT_FAMILY,
+                fontweight="bold", color=edge_color, zorder=5)
+
+        for i, item in enumerate(items):
+            ax.text(cx, cy + h/2 - 0.80 - i * 0.46,
+                    f"• {item}",
+                    ha="center", va="top",
+                    fontsize=8.8, fontfamily=FONT_FAMILY,
+                    color=WHITE + "CC", zorder=5,
+                    multialignment="center")
+
+        if badge:
+            bx = cx + w/2 - 0.02
+            by = cy + h/2 - 0.02
+            bc = plt.Circle((bx, by), 0.32,
+                             facecolor=edge_color,
+                             edgecolor="white", linewidth=1.5, zorder=6)
+            ax.add_patch(bc)
+            ax.text(bx, by, badge,
+                    ha="center", va="center",
+                    fontsize=7.5, fontfamily=FONT_FAMILY,
+                    fontweight="bold", color="white", zorder=7)
+
+    # ─── conector dialético ────────────────────────────────────────────────────
+    def connect(x1, y1, x2, y2, color, style="arc3,rad=0.15"):
         ax.annotate("", xy=(x2, y2), xytext=(x1, y1),
-                    arrowprops=dict(arrowstyle="<->",
-                                   color=color, lw=2.2,
-                                   connectionstyle="arc3,rad=0.08"),
-                    zorder=2)
+                    arrowprops=dict(
+                        arrowstyle="<->", color=color,
+                        lw=2.0, connectionstyle=style,
+                    ), zorder=2)
 
-    # ─── círculo central ────────────────────────────────────────────────────
-    cx, cy = 5.5, 3.75
-    circle = plt.Circle((cx, cy), 0.95,
-                         facecolor=C_CTR + "33",
-                         edgecolor=C_CTR, linewidth=2.5, zorder=5)
-    ax.add_patch(circle)
-    ax.text(cx, cy + 0.18, "IA &\nEDUCAÇÃO",
+    # ─── círculo central ──────────────────────────────────────────────────────
+    CX, CY = 6.5, 4.25
+    for r, alpha in [(1.35, 0.06), (1.05, 0.10), (0.80, 0.18)]:
+        glow = plt.Circle((CX, CY), r,
+                           facecolor=C_CTR, alpha=alpha,
+                           edgecolor="none", zorder=4)
+        ax.add_patch(glow)
+    core = plt.Circle((CX, CY), 0.80,
+                       facecolor=C_CTR + "22",
+                       edgecolor=C_CTR, linewidth=2.8, zorder=5)
+    ax.add_patch(core)
+    ax.text(CX, CY + 0.22, "IA &\nEDUCAÇÃO",
             ha="center", va="center",
-            fontsize=10, fontweight="bold",
+            fontsize=10.5, fontweight="bold",
             color=C_CTR, fontfamily=FONT_FAMILY, zorder=6)
-    ax.text(cx, cy - 0.42, "73 artigos\nPRISMA 2020",
+    ax.text(CX, CY - 0.38, "73 artigos\nPRISMA 2020",
             ha="center", va="center",
-            fontsize=7.5, color=WHITE + "99",
+            fontsize=7.5, color=WHITE + "88",
             fontfamily=FONT_FAMILY, zorder=6)
 
-    # ─── Eixo 1 — Crise da Promessa (esquerda) ───────────────────────────────
-    hex_box(1.6, 5.8, 3.0, 2.8, C_AXIS1,
-            "① CRISE DA PROMESSA",
-            ["13 estudos empíricos globais",
-             "53,8% achados negativos",
-             "38,5% resultados mistos",
-             "IA amplifica desigualdades"])
-
-    # ─── Eixo 2 — Datificação (direita) ─────────────────────────────────────
-    hex_box(9.4, 5.8, 3.0, 2.8, C_AXIS2,
-            "② AMEAÇA DA DATIFICAÇÃO",
-            ["30 artigos teóricos",
-             "Van Dijck · Zuboff · Noble",
-             "Capitalismo de vigilância",
-             "Colonialismo de dados"])
-
-    # ─── Eixo 3 — Contexto BR (baixo) ────────────────────────────────────────
-    hex_box(5.5, 1.1, 3.2, 2.5, C_AXIS3,
-            "③ CONTEXTO BRASILEIRO",
-            ["30 artigos nacionais",
-             "63,3%: escola pública",
-             "50,0%: formação docente",
-             "Soberania pedagógica"])
-
-    # ─── conectores entre eixos e centro ─────────────────────────────────────
-    connector(3.1, 5.5, 4.6, 4.5, C_AXIS1)
-    connector(7.9, 5.5, 6.4, 4.5, C_AXIS2)
-    connector(5.5, 2.35, 5.5, 2.8, C_AXIS3)
-
-    # ─── conector Eixo 1 ↔ Eixo 2 ────────────────────────────────────────────
-    ax.annotate("", xy=(7.85, 5.65), xytext=(3.15, 5.65),
-                arrowprops=dict(arrowstyle="<->",
-                                color=WHITE + "44", lw=1.5,
-                                linestyle="dashed"),
-                zorder=2)
-
-    # ─── rótulo das 5 teses ──────────────────────────────────────────────────
-    ax.text(5.5, 0.26,
-            "5 Teses para Políticas Públicas  ·  Agenda de Pesquisa (5 itens)",
-            ha="center", va="bottom",
-            fontsize=8.5, color=C_CTR,
-            fontfamily=FONT_FAMILY, fontstyle="italic")
-
-    # ─── título ──────────────────────────────────────────────────────────────
-    ax.set_title(
-        "Master Research Landscape — Eixos Dialéticos da Pesquisa",
-        fontsize=13.5, fontfamily=FONT_FAMILY, fontweight="bold",
-        color=WHITE, pad=10,
+    # ─── três painéis ─────────────────────────────────────────────────────────
+    panel(
+        1.95, 6.30, 3.60, 3.20,
+        C_AX1,
+        "① CRISE DA PROMESSA",
+        [
+            "13 estudos empíricos globais",
+            "53,8% achados negativos",
+            "38,5% resultados mistos",
+            "IA amplifica desigualdades",
+            "D003, D008, D011 (evidências)",
+        ],
+        badge="n=13",
     )
 
-    fig.tight_layout()
+    panel(
+        11.05, 6.30, 3.60, 3.20,
+        C_AX2,
+        "② AMEAÇA DA DATIFICAÇÃO",
+        [
+            "30 artigos teóricos int'l",
+            "Van Dijck · Zuboff · Noble",
+            "Capitalismo de vigilância",
+            "Colonialismo de dados",
+            "97%: solucionismo crítico",
+        ],
+        badge="n=30",
+    )
+
+    panel(
+        6.50, 1.45, 4.00, 2.50,
+        C_AX3,
+        "③ CONTEXTO BRASILEIRO",
+        [
+            "30 artigos nacionais  ·  63,3%: escola pública",
+            "50,0%: formação docente  ·  ≈50% sem internet",
+            "Soberania pedagógica  ·  LGPD insuficiente",
+        ],
+        badge="n=30",
+    )
+
+    # ─── conectores eixo↔centro ───────────────────────────────────────────────
+    connect(3.60, 6.00, 5.72, 4.80, C_AX1, "arc3,rad=-0.1")
+    connect(8.85, 6.00, 7.28, 4.80, C_AX2, "arc3,rad=0.1")
+    connect(6.50, 2.70, 6.50, 3.46, C_AX3, "arc3,rad=0.0")
+
+    # conector eixo1↔eixo2 (arco superior)
+    ax.annotate("", xy=(8.70, 6.55), xytext=(3.75, 6.55),
+                arrowprops=dict(arrowstyle="<->",
+                                color=WHITE + "33", lw=1.5,
+                                linestyle="dashed",
+                                connectionstyle="arc3,rad=-0.25"),
+                zorder=2)
+
+    # ─── 5 teses (rodapé interno) ─────────────────────────────────────────────
+    ax.text(CX, 0.48,
+            "⟶  5 Teses para Políticas Públicas  ·  Agenda de Pesquisa Prioritária",
+            ha="center", va="bottom",
+            fontsize=9, color=C_CTR,
+            fontfamily=FONT_FAMILY, fontstyle="italic",
+            fontweight="bold", zorder=5)
+
+    # ─── título ───────────────────────────────────────────────────────────────
+    ax.text(CX, 8.42,
+            "Master Research Landscape — Articulação Dialética dos Três Eixos Analíticos",
+            ha="center", va="top",
+            fontsize=12.5, fontfamily=FONT_FAMILY,
+            fontweight="bold", color=WHITE, zorder=5)
+
+    # ─── nota de rodapé ───────────────────────────────────────────────────────
+    fig.text(
+        0.5, 0.005,
+        "Fonte: elaboração própria. Os conectores bidirecionais (⟷) indicam relações "
+        "dialéticas de tensão e mútua determinação entre os eixos.",
+        ha="center", fontsize=8, color=WHITE + "88",
+        fontfamily=FONT_FAMILY, style="italic",
+    )
+
+    fig.tight_layout(rect=[0, 0.03, 1, 0.97])
     out = os.path.join(OUT_DIR, "fig3_dialectical_axes.png")
     fig.savefig(out, dpi=DPI, bbox_inches="tight", facecolor=BG)
     plt.close(fig)
     print(f"[✓] {out}")
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
 if __name__ == "__main__":
-    print("Gerando figuras do artigo...")
+    print("=" * 60)
+    print("  Gerando figuras para artigo Q1 — IA na Educação")
+    print("=" * 60)
     fig1_empirical_findings()
     fig2_prisma_flow()
     fig3_dialectical_axes()
-    print("Todas as figuras salvas em results/figures/")
+    print("=" * 60)
+    print(f"  Todas as figuras salvas em: {os.path.abspath(OUT_DIR)}")
+    print("=" * 60)
