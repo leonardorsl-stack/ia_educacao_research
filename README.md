@@ -2,13 +2,13 @@
 
 > **Título do artigo:** *Inteligência Artificial na Educação: Datificação, Desigualdade e a Urgência de Soberania Pedagógica*  
 > **Metodologia:** Revisão sistemática (PRISMA 2020) + Ciências Sociais Computacionais  
-> **Corpus:** 73 artigos — 13 empíricos globais · 30 teóricos · 30 brasileiros (2020–2026)
+> **Corpus:** 100 artigos — 40 empíricos globais · 30 teóricos · 30 brasileiros (2020–2026)
 
 ---
 
 ## Achado Central
 
-De 13 estudos empíricos internacionais analisados, **53,8% apresentaram achados negativos** — a introdução de IA no ambiente educacional amplificou desigualdades pré-existentes. Apenas 7,7% reportaram melhoria inequívoca.
+De 40 estudos empíricos internacionais analisados, **37,5% apresentaram achados negativos** — a introdução de IA no ambiente educacional amplificou desigualdades pré-existentes. Outros 57,5% reportaram resultados mistos ou neutros.
 
 ---
 
@@ -21,15 +21,16 @@ ia_educacao_research/
 │   ├── raw/                    # Dados brutos coletados via API
 │   │   ├── brazil_research.json        # 30 artigos brasileiros
 │   │   ├── theoretical_papers.json     # 30 artigos teóricos
-│   │   └── search_results.json         # Resultados brutos das buscas
+│   │   └── google_scholar_results.json # 190 resultados do scraping
 │   ├── processed/              # Dados processados / codificados
-│   │   ├── meta_analysis_matrix.csv    # Matriz de meta-análise (13 empíricos)
+│   │   ├── meta_analysis_matrix.csv    # Matriz de meta-análise (40 empíricos)
 │   │   ├── brazil_mapping.csv          # Mapeamento temático brasileiro
 │   │   └── empirical_papers.csv        # Corpus empírico processado
 │   └── metadata/
 │       └── search_metadata.json        # Metadados das buscas
 │
 ├── docs/                       # Documentos analíticos
+│   ├── resumo_novos_dados.md           # Resumo da expansão do corpus (Abril/2026)
 │   ├── analysis_summary.md             # Resumo quantitativo global
 │   ├── brazil_analysis.md              # Análise crítica do corpus brasileiro
 │   ├── brazil_summary.md               # Panorama temático brasileiro
@@ -41,7 +42,7 @@ ia_educacao_research/
 │       └── prisma_protocol.md          # Protocolo PRISMA pré-registrado
 │
 ├── references/
-│   └── BIBLIOGRAFIA_MESTRE_IA_EDU.bib  # BibTeX unificado (73 entradas)
+│   └── BIBLIOGRAFIA_MESTRE_IA_EDU.bib  # BibTeX unificado (100 entradas)
 │                                        # Tags: Global_Empirical | Global_Theoretical | Brazil_Context
 │
 ├── results/
@@ -51,9 +52,9 @@ ia_educacao_research/
 │       └── evidence_table.tex          # Versão LaTeX
 │
 ├── scripts/                    # Pipeline de coleta e análise
-│   ├── data_collection.py              # Coleta via API Semantic Scholar
-│   ├── data_enrichment.py              # Enriquecimento de metadados
-│   ├── empirical_analysis.py           # Análise do corpus empírico
+│   ├── data_collection.py              # Coleta via API Scopus
+│   ├── data_enrichment.py              # Enriquecimento de metadados + Quality Score
+│   ├── empirical_analysis.py           # Análise e clustering (LDA)
 │   ├── nlp_pipeline.py                 # Processamento de linguagem natural
 │   ├── process_brazil.py               # Processamento do corpus brasileiro
 │   ├── search_brazil_papers.py         # Busca de artigos brasileiros
@@ -65,7 +66,7 @@ ia_educacao_research/
 │   ├── export_to_zotero.py             # Exportação BibTeX unificada
 │   ├── upload_to_zotero.py             # Upload para biblioteca Zotero
 │   ├── upload_brazil_to_zotero.py      # Upload corpus BR para Zotero
-│   └── scraper.py                      # Web scraper auxiliar
+│   └── scraper.py                      # Web scraper auxiliar (Google Scholar)
 │
 ├── notebooks/                  # Análises exploratórias
 │   ├── 01_coleta_dados.ipynb
@@ -82,7 +83,7 @@ ia_educacao_research/
 
 | Eixo | Base | Argumento Central |
 |---|---|---|
-| ⚡ **Crise da Promessa** | 13 empíricos globais | 53,8% negativos — IA amplifica desigualdades |
+| ⚡ **Crise da Promessa** | 40 empíricos globais | 37,5% negativos — IA amplifica desigualdades |
 | 📚 **Ameaça da Datificação** | 30 teóricos | Zuboff + Selwyn: IA não é neutra, é política |
 | 🇧🇷 **Contexto Situado** | 30 brasileiros | Brasil como *stress-test* global da exclusão digital |
 
@@ -90,9 +91,9 @@ ia_educacao_research/
 
 ## Metodologia
 
-- **Coleta:** API pública do [Semantic Scholar](https://api.semanticscholar.org) com controle de *rate limit*
-- **Triagem:** Protocolo PRISMA 2020 adaptado para revisões computacionalmente assistidas
-- **Análise NLP:** Análise de frequência léxica (*keyword matching*) + co-ocorrência temática
+- **Coleta:** API Scopus + API [Semantic Scholar](https://api.semanticscholar.org) + Google Scholar Scraping
+- **Triagem:** Protocolo PRISMA 2020 adaptado com Quality Scoring (0-5)
+- **Análise NLP:** Topic Modeling (LDA) + Keyword Matching (Impacto, Ética, Desigualdade)
 - **Gestão bibliográfica:** BibTeX com tags por corpus (`Global_Empirical`, `Global_Theoretical`, `Brazil_Context`)
 
 ---
@@ -110,14 +111,16 @@ pip install -r requirements.txt
 ## Reproduzir a Análise
 
 ```bash
-# 1. Gerar resumo analítico global
-python scripts/generate_summary.py
+# 1. Coletar dados (opcional, requer Scopus API Key)
+python scripts/scraper.py
+python scripts/search_brazil_papers.py
 
-# 2. Gerar documentos de síntese (Brazil + Teórico + Master Landscape)
-python scripts/generate_synthesis_docs.py
+# 2. Executar análise empírica e enriquecimento
+python scripts/empirical_analysis.py
+python scripts/data_enrichment.py
 
-# 3. Exportar BibTeX unificado
-python scripts/export_to_zotero.py
+# 3. Gerar resumo e documentos
+make run_pipeline
 ```
 
 ---
@@ -126,12 +129,10 @@ python scripts/export_to_zotero.py
 
 | Indicador | Valor |
 |---|---|
-| Achados negativos (empírico global) | **53,8%** |
-| Achados mistos | 38,5% |
-| Estudos sem nível educacional declarado | **69,2%** |
-| Artigos brasileiros sobre escola pública/desigualdade | **63,3%** |
-| Artigos brasileiros sobre formação docente | 50,0% |
-| Total de referências BibTeX | **73** |
+| Achados negativos (empírico global) | **37,5%** |
+| Achados mistos / neutros | **57,5%** |
+| Achados positivos | **5,0%** |
+| Total de referências BibTeX | **100** |
 
 ---
 
