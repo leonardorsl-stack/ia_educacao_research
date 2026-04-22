@@ -58,6 +58,9 @@ EMPIRICAL_KEYWORDS = [
     # Ética / viés
     "ethic", "bias", "fairness", "privacy", "transparency", "accountability",
     "discrimination", "misuse", "harm", "risk", "concern",
+    # Metodologia (Novo grupo para ampliar corpus empírico)
+    "methodology", "case study", "survey", "interview", "qualitative",
+    "quantitative", "mixed methods", "observation", "pilot", "data collection",
     # Pedagógico / aprendizagem
     "learning outcome", "student performance", "engagement", "motivation",
     "pedagog", "teach", "curriculum", "assessment", "feedback",
@@ -210,26 +213,77 @@ CLUSTER_COLORS = ["#2196F3", "#4CAF50", "#F44336", "#FF9800", "#9C27B0"]
 # ---------------------------------------------------------------------------
 
 def load_papers() -> list[dict]:
-    """Carrega artigos do JSON bruto; usa demo se dataset for pequeno."""
-    if not RAW_JSON.exists():
-        logger.warning(f"Arquivo não encontrado: {RAW_JSON}. Usando dataset de demonstração.")
+    """
+    Carrega artigos de múltiplas fontes: Scopus, Google Scholar e Semantic Scholar (Brasil).
+    Normaliza os campos para o formato interno.
+    """
+    all_papers = []
+    
+    # 1. Scopus (search_results.json)
+    if RAW_JSON.exists():
+        try:
+            with open(RAW_JSON, encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    entries = data
+                else:
+                    entries = data.get("search-results", {}).get("entry", [])
+                
+                for e in entries:
+                    all_papers.append({
+                        "paperId": e.get("prism:doi") or e.get("dc:identifier") or e.get("paperId"),
+                        "title": e.get("dc:title") or e.get("title"),
+                        "abstract": e.get("dc:description") or e.get("abstract"),
+                        "year": (e.get("prism:coverDate") or str(e.get("year", "")))[:4],
+                        "venue": e.get("prism:publicationName") or e.get("venue"),
+                        "citationCount": e.get("citedby-count") or e.get("citationCount") or 0
+                    })
+        except Exception as e:
+            logger.error(f"Erro ao carregar Scopus: {e}")
+
+    # 2. Google Scholar (google_scholar_results.json)
+    gs_json = Path("data/raw/google_scholar_results.json")
+    if gs_json.exists():
+        try:
+            with open(gs_json, encoding="utf-8") as f:
+                data = json.load(f)
+                for e in data:
+                    all_papers.append({
+                        "paperId": e.get("link"),
+                        "title": e.get("title"),
+                        "abstract": e.get("abstract"),
+                        "year": None,
+                        "venue": "Google Scholar",
+                        "citationCount": 0
+                    })
+        except Exception as e:
+            logger.error(f"Erro ao carregar Google Scholar: {e}")
+
+    # 3. Brazil Research (brazil_research.json)
+    br_json = Path("data/raw/brazil_research.json")
+    if br_json.exists():
+        try:
+            with open(br_json, encoding="utf-8") as f:
+                data = json.load(f)
+                entries = data.get("papers", [])
+                for e in entries:
+                    all_papers.append({
+                        "paperId": e.get("paper_id"),
+                        "title": e.get("title"),
+                        "abstract": e.get("abstract"),
+                        "year": e.get("year"),
+                        "venue": e.get("venue"),
+                        "citationCount": e.get("citation_count", 0)
+                    })
+        except Exception as e:
+            logger.error(f"Erro ao carregar Brazil Research: {e}")
+
+    if len(all_papers) < 5:
+        logger.warning("Dataset consolidado muito pequeno. Usando dataset de demonstração.")
         return DEMO_PAPERS
 
-    with open(RAW_JSON, encoding="utf-8") as f:
-        data = json.load(f)
-
-    if len(data) < 10:
-        logger.warning(
-            f"Dataset real muito pequeno ({len(data)} artigos). "
-            "Enriquecendo com dataset de demonstração para análise robusta."
-        )
-        # Mescla: real na frente, demo completa o conjunto
-        ids_reais = {p.get("paperId") for p in data}
-        demo_extra = [p for p in DEMO_PAPERS if p["paperId"] not in ids_reais]
-        return data + demo_extra
-
-    logger.info(f"Carregados {len(data)} artigos de {RAW_JSON}")
-    return data
+    logger.info(f"Consolidados {len(all_papers)} artigos de múltiplas fontes.")
+    return all_papers
 
 
 def to_dataframe(papers: list[dict]) -> pd.DataFrame:
@@ -250,7 +304,7 @@ def to_dataframe(papers: list[dict]) -> pd.DataFrame:
 def flag_empirical(df: pd.DataFrame) -> pd.DataFrame:
     """
     Marca artigos empíricos se o abstract contém ao menos 2 palavras-chave
-    de domínios distintos (impacto, desigualdade OU ética).
+    de domínios distintos (impacto, desigualdade, ética OU metodologia).
     """
     def _score(text: str) -> dict:
         t = text.lower()
@@ -260,14 +314,17 @@ def flag_empirical(df: pd.DataFrame) -> pd.DataFrame:
                                          "disparity","marginali","global south","developing"])
         ethics   = any(k in t for k in ["ethic","bias","fairness","privacy",
                                          "transparency","discrimination","harm"])
-        return {"impact": impact, "inequity": inequity, "ethics": ethics}
+        method   = any(k in t for k in ["methodology", "case study", "survey", "interview", "qualitative",
+                                         "quantitative", "mixed methods", "observation", "pilot", "data collection"])
+        return {"impact": impact, "inequity": inequity, "ethics": ethics, "method": method}
 
     scores = df["abstract"].apply(_score).apply(pd.Series)
     df = df.join(scores)
     df["is_empirical"] = (
         df["impact"].astype(int) +
         df["inequity"].astype(int) +
-        df["ethics"].astype(int)
+        df["ethics"].astype(int) +
+        df["method"].astype(int)
     ) >= 2
     return df
 

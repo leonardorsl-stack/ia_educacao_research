@@ -25,7 +25,7 @@ OUT_PATH = BASE_DIR / "data" / "raw" / "brazil_research.json"
 SS_API_BASE   = "https://api.semanticscholar.org/graph/v1/paper/search"
 FIELDS        = "paperId,title,year,abstract,authors,venue,publicationTypes,referenceCount,citationCount,openAccessPdf,externalIds"
 YEAR_FILTER   = "2020-2026"
-TARGET_COUNT  = 30
+TARGET_COUNT  = 60
 DELAY_QUERIES = 8   # segundos entre queries
 
 # Queries em portugues + ingles com contexto brasileiro
@@ -35,6 +35,9 @@ QUERIES = [
     "IA Generativa Ensino Superior Brasil universidade",
     "artificial intelligence education Brazil empirical",
     "ChatGPT educacao brasileira escola publica",
+    "estudo de caso IA educacao brasil",
+    "experiencia IA escola brasileira",
+    "impacto IA aprendizagem brasil dados",
     # Teóricos / periódicos brasileiros
     "Inteligencia Artificial educacao etica soberania digital Brasil",
     "IA educacao formacao docente Brasil BNCC inclusao digital",

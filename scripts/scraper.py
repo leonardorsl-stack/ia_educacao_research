@@ -28,9 +28,10 @@ if __name__ == "__main__":
     QUERY = (
         '("Artificial Intelligence" OR "Generative AI" OR "Large Language Models" OR "LLM") '
         'AND ("Education" OR "Schools" OR "Higher Education" OR "Pedagogy") '
-        'AND ("Social Impact" OR "Inequality" OR "Equity" OR "Ethics" OR "Bias")'
+        'AND ("Social Impact" OR "Inequality" OR "Equity" OR "Ethics" OR "Bias" '
+        'OR "Empirical" OR "Case Study" OR "Experiment" OR "Survey" OR "Quantitative" OR "Qualitative")'
     )
-    scraped_data = scrape_google_scholar(QUERY, 5)  # Scrape 5 pages
+    scraped_data = scrape_google_scholar(QUERY, 20)  # Scrape 20 pages
     with open("data/raw/google_scholar_results.json", "w") as f:
         json.dump(scraped_data, f, indent=2)
     print(f"Scraped {len(scraped_data)} articles from Google Scholar.")

@@ -1,8 +1,8 @@
 # Relatório de Análise — Meta-Analysis Matrix + Scraped Data
 
-> Gerado automaticamente em 2026-04-21 01:23  
+> Gerado automaticamente em 2026-04-21 21:14  
 > Arquivos fonte: `data/processed/meta_analysis_matrix.csv`, `data/processed/scraped_papers.csv`  
-> Total de artigos: **53**
+> Total de artigos: **230**
 
 ---
 
@@ -10,32 +10,32 @@
 
 | Direção | Contagem | % |
 | --- | --- | --- |
-| nan | 40 | 75.5% |
-| Negative | 7 | 13.2% |
-| Mixed / Neutral | 5 | 9.4% |
-| Positive | 1 | 1.9% |
-| **Total** | 53 | 100% |
+| nan | 190 | 82.6% |
+| Mixed / Neutral | 21 | 9.1% |
+| Negative | 17 | 7.4% |
+| Positive | 2 | 0.9% |
+| **Total** | 230 | 100% |
 
 ## 2. Nível Educacional (`education_level`)
 
 | Nível Educacional | Contagem | % |
 | --- | --- | --- |
-| nan | 40 | 75.5% |
-| Not Specified | 9 | 17.0% |
-| Higher Ed | 2 | 3.8% |
-| K-12 | 2 | 3.8% |
-| **Total** | 53 | 100% |
+| nan | 190 | 82.6% |
+| Not Specified | 28 | 12.2% |
+| Higher Ed | 11 | 4.8% |
+| K-12 | 1 | 0.4% |
+| **Total** | 230 | 100% |
 
 ## 3. Metodologia × Iniquidade (`methodology_type × inequity`)
 
 | Metodologia \ Iniquidade | N/A | Sim | Total |
 | --- | --- | --- | --- |
-| Mixed Methods | 1 | 0 | 1 |
-| Not Specified | 3 | 3 | 6 |
-| Qualitative | 0 | 2 | 2 |
-| Quantitative | 2 | 2 | 4 |
-| nan | 40 | 0 | 40 |
-| **Total** | 46 | 7 | 53 |
+| Mixed Methods | 3 | 0 | 3 |
+| Not Specified | 10 | 14 | 24 |
+| Qualitative | 8 | 0 | 8 |
+| Quantitative | 3 | 2 | 5 |
+| nan | 190 | 0 | 190 |
+| **Total** | 214 | 16 | 230 |
 
 ---
 

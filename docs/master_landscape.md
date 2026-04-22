@@ -1,7 +1,7 @@
 # Master Landscape — Roteiro Comparativo dos Três Eixos
 
-> Pesquisador Sênior | Gerado em 2026-04-21 01:23  
-> Corpus total: **73 artigos** — 13 empíricos globais · 30 teóricos · 30 brasileiros
+> Pesquisador Sênior | Gerado em 2026-04-21 21:14  
+> Corpus total: **100 artigos** — 40 empíricos globais · 30 teóricos · 30 brasileiros
 
 ---
 
@@ -18,17 +18,17 @@ Este é o **roteiro argumentativo** do artigo. Não é um resumo — é uma
 ## ═══ EIXO 1 — Global Empírico ═══
 ### *O Que os Dados Mostram Quando Olhamos para o Mundo*
 
-**Base:** 13 estudos empíricos (2021–2024), periódicos internacionais de alto impacto
+**Base:** 40 estudos empíricos (2021–2024), periódicos internacionais de alto impacto
 
 ### Panorama Quantitativo
 
 | Indicador | N | % |
 | --- | --- | --- |
-| Achados negativos | 7 | 53.8% |
-| Achados mistos/neutros | 5 | 38.5% |
-| Achados positivos | 1 | 7.7% |
-| Estudos que detectam iniquidade | 7 | 53.8% |
-| Estudos com preocupações éticas | 11 | 84.6% |
+| Achados negativos | 17 | 42.5% |
+| Achados mistos/neutros | 21 | 52.5% |
+| Achados positivos | 2 | 5.0% |
+| Estudos que detectam iniquidade | 16 | 40.0% |
+| Estudos com preocupações éticas | 26 | 65.0% |
 
 ### Narrativa do Eixo 1
 
@@ -44,14 +44,18 @@ porque sistemas de aprendizagem adaptativa funcionam melhor com dados ricos
 
 ### Destaques do Corpus
 
-- **Generative AI and Equity in Higher Education: Empirical Evid…** (2024)
+- **[HTML][HTML] AI, Ethics, and Cognitive Bias: An LLM-Based Sy…** ()
   > Negative
-- **AI and Digital Divide: Evidence from Sub-Saharan Africa** (2023)
+- **The impact of generative AI on school music education: Chall…** ()
   > Negative
-- **Algorithmic Discrimination in EdTech: Fairness and Equity An…** (2023)
+- **Large language models in education: Vision and opportunities** ()
   > Negative
-- **Social Impact of AI in Brazilian Public Schools: A Case Stud…** (2024)
-  > Empirical findings show mixed impact on student achievement, with equity and access barriers in rural regions.
+- **Education in the age of Generative AI: Context and Recent De…** ()
+  > Negative
+- **Impact of artificial intelligence on higher education: A lit…** ()
+  > Negative
+- **Generative AI in higher education: Uncertain students, ambig…** ()
+  > Negative
 
 ### Contribuição para a Tese
 
@@ -142,7 +146,7 @@ Estas são as proposições que defenderemos, sustentadas pelos três eixos:
 **Evidências:**
 - 63% dos artigos brasileiros abordam escola pública e desigualdade
 - CGI.br (2023): ~50% das escolas públicas sem internet de qualidade
-- 13 estudos globais: iniquidade presente em 54% dos casos
+- 40 estudos globais: iniquidade presente em 40% dos casos
 
 ---
 

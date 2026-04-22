@@ -1,81 +1,381 @@
 title,authors,year,abstract,url,source
-"Opportunities and challenges of generative artificial intelligence: Research, education, industry engagement, and social impact",,,"… , Generative AI is signaling a paradigm shift in the intelligence of machines, an increased 
-generalization capability with increased accessibility and equity … of Generative AI in advancing …",,Google Scholar
-The social impact of generative LLM-based AI,,,"Liking it or not, ready or not, we are likely to enter a new phase of human history in which 
-artificial intelligence (AI) will dominate economic production and social life—the AI revolution. …",,Google Scholar
-Advancing equity and inclusion in educational practices with AI‐powered educational decision support systems (AI‐EDSS),,,"… for bias in the final deployed LLM to assess potential harms. To this end, the authors review 
-measures for assessing bias … gaps in higher education and advance equity and inclusion in …",,Google Scholar
+"Exploring the impact of generative AI-based technologies on learning performance through self-efficacy, fairness & ethics, creativity, and trust in higher education",,,"… This study focused on how generative AI-based technologies, LLM-based ChatGPT, and 
+chatbots affect students’ learning performance in higher education. In light of the SCT theory …",,Google Scholar
+The life cycle of large language models in education: A framework for understanding sources of bias,,,"… LLM life cycle and identify potential sources of bias that may arise in the context of education… 
+current measures of bias from traditional machine learning fail to transfer to LLM-generated …",,Google Scholar
+"Opportunities and challenges of generative artificial intelligence: Research, education, industry engagement, and social impact",,,"… This section presents an overview of Generative AI, starting with some early work and … 
+Generative AI: they are, algorithms, data, computing, and limitations. The journey of Generative AI …",,Google Scholar
 [LIVRO][B] Guidance for generative AI in education and research,,,"… Recommendation on the Ethics of Artificial Intelligence, the guidance is anchored in a 
 humanistic approach to education that promotes human agency, inclusion, equity, gender equality…",,Google Scholar
-"[HTML][HTML] Generative AI, research ethics, and higher education research: Insights from a scientometric analysis",,,"… studies at the intersection of AI, ethics, and HE. The analysis … terms such as ‘large language 
-models’ and ‘ethics’, pointing … on higher education, encompassing terms like ‘generative AI…",,Google Scholar
-Navigating the ethical and societal impacts of generative AI in higher computing education,,,"… Generative AI (GenAI) presents societal and ethical challenges related to equity, academic 
-integrity, bias, and data provenance. In this paper, we outline the goals, methodology and …",,Google Scholar
-Artificial intelligence in higher education: a systematic review of contributions to SDG 4 (quality education) and SDG 10 (reduced inequality),,,"Purpose This research systematically examines how AI technologies in higher education 
-contribute to achieving Sustainable Development Goals (SDGs), focusing on SDG 4 (quality …",,Google Scholar
+The social impact of generative LLM-based AI,,,"Liking it or not, ready or not, we are likely to enter a new phase of human history in which 
+artificial intelligence (AI) will dominate economic production and social life—the AI revolution. …",,Google Scholar
+"[HTML][HTML] Generative AI, research ethics, and higher education research: Insights from a scientometric analysis",,,"… and ethics, … ethics and integrity, highlighting novel forms of research misconduct and 
+strategies for their mitigation [3]. Thus, in this study, we seek to provide quantitative and qualitative …",,Google Scholar
+Adoption of artificial intelligence in higher education: A quantitative analysis using structural equation modelling,,,"… application of Artificial Intelligence (AI) in higher education in … of Indian Institutes of higher 
+education. The prospect of use of … taken in the institutes of higher education. This is important …",,Google Scholar
 Practical and ethical challenges of large language models in education: A systematic scoping review,,,"… As the intersection of AI and education is continuously evolving, the … enabled by ChatGPT 
 and other generative AI models. … There are ongoing debates regarding AI ethics in education …",,Google Scholar
-[HTML][HTML] … language models into accessible and inclusive education: access democratization and individualized learning enhancement supported by generative artificial …,,,"… This study explores the integration of large language models (LLMs) into … to education 
-and to foster inclusive learning practices, thereby advancing the effectiveness and equity of …",,Google Scholar
 Revolutionizing higher education: Unleashing the potential of large language models for strategic transformation,,,"… to explore the broader social impact of LLM integration and inform … bias, ethics of LLM 
 use, and the societal impact of LLM-… needed to engage responsibly with LLM technologies [1]…",,Google Scholar
-[HTML][HTML] The transformative power of generative artificial intelligence for achieving the sustainable development goal of quality education,,,"… First, this paper outlines a framework that leverages GAI to enhance educational equity, 
-quality, and lifelong learning opportunities. By highlighting the synergy between GAI and the …",,Google Scholar
-[HTML][HTML] Generative AI in higher education: Balancing innovation and integrity,,,"… in education, ensuring fairness and equity, AI Literacy: Evaluating the effectiveness of GenAI 
-literacy programs for educators and students, Policy Impact: Studying the effectiveness of …",,Google Scholar
-"Justice, Equity, Diversity, and Inclusion in Artificial Intelligence and Childhood Education: A Critical Systematic Review",,,"… sources of bias at each stage. Importantly, they also discuss why traditional bias measures 
-are inadequate for assessing LLM-… In other words, “differences” in LLM responses may reflect …",,Google Scholar
+"[HTML][HTML] Generative AI and higher education: Trends, challenges, and future directions from a systematic literature review",,,"… include only articles that describe scientific empirical research on the use of GAI in higher 
+education. In this context, we define empirical research as investigations in which researchers …",,Google Scholar
+Large language models for education: A survey,,,"… LLM technology engages with schools, online education … the application of LLMs in education. 
+Partnering to provide actual … the application of LLM in the field of education. The details …",,Google Scholar
+[HTML][HTML] Generative AI in higher education: Balancing innovation and integrity,,,"… In the context of academia, this would mean that uploading student assessments to generate 
+feedback or qualitative and quantitative research data to an LLM for analysis could breach …",,Google Scholar
+Large Language Models for Education: A survey and outlook,,,"… , the present survey article provides a thorough technological review of LLMs in education, … 
+deeper understanding in the evolving landscape of LLM-driven educational technologies. …",,Google Scholar
+[HTML][HTML] The impact of large language models on higher education: exploring the connection between AI and Education 4.0,,,"… show that quantitative methodology has been used in 27.71% (n = 23) of the studies, 
+indicating a preference for approaches that rely on collecting and analyzing quantitative data. …",,Google Scholar
+"[LIVRO][B] Artificial intelligence applications in higher education: Theories, ethics, and case studies for universities",,,"… of how artificial intelligence systems can be applied in today’s higher education contexts. As 
+… university programs offers fresh perspectives on generative AI, adaptive learning, intelligent …",,Google Scholar
+[HTML][HTML] The transformative power of generative artificial intelligence for achieving the sustainable development goal of quality education,,,"… artificial intelligence (GAI) for achieving the UN Sustainable Development Goal on Quality 
+Education (… that leverages GAI to enhance educational equity, quality, and lifelong learning …",,Google Scholar
 "Who benefits and who is excluded?: Transformative learning, equity, and generative artificial intelligence",,,"… the influence of generative AI in higher education necessitates … generative AI to enhance 
 equity, but that there are cautions. Subsequent sections explore the influences of generative AI …",,Google Scholar
+"Justice, Equity, Diversity, and Inclusion in Artificial Intelligence and Childhood Education: A Critical Systematic Review",,,"… sources of bias at each stage. Importantly, they also discuss why traditional bias measures 
+are inadequate for assessing LLM-… In other words, “differences” in LLM responses may reflect …",,Google Scholar
+"The impact of Generative AI (GenAI) on practices, policies and research direction in education: A case of ChatGPT and Midjourney",,,"… , this qualitative study aims to investigate how GenAI changes our school education from the 
+… in a systematic literature review study on AI in education. The participants were 88 school …",,Google Scholar
 "[PDF][PDF] ChatGPT impacts on access-efficiency, employment, education and ethics: The socio-economics of an AI language model",,,"… the impact of ChatGPT on scholarly publishing and the ethics of large language models. … 
 bias, which must be addressed. To explore the impact of ChatGPT and large language models …",,Google Scholar
-Guiding the future: developing an ethical framework for generative AI use in education,,,"… virtue and care ethics, as well as social learning and social exchange theory, tailored to 
-different educational levels and the rapidly evolving landscape of generative AI in education. To …",,Google Scholar
-Ethics of artificial intelligence in university education,,,"… This paper explores the ethics of artificial intelligence (AI) in … the ethics of using artificial 
-intelligence in higher education … surrounding human rights and educational equity. Additionally, it …",,Google Scholar
+Towards responsible development of generative AI for education: An evaluation-driven approach,,,"… to ethics and safety goes beyond the common gen AI guidelines, as we develop education-… 
+159, 160], we propose a framework leveraging LLM-based critics to automatically assess …",,Google Scholar
 "A meta systematic review of artificial intelligence in higher education: A call for increased ethics, collaboration, and rigour",,,"… has given rise to a debate in education about readiness, ethics, trust, impact and value … 
 artificial intelligence in schools Footnote 6 and in the United States, the Department of Education …",,Google Scholar
 Disability ethics and education in the age of artificial intelligence: identifying ability bias in ChatGPT and Gemini,,,"… To identify and quantify ability bias in generative artificial intelligence large language model 
 … that bias exists in their responses, but, to our knowledge, quantifying ability bias has not yet …",,Google Scholar
-Levelling the playing field through GenAI: Harnessing artificial intelligence to bridge educational gaps for equity and disadvantaged students,,,"… (GenAI), particularly large language models (LLMs) like ChatGPT, can address educational 
-disparities faced by equity students in higher education (HE). Equity students, including …",,Google Scholar
+"Artificial intelligence in early childhood STEM education: A review of pedagogical paradigms, ethical issues, and socio-political implications",,,"… This study adopts a qualitative … of artificial intelligence (AI) in early childhood education. 
+The primary aim of the research is to explore the impacts of AI on early childhood education and …",,Google Scholar
+Ethical implications of artificial intelligence in higher education,,,"… We do not intend to build a case study on a particular higher education system, our intention 
+is to formulating preliminary conclusions that are relevant regardless of the geographical …",,Google Scholar
+Exploring the transformative impact of generative AI on higher education,,,"… the widespread use of generative AI. Through a qualitative lens, this study has explored the 
+thoughts and feeling of staff and students on the adoption of generative AI giving the sector …",,Google Scholar
+[HTML][HTML] Exploring the ethical implications of using generative AI tools in higher education,,,"… As indicated by the findings of this study, the field of Artificial Intelligence in Education (AIED) 
+would benefit from empirical studies that incorporate multiple factors specific to educational …",,Google Scholar
 Implicit bias in large language models: Experimental proof and implications for education,,,"… research at the intersection of technology, critical studies, and education. First, we explore 
 the discourse on ethics and AI in education and society. Then, we broaden our perspective, …",,Google Scholar
-"Artificial Intelligence in education: Opportunities, challenges, and ethical concerns",,,"… Artificial Intelligence (AI) is rapidly transforming education, … The present paper explores the 
-integration of AI in education, … methodologies and making education more accessible and …",,Google Scholar
-[HTML][HTML] Generative artificial intelligence in higher education: Evidence from an analysis of institutional policies and guidelines,,,"… uptake of generative artificial intelligence (GenAI) across higher education institutions (HEIs)… 
-talked about the ethics of GenAI on a broad range of topics, including Diversity, Equity and …",,Google Scholar
-"Artificial intelligence in early childhood STEM education: A review of pedagogical paradigms, ethical issues, and socio-political implications",,,"… The role of artificial intelligence (AI) in early childhood education, its integration into 
-pedagogical practices, concerns related to data privacy and ethics, and the frameworks of national …",,Google Scholar
-"[HTML][HTML] Fairness, Accountability, Transparency, and Ethics (FATE) in Artificial Intelligence (AI) and higher education: A systematic review",,,"… The use of Artificial Intelligence or AI is rising in higher education. With this rise, the morality 
-of AI … , and Ethics or FATE are identified in the AI and higher education studies to date. …",,Google Scholar
-"Artificial intelligence in higher education: A state-of-the-art overview of pedagogical integrity, artificial intelligence literacy, and policy integration",,,"… content), algorithmic bias and data privacy, … AI higher education, AI literacy, AI tools for 
-educators and teaching staff, ethical use of AI, and institutional integration of AI in higher education…",,Google Scholar
-The social impact of generative ai: An analysis on chatgpt,,,"… impacts of ChatGPT in education, we created the code ""Benefits for education"". After reviewing 
-… On the other hand, the category of negative impacts encompasses codes such as ""Bias …",,Google Scholar
 [HTML][HTML] Generative AI in education: Perspectives through an academic lens,,,"In this paper, we investigated the role of generative AI in education in academic publications 
 extracted from Web of Science (3506 records; 2019–2024). The proposed methodology …",,Google Scholar
-… there?” ChatGPT and artificial intelligence-powered large language models: reflections on potential impacts within health and physical education teacher education,,,"… the broad spectrum of (health and physical) education, there is a tendency to focus on the 
-… Taking a sociocritical perspective can provide a lens through which digital (in)equity issues …",,Google Scholar
-"Artificial Intelligence, Education, and Ethics: A Bibliometric Perspective",,,"This study analyzes the structure, trends, and focal points of scholarly production in the field 
-of artificial intelligence (AI) and ethics through a bibliometric approach using VOSviewer, …",,Google Scholar
-"[PDF][PDF] Advancing SDG 4: Harnessing generative AI to transform learning, teaching, and educational equity in higher education",,,"… to critically explore the role of generative AI in the future of education, focusing on three key 
-… the challenges posed by generative AI’s integration into education systems and propose a …",,Google Scholar
+[HTML][HTML] Generative artificial intelligence in higher education: Evidence from an analysis of institutional policies and guidelines,,,"… uptake of generative artificial intelligence (GenAI) across higher education institutions (HEIs)… 
+talked about the ethics of GenAI on a broad range of topics, including Diversity, Equity and …",,Google Scholar
+Artificial intelligence in online higher education: A systematic review of empirical research from 2011 to 2020,,,"… As an effort to further understand AI in online higher education, this systematic review 
+examines empirical research of AI applications in online higher education from the instructional …",,Google Scholar
 The promise and challenges of generative AI in education,,,"… ethics of AI in education, and hybrid intelligence and instruction. Although we did not intend, 
 nor claim to have a complete coverage of topics, the lineup of experts accounts for a certain …",,Google Scholar
-[HTML][HTML] Generative artificial intelligence: Implications and considerations for higher education practice,,,"… bias against certain linguistic patterns. This is an artefact of the extant biases in the data that 
-most foundation Large Language Models … , it would confirm the pre-existing bias. In turn, this …",,Google Scholar
-"[HTML][HTML] AI, Ethics, and Cognitive Bias: An LLM-Based Synthetic Simulation for Education and Research",,,"This study examines how cognitive biases may shape ethical decision-making in AI-mediated 
-environments, particularly within education and research. As AI tools increasingly …",,Google Scholar
-[HTML][HTML] Generative ai in education: Mapping the research landscape through bibliometric analysis,,,"… has explored the application of artificial intelligence in education, reflecting the increasing 
-… Future work should apply frameworks from critical pedagogy and digital ethics to examine …",,Google Scholar
-Ethical framework for AI education based on large language models,,,"… upon and reference technology ethics and utilitarian ethics as our methodological … in 
-education. This section systematically dissects the principles and structures of artificial intelligence …",,Google Scholar
-"Philosophical, legal, ethical, and practical considerations in the emerging use of generative AI in academic journals: Guidelines for research in science education  …",,,"… in several additional areas, including ethics, philosophy, copyright, authorship attribution … 
-education, including those that will be curated in our “Artificial Intelligence in Science Education…",,Google Scholar
+Exploring health sciences students' perspectives on using generative artificial intelligence in higher education: A qualitative study,,,"… The widespread adoption of artificial intelligence (AI) tools in academic settings has the … 
+regarding the use of generative AI in higher education. A qualitative descriptive research design …",,Google Scholar
+The social impact of generative ai: An analysis on chatgpt,,,"… Atlas.ti is a qualitative research tool that enables the … in education, we created the code 
+""Benefits for education"". After … encompasses codes such as ""Bias concerns"", which emerged as …",,Google Scholar
+[HTML][HTML] Developing medical education curriculum reform strategies to address the impact of generative AI: qualitative study,,,"… We conducted a qualitative analysis of the impact of GAI on medical education curricula 
+and strategies for responding to it using the SWOT framework and cross-SWOT matrix. We …",,Google Scholar
+Implementing artificial intelligence in physiotherapy education: A case study on the use of large language models (LLM) to enhance feedback,,,"… case study focusing on the innovative use of Artificial Intelligence (AI) and Large Language 
+Models (LLM… learning of procedural skills in physiotherapy education. We explore how these …",,Google Scholar
+"[PDF][PDF] Advancing SDG 4: Harnessing generative AI to transform learning, teaching, and educational equity in higher education",,,"… to critically explore the role of generative AI in the future of education, focusing on three key 
+… the challenges posed by generative AI’s integration into education systems and propose a …",,Google Scholar
+Towards responsible artificial intelligence in education: a systematic review on identifying and mitigating ethical risks,,,"… : (“artificial intelligence” OR AI OR AIED) AND (education OR learning OR teaching) AND 
+(“ethical risks” OR “ethical principles” OR ethics). The subject categories were focused on …",,Google Scholar
+Advancing transformative education: Generative AI as a catalyst for equity and innovation,,,"… in education: To ensure long-term success, this study will focus on creating a roadmap for 
+sustainable generative AI adoption in education. This … in integrating generative AI responsibly, …",,Google Scholar
+Implementation of ethics of using artificial intelligence in the education system in indonesia,,,"… the technology serves as an inclusive tool for education. This research adopts a qualitative 
+approach to explore the different aspects of AI in education, aiming to identify and analyze its …",,Google Scholar
+"[HTML][HTML] AI, Ethics, and Cognitive Bias: An LLM-Based Synthetic Simulation for Education and Research",,,"… AI use but lack empirical modeling of bias interactions. Consequently, a clear empirical gap 
+… Our LLM-generated synthetic behavior estimation experiment directly addresses this gap by …",,Google Scholar
 Generative Artificial Intelligence (AI) Tools in Higher Education: A Moral Compass for the Future?,,,"… in AI systems, they should understand where potential for bias can occur and advocate for 
 … facing education is using Generative AI tools for the purpose of detecting potential AI bias. …",,Google Scholar
-From hype to evidence: exploring large language models for inter-group bias classification in higher education,,,"… potential of LLM-based algorithms for detecting inter-group bias in educational texts, providing 
-empirical evidence to support the growing discourse around AI's role in Education. Those …",,Google Scholar
-Ethics of artificial intelligence in education,,,"… for a future where artificial intelligence plays a more significant role in education because, 
-while it … There is also a risk that AI education systems may prioritize a restricted conception of …",,Google Scholar
+Promoting ethical use of generative AI in education,,,"… generative AI to perpetuate existing biases in training data. This editorial discusses three 
+major concerns in generative AI use in education … five principles of AI ethics. The editorial also …",,Google Scholar
+Early perceptions of teaching and learning using generative AI in higher education,,,"… Bias is also a concern when it comes to the data that the model is trained on. Artificial 
+Intelligence bias is a phenomenon that occurs with AI systems “when an AI algorithm produces …",,Google Scholar
+Ethical framework for AI education based on large language models,,,"… upon and reference technology ethics and utilitarian ethics as our methodological … in 
+education. This section systematically dissects the principles and structures of artificial intelligence …",,Google Scholar
+"[PDF][PDF] Exploring the impact of generative AI technologies on education: Academic expert perspectives, trends, and implications for sustainable development goals",,,"… Abstract: This study provides empirical data on the impact of generative AI in education, 
+with special emphasis on sustainable development goals (SDGs). By conducting a thorough …",,Google Scholar
+The robots are here: Navigating the generative ai revolution in computing education,,,"… Ethics to frame a discussion of ethical issues raised by the use of large language models in 
+computing education… /tools on various computing education datasets, and highlight the extent …",,Google Scholar
+"The generative AI landscape in education: Mapping the terrain of opportunities, challenges, and student perception",,,"… Generative AI integration in education, a survey is designed and analyzed that includes both 
+closed-ended and open-ended questions, capturing quantitative … student perception survey …",,Google Scholar
+ChatGPT and beyond: The generative AI revolution in education,,,"… survey paper, we will explain the history and evolution of generative AI models and their 
+application in education … on the use of generative AI and ChatGPT in education (Section 4), and …",,Google Scholar
+"Philosophical, legal, ethical, and practical considerations in the emerging use of generative AI in academic journals: Guidelines for research in science education  …",,,"… in several additional areas, including ethics, philosophy, copyright, authorship attribution … 
+education, including those that will be curated in our “Artificial Intelligence in Science Education…",,Google Scholar
+Social-emotional learning and generative AI: A critical literature review and framework for teacher education,,,"… artificial intelligence (GenAI) and social-emotional learning (SEL), analyzing its implications 
+for teacher education. GenAI … Using thematic review methods, we review the empirical and …",,Google Scholar
+The integration of artificial intelligence (ai) into education systems and its impact on the governance of higher education institutions,,,"… Method: The research methodology in this article is based on a qualitative approach, 
+combining a review of existing literature with case studies of AI implementation in educational …",,Google Scholar
+Use of LLM tools within higher education: Report 2,,,"… After screening and de-duplication, 147 articles met our inclusion criteria (empirical, … 
+relating to the use of Large Language Models (LLMs) in higher education. Furthermore, it covers …",,Google Scholar
+The social impact of using artificial intelligence in education,,,"… artificial intelligence in education will increase inequality when it comes to the access to 
+education … consider that the use of artificial intelligence in education will create a more educated …",,Google Scholar
+[PDF][PDF] LLM-based literature recommender system in higher education: A case study of supervising students' term papers,,,"… Exploring how to apply artificial intelligence (AI) technologies in daily teaching and learning 
+in higher education [1, 2], this study focuses on a challenging and representative application …",,Google Scholar
+AI Literacy and LLM Engagement in Higher Education: A Cross-National Quantitative Study,,,"… a cross-national quantitative analysis of how university students in the United States and 
+Bangladesh interact with Large Language Models (LLMs). Based on an online survey of 318 …",,Google Scholar
+The impact of Artificial Intelligence (AI) on global higher education: Opportunities and challenges of using ChatGPT and Generative AI,,,"… This chapter explores the nuanced implications of artificial intelligence (AI), … of generative 
+AI in academic research. By weaving together our professional perspectives with empirical …",,Google Scholar
+Ethics education for healthcare professionals in the era of ChatGPT and other large language models: Do we still need it?,,,"… ethics education as part of healthcare professional training given the abilities of chatGPT (generative 
+pre-trained transformer) and other large language models (LLM). We … to build ethics …",,Google Scholar
+Against Artificial Education: Towards an Ethical Framework for Generative Artificial Intelligence (AI) Use in Education.,,,"… The arrival of generative artificial intelligence (AI) is … surrounding ethics, ontology, technology, 
+and education, the … the use and ethics of AI in modern education contexts regarding human …",,Google Scholar
+The potential impact of Artificial Intelligence on equity and inclusion in education,,,"This working paper reviews the impact of Artificial Intelligence (AI) on equity and inclusion in 
+education, focusing on learner-centred, teacher-led and other institutional AI tools. It …",,Google Scholar
+The rise of artificial intelligence in educational measurement: Opportunities and ethical challenges,,,"… Also, we discuss other ethical concerns, such as automation bias and the environmental 
+impacts of AI tools in education. Through a detailed exploration of these subdomains, we intend …",,Google Scholar
+Llms are biased teachers: Evaluating llm bias in personalized education,,,"… • We demonstrate that all frontier large language models exhibit similar biases, with the 
+highest relative to both income and disability status. We find the lowest bias exists for sex/gender …",,Google Scholar
+""" The teachers are confused as well"": A Multiple-Stakeholder Ethics Discussion on Large Language Models in Computing Education",,,"… LLM policies. Our main contributions are three-fold. First, we provide timely empirical evidence 
+on LLMs in CS education, … coders’ responsibility to understand LLM limitations. Second, …",,Google Scholar
+[HTML][HTML] Scaffolding critical thinking with generative AI: Design principles for integrating large language models in higher education,,,"… Large Language Models (LLMs) such as GPT-4 and DeepSeek R1 is transforming 
+learning in higher education… , educational theory, and AI ethics to develop a design-oriented …",,Google Scholar
+[PDF][PDF] Generative artificial intelligence and education: An analysis from multiple perspectives,,,"… As we navigate this new technological landscape, we must balance bold exploration with a 
+solid commitment to ethics and equity, ensuring that the education of the future leverages the …",,Google Scholar
+Pedagogical applications of generative AI in higher education: A systematic review of the field,,,"… Through a thematic analysis of challenges reported in 37 empirical studies, this section 
+explores critical barriers to integrating GenAI into higher education practices. Twenty-five distinct …",,Google Scholar
+A Justice Lens on Fairness and Ethics Courses in Computing Education: LLM-Assisted Multi-Perspective and Thematic Evaluation,,,"… addressing fairness and ethics in artificial intelligence (AI), … asked a large language model 
+(LLM) to review syllabi through a … We also prompted the LLM to identify thematic trends across …",,Google Scholar
+Generative artificial intelligence (AI) education policies of UK universities,,,"… However, others recommended users to seek guidance from their own ethics faculty before 
+… Hartley (Eds.), Using generative AI effectively in higher education – Sustainable and ethical …",,Google Scholar
+Artificial intelligence in education: Challenges and opportunities for sustainable development,,,"… connected to the internet, the country is ready for the largest digital education experiment 
+in the world. One of the biggest breakthroughs so far in China is the experimental design to …",,Google Scholar
+[LIVRO][B] Generative AI in higher education: The ChatGPT effect,,,"… on generative AI in education. It covers all the important components that educators need to 
+succeed with generative AI, … Qualitative data enriches the chapter, offering a comprehensive …",,Google Scholar
+[HTML][HTML] Generative AI and academic integrity in higher education: A systematic review and research agenda,,,"… GenAI’s role in higher education from January 2021 to December … Our synthesis methods 
+involved qualitative analysis to … We critically assessed the risk of bias in included studies and …",,Google Scholar
+"Investigating the higher education institutions' guidelines and policies regarding the use of generative AI in teaching, learning, research, and administration",,,"… , generative AI output has both explicit and implicit biases baked into it, including stereotypes. 
+It won’t be possible to entirely avoid bias in generative AI, … nature of implicit bias. Be aware …",,Google Scholar
+[PDF][PDF] The ethics of artificial intelligence in the era of generative AI,,,"… As predictive and generative AI continue to penetrate every sector of our society, from the 
+arts and journalism to science and education, these ethical considerations have become …",,Google Scholar
+The impact of generative AI on school music education: Challenges and recommendations,,,"… bias, originality, equity, and the ethical use of generative AI in school music education … a 
+review of current applications of generative AI in music education, in the process proposing a set …",,Google Scholar
+[PDF][PDF] Immersive Equity: Virtual Reality and Agentic Artificial Intelligence as Catalysts for Equity in Education,,,"… Sixteen empirical studies meeting the final inclusion criteria … related to data privacy and 
+algorithmic bias. However, cross-study … frameworks for algorithmic bias and biometric data ethics. …",,Google Scholar
+[PDF][PDF] Systematic review of research on artificial intelligence applications in higher education–where are the educators?,,,"… an AI ethics framework for Australia.… of artificial intelligence in higher education, it is 
+desirable to clarify terminology. Thus, in the next section, we explore definitions of AI in education, …",,Google Scholar
+Adoption of artificial intelligence in higher education: an empirical study of the UTAUT model in Indian universities,,,"… AI in higher education. In order to investigate the application of artificial intelligence (AI) in 
+higher education … AI adoption in the context of higher education. We go further, examining the …",,Google Scholar
+The role of large language models in personalized learning: a systematic review of educational impact,,,"… Studies were included based on their emphasis on knowledge enhancement and 
+excluded if they lacked empirical evidence or focus on traditional education systems. Table 4 …",,Google Scholar
+"Generative AI and future education: a review, theoretical validation, and authors' perspective on challenges and solutions",,,"… education has become a subject of ongoing debate. This review examines the challenges of 
+using Gen AI like ChatGPT in education … well as discrimination and bias. Additionally, there …",,Google Scholar
+Ethics of artificial intelligence in academia,,,"… we extend this discussion to broader AI ethics concepts and draw from past experiences and 
+… premise of AI and Ethics to better understand the role of AI in education, content generated …",,Google Scholar
+Effects of LLM use and note-taking on reading comprehension and memory: A randomised experiment in secondary schools,,,"Students’ rapid uptake of Generative Artificial Intelligence tools, particularly large language 
+models (LLMs), raises urgent questions about their effects on learning. We compared the …",,Google Scholar
+Artificial intelligence (AI) integration in higher education: navigating opportunities and ethical frontiers in education with advanced technologies,,,"… We must create practical ethics education if we are to succeed in this endeavor (Lim, Seo, 
+and Kwon 2022). Teaching quality, student management, faculty construction, and teaching …",,Google Scholar
+Evaluating the role of Artificial Intelligence in sustainable development goals with an emphasis on “quality education”,,,"… in education or its role in sustainable development, they often lack a targeted analysis of AI’s 
+impact on the quality and equity of education … the quality and equity of education [26, 27]. By …",,Google Scholar
+A year of generative AI in English language teaching and learning-A case study,,,"… education, our current knowledge of how generative AI … generative AI in foreign language 
+learning and teaching. The study provides insights into the effective integration of generative AI …",,Google Scholar
+[PDF][PDF] Generative AI and higher education: Challenges and opportunities,,,"… with comprehensive research and detailed empirical analysis. … on higher education namely 
+in three main dimensions: educators (Section 2), students (Section 3) and higher education …",,Google Scholar
+Generative Artificial Intelligence in Education: From Deceptive to Disruptive.,,,"… -Vivar and FJ García-Peñalvo, “Reflections on the ethics, potential, and challenges of artificial 
+intelligence in the framework of quality education (SDG4),” Comunicar, vol. 31, no. 74, pp. …",,Google Scholar
+"Exploring generative AI policies in higher education: A comparative perspective from China, Japan, Mongolia, and the USA",,,"… toward Generative AI in higher education, Japan and the USA … to Generative AI in education. 
+We focus on comparing the … Mongolia mentions equity and access to education to deliver …",,Google Scholar
+Cognitive bias in generative AI influences religious education,,,"… artificial intelligence (AI) in shaping religious cognition, with particular emphasis on its 
+implications for religious education. By … , the study reveals that generative AI not only reflects but …",,Google Scholar
+Transformations in academic work and faculty perceptions of artificial intelligence in higher education,,,"… to a broader understanding of how higher education is adapting to artificial intelligence. … 
+empirical literature to examine how artificial intelligence is reshaping academic work in …",,Google Scholar
+Generative AI and the future of connectivist learning in higher education,,,"… Following this, we outline our qualitative research methodology and the multi-stakeholder 
+interviews conducted. We then present our findings, followed by a discussion of the …",,Google Scholar
+Large language models in education: Vision and opportunities,,,"… education raises ethical and moral questions, such as data privacy, algorithm bias, and 
+fairness in artificial intelligence. It … Balancing personalization and social equity: Smart education …",,Google Scholar
+Trends and emerging themes in the effects of generative artificial intelligence in education: A systematic review,,,"… of Generative Artificial Intelligence (GenAI) in education from … ethical challenges such as 
+algorithmic bias, data privacy, and the … generative AI in curriculum development: A case study in …",,Google Scholar
+Generative AI in higher education: Educators' perspectives on academic learning and integrity,,,"… of literature on GAI in education by providing empirical insights into how the use of GPTs 
+influence the teaching and learning process in higher education and what are the perceived …",,Google Scholar
+Generative AI in engineering and computing education: A scoping review of empirical studies and educational practices,,,"… GenAI in engineering and computing education from K-12 to tertiary levels. It is worth 
+mentioning that this scoping review focuses on empirical research with evidence of application and …",,Google Scholar
+Generative AI and educational assessments: A systematic review,,,"… the existing empirical evidence on this topic. Systematically reviewing 19 empirical studies 
+published within 10 years, starting in 2014, this study assessed the current state of empirical …",,Google Scholar
+Generative AI in education: Student skills and lecturer roles,,,"… a quantitative survey to explore essential student skills and lecturer strategies for integrating 
+GenAI into education. … The top 10 student skills formed the basis of our survey design. The …",,Google Scholar
+Software engineering education must adapt and evolve for an llm environment,,,"… We also intend to look at questions as: ● How to ensure the quality, reliability, security, 
+and ethics of generative AI outputs and systems, especially in safety-critical or high-stakes …",,Google Scholar
+The ethics of using AI in K-12 education: A systematic literature review,,,"… AI ethics and guide the direction of future curricula for schools, … in the ethics of AI within the 
+context of K-12 education. From the … Artificial Intelligence (AI) has become prevalent in nearly …",,Google Scholar
+Education in the age of Generative AI: Context and Recent Developments,,,"… concerns, including equity issues, data privacy, bias, human interaction, … Another concern 
+involves the potential for bias and … regularly monitor them to mitigate bias and ensure fairness. …",,Google Scholar
+… a LargeLanguage Model (LLM): A qualitative study on how students and educatorsperceive the use of LLMs such as ChatGPT withinconventional university education …,,,"… valuable insights into the influence of Large Language Models in higher education. … a 
+qualitative approach for analyzing survey data concerning the use of Large To analyze survey data …",,Google Scholar
+Generative AI in education and research: A systematic mapping review,,,"… of GenAI into K-12 education. The failure to understand the challenges and opportunities 
+specific to K-12 education perpetuates educational inequality and also reflects a myopic focus …",,Google Scholar
+Unveiling the potential: Artificial intelligence's negative impact on teaching and research considering ethics in higher education,,,"… Using an experimental philosophy approach and an online survey with case … generative 
+AI on university students and higher education, using a mixed-methods approach with a survey …",,Google Scholar
+A scoping review of empirical studies on generative artificial intelligence in language education,,,"… Artificial Intelligence (AI) has long played a crucial role in language education, and the 
+emergence of Generative AI … quality empirical research on GAI in language education are lacking. …",,Google Scholar
+Impact of artificial intelligence on higher education: A literature review,,,"… In this regard, various studies underscore the importance of addressing biases and promoting 
+equity in AI across various domains, including education, healthcare, and mental health […",,Google Scholar
+Generative AI in legal education: A two-year experiment with ChatGPT,,,"… around the use of generative AI in legal education. Currently, … reporting experiments conducted 
+in law schools, with the aim … Second, I present findings from a two-year experiment of my …",,Google Scholar
+Integrating generative AI in management education: A mixed-methods study using social construction of technology theory,,,"… education. Thereafter, the qualitative insights gathered from management education 
+experts helped in identifying various focal themes like assessment, curriculum, pedagogy, …",,Google Scholar
+"Educators' perspective on artificial intelligence: equity, preparedness, and development",,,"… quantitative or qualitative findings alone could not provide (Dawadi et al., Citation2021). 
+Where the quantitative … used technology and AI for education, the qualitative data provided the …",,Google Scholar
+Ethical principles for artificial intelligence in education,,,"… Finally, we conclude by highlighting the significance of ethics in the contemporary discussion 
+of education through which propose several key ethical principles that underpin ethical …",,Google Scholar
+[HTML][HTML] Potential risks of generative artificial intelligence integration into K-12 education: A scoping review,,,"… integration of Generative AI (GenAI) into K-12 education has … Existing reviews have prioritized 
+higher education and … This scoping review synthesizes 22 empirical studies from K-12 …",,Google Scholar
+Evolution of learning: Assessing the transformative impact of generative AI on higher education,,,"… analysis, utilizing both the survey findings and insights from our literature review to explore 
+potential future paths for integrating GenAI into higher education. The creation of credible …",,Google Scholar
+A comprehensive review of large language models: issues and solutions in learning environments,,,"… Figure 1 illustrates the architecture of LLM in education. … , such as the need for bias mitigation, 
+privacy protections, and … demonstrating LLM applications in education. These include: …",,Google Scholar
+[HTML][HTML] Examining the role of generative AI in enhancing social work education: An analysis of curriculum and assessment design,,,"… case study that aligns with what we have discussed in the unit about youth work ethics and 
+… Furthermore, using GAI to create a case study with the same aim and purpose, but with new …",,Google Scholar
+"Generative AI in higher education: Perspectives of students, educators and administrators",,,"… to concerns about disrupting traditional learning and assessment methods, raising questions 
+about academic integrity, and provoking ethical dilemmas related to data privacy and bias. …",,Google Scholar
+[HTML][HTML] Analyzing the impact of a structured LLM workshop in different education levels,,,"… approach to teaching students in schools and higher education the correct way to … experiment. 
+To obtain more varied results, several groups were targeted: 120 students in high schools …",,Google Scholar
+A systematic literature review to implement large language model in higher education: issues and solutions,,,"… artificial intelligence, particularly for education. These models have redefined various sectors, 
+most notably education… challenges related to data privacy, bias in AI, and the importance of …",,Google Scholar
+Advancing educational equity: The role of generative ai in creating accessible and inclusive higher education,,,"… This article explores the transformative role of generative AI in creating more accessible 
+and inclusive higher education environments. It examines how AI technologies revolutionize …",,Google Scholar
+'I'm Categorizing LLM as a Productivity Tool': Examining Ethics of LLM Use in HCI Research Practices,,,"… Education on research ethics for LLM use should be a necessary component of HCI research 
+and practice, given LLMs’ well-documented risks and adverse impacts [120]. One avenue …",,Google Scholar
+Artificial intelligence in education: Addressing ethical challenges in K-12 settings,,,"Artificial intelligence (AI) is a field of study that combines the applications of machine learning, 
+algorithm productions, and natural language processing. Applications of AI transform the …",,Google Scholar
+"[PDF][PDF] FairAIED: Navigating fairness, bias, and ethics in educational AI applications",,,"… The integration of Artificial Intelligence (AI) into education has transformative potential, 
+providing tailored learning experiences and creative instructional approaches. However, the …",,Google Scholar
+Artificial intelligence chatbots and large language models in dental education: worldwide survey of educators,,,"… use and implications of AI in dental education was drafted in clear, jargon… education experts 
+reviewed the survey for relevance and clarity, offering improvement suggestions. The survey …",,Google Scholar
+Reshaping higher education in MENA with generative AI: A systematic review,,,"… To further explore this region's educational practices with generative AI, this chapter … the 
+MENA's integration of generative AI in higher education. Using qualitative thematic analysis, four …",,Google Scholar
+Generative AI and teachers--for us or against us? A case study,,,"… of a survey on the adoption of generative artificial intelligence (… of education by GenAI, 
+particularly large language models (… We prepared the online survey according to best practices …",,Google Scholar
+From Prediction to Pedagogy: A Systematic Review and Integrated Framework for LLM Adoption in Higher Education.,,,"… theoretical frameworks used across 29 empirical studies on LLM adoption in higher education 
+from 2023 to May 2025. All studies employed path-based quantitative designs, reporting …",,Google Scholar
+Transforming education with generative AI (GAI): Key insights and future prospects,,,"… case study on the deployment of a multimodal LLM, which incorporates a three-phase prompt 
+learning methodology, within a mathematics instructional setting. This case study aims to …",,Google Scholar
+[PDF][PDF] Generative AI in science education: A learning revolution or a threat to academic integrity? A bibliometric analysis,,,"… One of the primary benefits of generative AI in STEM education is its ability to … Generative 
+AI also has the potential to address issues related to equity and diversity in STEM education. By …",,Google Scholar
+Higher education's generative artificial intelligence paradox: The meaning of chatbot mania,,,"… of AI in higher education must be grounded in the principles of ethics, equity, and the … to 
+contribute to the ongoing discourse on how higher education institutions can navigate the rise of …",,Google Scholar
+Leveraging artificial intelligence as a learning tool in higher education,,,"… The ethics of artificial intelligence in education: A framework for responsible use. Journal 
+of Educational Computing Research, 59(5), 937-962. https://doi.org/10.1177/…",,Google Scholar
+ChatGPT for education research: Exploring the potential of large language models for qualitative codebook development,,,"… best work together for qualitative coding. As the … Large Language Models can be integrated 
+into the inductive codebook development process for qualitative data analysis in education …",,Google Scholar
+Student perspectives on using a large language model (llm) for an assignment on professional ethics,,,"… as part of discussing and writing a group assignment on professional ethics. An LLM was … 
+In the following, we introduce the course design and the theory in engineering ethics education …",,Google Scholar
+How can Generative AI support education?,,,"… CASE STUDY We now present a case study for the use of GenAI. It refers to a first year, 
+second semester, Java Programming course offered in four Engineering degrees in the …",,Google Scholar
+[PDF][PDF] Generative AI and critical thinking in online higher education: challenges and opportunities,,,"… Towards Intelligent-TPACK: An empirical study on teachers' professional knowledge to 
+ethically integrate artificial intelligence (AI)-based tools into education. Computers in Human …",,Google Scholar
+"[PDF][PDF] Pedagogical alignment of large language models (llm) for personalized learning: a survey, trends and challenges",,,"… This paper provides a comprehensive survey of the current state of LLMs in education, 
+focusing on several key areas. We begin with an exploration of Knowledge Editing Techniques (…",,Google Scholar
+"Artificial intelligence in education, bridging community gap: a phenomenological approach",,,"… The participants particularly praised this equity-driven approach to education and emphasized 
+the importance of creating an inclusive learning environment where every student can …",,Google Scholar
+[HTML][HTML] The impact of prompt engineering and a generative AI-driven tool on autonomous learning: A case study,,,"… improve professional second-language education, yet no … case study evaluates how teaching 
+prompt engineering concepts and applying them through Generative Artificial Intelligence (…",,Google Scholar
+ChatGPT and its ethical implications for STEM research and higher education: a media discourse analysis,,,"… period of post-digital education and bio-digital technology, artificial intelligence (AI) has played 
+… To this end, this study adopts the concepts of research ethics, academic publishing, and …",,Google Scholar
+"[HTML][HTML] Students' use of large language models in engineering education: A case study on technology acceptance, perceptions, efficacy, and detection chances",,,"… engineering higher education through an in-depth case study… combining conceptualization 
+and empirical evidence analysis… The results contribute to qualitative evidence by highlighting …",,Google Scholar
+Challenges for higher education in the era of widespread access to Generative AI,,,"… generative AI systems, particularly in the context of educational use, and to analyse the 
+results of a survey … students’ use and perception of generative AI systems. Based on these two …",,Google Scholar
+Artificial intelligence ethics from the perspective of educational technology companies and schools,,,"This chapter discusses the ethical issues and solutions that educational technology (EdTech) 
+companies and schools consider during their daily work. As an example, two Finnish …",,Google Scholar
+Ethics concerns in artificial intelligence use in education,,,"… The goal of the research is to provide an overview of key ethical concerns in the use of 
+Artificial Intelligence (AI) in educational settings. Intelligent systems (Artificial Intelligence) are …",,Google Scholar
+"Generative Artificial Intelligence (GenAI) for Academic Writing in Higher Education: A Scoping Review of Applications, Challenges, and Implications.",,,"… higher-education settings were included, and findings were synthesized via convergent 
+integration that juxtaposed quantitative distributions with qualitative … -reviewed empirical studies …",,Google Scholar
+"Artificial intelligence in higher education: exploring faculty use, self-efficacy, distinct profiles, and professional development needs",,,"… Faculty perspectives on the use of artificial intelligence (AI) in higher education are crucial for 
+AI’… The respondents saw greater equity in education as AI’s greatest benefit, while students …",,Google Scholar
+"Artificial intelligence (AI), conversational agents, and generative AI: implications for adult education practice and research",,,"… They reduce critical thinking making students more prone to bias, fake information, or opinions 
+rather than trustworthy references. Researchers also stress conversational agents’ lack of …",,Google Scholar
+[HTML][HTML] A comparative study of student perceptions on generative AI in programming education across Sub-Saharan Africa,,,"… access to knowledge and reshape programming education. This quantitative study examines 
+the impact of these AI tools on fostering inclusive education in Kenya, Nigeria, and South …",,Google Scholar
+"Generative AI in education: A study of educators' awareness, sentiments, and influencing factors",,,"… survey and interview that these generative AI-based tools are going to be part of our education 
+… Existing uncertainty surrounding AI tools and LLM-based technologies in education calls …",,Google Scholar
+"[PDF][PDF] Leveraging ChatGPT for rethinking plagiarism, digital literacy, and the ethics of Co-authorship in higher education: A position paper and comparative critical …",,,"… artificial intelligence tools. Despite the rapid adoption of generative AI tools in higher education 
+… technologyenhanced learning experiences within higher education are still evolving. To …",,Google Scholar
+"[HTML][HTML] Student perceptions of AI-assisted writing and academic integrity: ethical concerns, academic misconduct, and use of generative AI in higher education",,,"… The rise of generative AI in higher education has disrupted … In this study, a survey of 401 
+students from major US … AI, this study suggests that education about AI ethics and the risk of AI …",,Google Scholar
+[HTML][HTML] Generative AI and the future of education: Ragnarök or reformation? A paradoxical perspective from management educators,,,"… tension transpiring in the field of education. Given that Generative AI is rapidly emerging as 
+a … aims to (i) reconcile the great debate on Generative AI in order to (ii) lay the foundation for …",,Google Scholar
+"Navigating llm ethics: Advancements, challenges, and future directions",,,"… , reports, case studies, and frameworks regarding LLM ethics, written in English. Given that 
+there is not a specific database on LLM ethics in particular, we used the Preferred Reporting …",,Google Scholar
+[HTML][HTML] The impact of artificial intelligence on personalized learning in higher education: A systematic review,,,"… Additionally, considerations regarding the ethical implications of AI in education—such as 
+student data privacy, algorithmic bias, and academic integrity—were acknowledged to reflect …",,Google Scholar
+"Generative AI for education (GAIED): Advances, opportunities, and challenges",,,"… This survey article has grown out of the GAIED (pronounced “guide”) workshop organized 
+… to explore the potential of generative AI for enhancing education. This article aims to provide …",,Google Scholar
+An analysis of the generative AI use as analyst in qualitative research in science education,,,"… to qualitative empirical … Generative AI tool is informed of a specific, unfamiliar theoretical 
+reference, it can astoundingly produce not only a competent interpretation for its qualitative …",,Google Scholar
+A Survey on Responsible Generative AI: What to Generate and What Not,,,"In recent years, generative AI (GenAI), like large language models and text-to-image models… 
+of responsible GenAI across healthcare, education, finance, and artificial general …",,Google Scholar
+Generative AI (GenAI) in the language classroom: A systematic review,,,"… of generative AI (GenAI) into language education has … gap by examining 49 empirical studies 
+published between January … Findings show that higher education was the dominant setting …",,Google Scholar
+Navigating the adoption of artificial intelligence in higher education,,,"… By employing a quantitative research design, this study will leverage Structural … empirical 
+testing, thereby enriching the scholarly discourse surrounding AI adoption in higher education. …",,Google Scholar
+"Development of Evidence‐Based Guidelines for the Integration of Generative AI in University Education Through a Multidisciplinary, Consensus‐Based Approach",,,"… of AI use: the development of an Education Ethics Committee; the education of the existing 
+Research Ethics Committee; the appointment of a Chief AI Ethics officer. In their review of AI …",,Google Scholar
+Barriers to and opportunities for the adoption of generative artificial intelligence in higher education in the global south: Insights from Sri Lanka,,,"… in the higher education … artificial intelligence (GenAI) in higher education and explore 
+potential opportunities, with a specific focus on Sri Lanka as the country setting. Using a case study …",,Google Scholar
+Catalyst for future education: An empirical study on the Impact of artificial intelligence generated content on college students' innovation ability and autonomous …,,,"… of artificial intelligence (AI) technology, particularly in its application within the field of education, 
+artificial intelligence … the application of AIGC technology in education and its impact on …",,Google Scholar
+[PDF][PDF] Ethics of generative AI use in Higher Education: A focus group study,,,"Generative Artificial Intelligence (GenAI) tools like ChatGPT and DALL-E are increasingly 
+impacting all aspects of our lives, including education. Educators and students are trying to …",,Google Scholar
+[HTML][HTML] Harnessing generative AI in chemical engineering education: Implementation and evaluation of the large language model ChatGPT v3. 5,,,"… to the qualitative data obtained in … LLM output, of the potential pitfalls associated with its 
+use, and concerns over the quality of the output. As such, this work provides not just a case study …",,Google Scholar
+Exploring the role of AI in higher education: a natural language processing analysis of emerging trends and discourses,,,"… scientific discourse on artificial intelligence (AI) in higher education using Natural Language 
+… The frequency analysis reveals concerns about educational equity, including disparities in …",,Google Scholar
+"[HTML][HTML] Investigating the tripartite interaction among teachers, students, and generative AI in EFL education: A mixed-methods study",,,"… artificial intelligence (AI) in English as a Foreign Language (EFL) education, addressing 
+significant gaps in empirical … on the ecological views of AI in education, the study conceptualizes …",,Google Scholar
+Exploring undercurrents of learning tensions in an LLM-enhanced landscape: A student-centered qualitative perspective on LLM vs Search,,,"… integrated into education. Yet, there is limited research capturing students’ complex, qualitative 
+… Here, we present qualitative results from an interview with 20 university students who are …",,Google Scholar
+Perceived artificial intelligence readiness in medical and health sciences education: a survey study of students in Saudi Arabia,,,"… survey was conducted between October and November 2023, targeting students from various 
+universities and medical schools … Data were collected via a 20-minute Google Form survey…",,Google Scholar
+Artificial intelligence in higher education: Research notes from a longitudinal study,,,"… of GenAI in higher education comes with … ethics and academic misconduct. Therefore, our 
+study aims to understand the impact of GenAI on students' experiences in the higher education …",,Google Scholar
+Artificial intelligence in education: A review,,,"… Generally, a qualitative research design, incorporating qualitative content and thematic 
+analysis is used to assess the different ways. Thematic and content analysis entails undertaking …",,Google Scholar
+"[HTML][HTML] Machine learning and generative AI in learning analytics for higher education: A systematic review of models, trends, and challenges",,,"… applications remain limited and underexplored in terms of pedagogy and ethics. Some 
+studies caution that GenAI’s “black-box” nature and lack of pedagogical grounding may …",,Google Scholar
+Qualitative ethical technology assessment of artificial intelligence (AI) and the internet of things (IoT) among filipino Gen Z members: implications for ethics education …,,,"… study can inform AI ethics education in a number of ways. Teaching AI ethics should be 
+degree-… AI ethics education should also make students aware about autonomy, beneficence, non-…",,Google Scholar
+Postplagiarism: Transdisciplinary ethics and integrity in the age of artificial intelligence and neurotechnology,,,"… ethical implications of advanced technologies in education, emphasizing that such research 
+can be … of ubiquitous artificial intelligence and neurotechnology (eg, BCIs) in education are …",,Google Scholar
+A complete survey on llm-based ai chatbots,,,"… In addition to what we have discussed so far, LLMbased chatbots are transforming education 
+through numerous other innovative approaches. For example, they offer grammar exercises…",,Google Scholar
+[HTML][HTML] Artificial intelligence and the transformation of higher education institutions: A systems approach,,,"… what is new about generative AI in the broader historical context of AI use in higher education. 
+… , which drives decision bias, which leads to even more human bias and bias in the data. …",,Google Scholar
+Artificial intelligence and quality education: the need for digital culture in teaching,,,"… Education of quality is often defined through the lens of equity and inclusivity, concepts 
+that have been central to sociological discourse. Equity in education means recognizing and …",,Google Scholar
+Is ChatGPT an opportunity or a threat?: Preventive strategies employed by academics related to a GenAI-based LLM at a faculty of education,,,"… Literature and empirical findings in this study reported two … based LLM research in the 
+context of a faculty of education. … artificial intelligence applied by academics in education. The …",,Google Scholar
+[HTML][HTML] Teaching and learning with AI: a qualitative study on K-12 teachers' use and engagement with artificial intelligence,,,"IntroductionAs artificial intelligence technologies rapidly enter educational settings, teachers 
+find themselves navigating fundamental pedagogical shifts while maintaining professional …",,Google Scholar
+[HTML][HTML] Transforming education: A comprehensive review of generative artificial intelligence in educational settings through bibliometric and content analysis,,,"… artificial intelligence (GAI) emerges as a transformative force, revolutionizing education. … 
+, presents a comprehensive analysis of GAI in education, synthesizing key insights from a …",,Google Scholar
+Analysis of Artificial Intelligence Policies for Higher Education in Europe.,,,"… The uptake of these tools has given rise to a debate in education institutions about readiness, 
+ethics, trust, and the impact and added value of AI, as well as the need for governance, …",,Google Scholar
+"An exploratory survey about using ChatGPT in education, healthcare, and research",,,"… The introduction of OpenAI’s ChatGPT has delivered large language model (LLM) systems 
+… multiplying possible use cases of LLM, especially in education, healthcare and research …",,Google Scholar
+[PDF][PDF] Revitalizing the higher education curriculum through an artificial intelligence approach: An overview,,,"… adopts a quantitative approach with a survey design (… Based on the survey results, it can be 
+identified that the majority … of Artificial Intelligence (AI) in learning in higher education. Of the …",,Google Scholar
+[HTML][HTML] A systematic review of generative AI for teaching and learning practice,,,"… Overall, our TM results indicate that topics such as the implications of GenAI, GenAI for 
+education and research, support systems, bias and inclusion, intelligent tutoring systems, …",,Google Scholar
+A tutorial for integrating generative AI in mixed methods data analysis,,,"… to use a generative AI platform to analyse quantitative and qualitative data and integrate … 
+for the qualitative phase or assist in designing an interview protocol based on the qualitative …",,Google Scholar
+[HTML][HTML] Designing digital escape rooms with generative ai in university contexts: A qualitative study,,,"… Despite these challenges, the potential of generative AI in education warrants critical 
+consideration. Empirical evidence [21,22,23] suggests that these tools can optimize innovative …",,Google Scholar
+[HTML][HTML] Cognitive dissonance in programming education: A qualitative exploration of the impact of generative AI on application-directed learning,,,"… this might mean for higher education practice. In this … qualitative data revealed trends in 
+the perceived advantages and disadvantages of using LLMs, as well as different levels of LLM …",,Google Scholar
+A review of the ethics of artificial intelligence and its applications in the United States,,,"… AI in Education Within the realm of education, the integration of artificial intelligence (AI) … 
+Artificial Intelligence in Education (AIEd) has demonstrated its potential to benefit not only …",,Google Scholar
+"Generative AI in higher education: Uncertain students, ambiguous use cases, and mercenary perspectives",,,"… Generative AI is not new, but recent progress in transformerbased neural networks has 
+produced large language models (… to demographic differences and issues of inequality and bias. …",,Google Scholar
+The role of generative AI in education: Perceptions of Saudi students,,,"… Student perspectives on the role of artificial intelligence in education: A survey-based 
+analysis. Journal of Educational Management and Learning, 1(1), 8–15. https://doi.org/10.60084/ …",,Google Scholar
+[HTML][HTML] Artificial Intelligence in Health Professions Education: Qualitative Study of Student Experiences,,,"Background Artificial intelligence (AI) is increasingly integrated into education and health care, 
+raising questions about how students use these technologies and how AI influences their …",,Google Scholar
+Artificial intelligence in education: Ethical considerations and insights from Ancient Greek philosophy,,,"… This concern extends to issues of equity in access to AI-enhanced education, as disparities 
+in technological resources could further widen the educational gap between privileged and …",,Google Scholar
+Artificial intelligence in education,,,"… An empirical study is conducted on elementary school teachers to analyze the determinants 
+of the adoption intention of ITLS. The moderation effect of the cognitive style on the adoption …",,Google Scholar
+[HTML][HTML] Towards Intelligent-TPACK: An empirical study on teachers' professional knowledge to ethically integrate artificial intelligence (AI)-based tools into education,,,"… The affordances of artificial intelligence (AI) have not been totally utilized in education. To … 
+Secondly, we built a model to investigate the interplay of TPACK components and ethics. The …",,Google Scholar
+[HTML][HTML] Shaping the future of higher education: A technology usage study on generative AI innovations,,,"… Artificial Intelligence (GAI) is rapidly reshaping the landscape of higher education, offering … 
+, and ethical concerns regarding data privacy and bias. Further, it emphasizes the importance …",,Google Scholar
+[HTML][HTML] Considerations for adapting higher education technology courses for AI large language models: A critical review of the impact of ChatGPT,,,"… In particular, the education sector is considered as one of the … Furthermore, many Higher 
+Education institutions are … and decision makers at Higher Education institutions concerning their …",,Google Scholar

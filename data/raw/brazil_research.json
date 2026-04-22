@@ -6,298 +6,46 @@
       "IA Generativa Ensino Superior Brasil universidade",
       "artificial intelligence education Brazil empirical",
       "ChatGPT educacao brasileira escola publica",
+      "estudo de caso IA educacao brasil",
+      "experiencia IA escola brasileira",
+      "impacto IA aprendizagem brasil dados",
       "Inteligencia Artificial educacao etica soberania digital Brasil",
       "IA educacao formacao docente Brasil BNCC inclusao digital",
       "artificial intelligence education equity Brazil social justice",
       "tecnologia educacao desigualdade digital Brasil"
     ],
     "year_filter": "2020-2026",
-    "total_papers": 30,
-    "empiricos": 27,
-    "teoricos": 3,
+    "total_papers": 26,
+    "empiricos": 14,
+    "teoricos": 12,
     "br_venues": 0,
-    "generated_at": "2026-04-20 19:33"
+    "generated_at": "2026-04-21 20:21"
   },
   "papers": [
     {
-      "paper_id": "2585b5c65d4bd33a96f90a01cc1965fb735c4888",
-      "title": "TutorIA: Desenvolvimento de um Assistente de Inteligência Artificial para Suporte a Estudantes na Educação a Distância",
-      "year": 2025,
-      "venue": "Anais da XIV Escola Regional de Informática de Mato Grosso (ERI-MT 2025)",
-      "is_brazilian_venue": false,
-      "abstract": "A Educação a Distância no Brasil apresenta altos índices de evasão, associados à distância comunicativa e ao isolamento dos estudantes. O artigo apresenta o TutorIA, um agente conversacional com Inteligência Artificial desenvolvido para a EaD do IFMT. A metodologia envolveu diagnóstico institucional e a criação de um protótipo funcional com o modelo Phi-4-mini e a técnica RAG. Os resultados indicam que o TutorIA oferece respostas rápidas e contextualizadas sobre questões acadêmicas e administrativas. A ferramenta contribui para reduzir o isolamento, minimizar a distância comunicativa e apoiar a retenção discente.",
-      "authors": [
-        "Henrique S. Cunha",
-        "A. B. S. Amaral",
-        "A. Silva",
-        "Pedro Clarindo da S. Neto",
-        "T. E. Leite",
-        "Larissa Mendes Medeiros",
-        "Cristiane da S. Ferreira",
-        "T. Lacerda",
-        "Rodolfo Rossmann Gonçalves"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 8,
-      "publication_types": [],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "e7d013265794f46b9226af9e339dfe7e92bbdbe7",
-      "title": "A Inteligência Artificial no contexto da Educação de Jovens Adultos e Idosos (EJAI): um relato a partir do olhar docente",
-      "year": 2025,
-      "venue": "Anais da I Escola Regional de Aprendizado de Máquina e Inteligência Artificial da Região Sul (ERAMIA-RS 2025)",
-      "is_brazilian_venue": false,
-      "abstract": "Este artigo é o resultado do trabalho de um grupo de educadores do Ensino de Jovens, Adultos e Idosos (EJAI), vinculados ao sistema nacional de aprendizagem e comércio (SENAC), que buscam, por meio de pesquisas e estudos, abordar a utilização da IA de maneira consciente e agradável, de forma que a IA seja uma ferramenta de aprendizado. Para isso, os educadores lançaram uma pesquisa sobre as ferramentas mais utilizadas pelos estudantes matriculados na EJAI em diferentes cidades do Brasil, para assim mapear como a IA auxilia nos estudos, e mais que isso, como a IA pode ser capaz de mostrar uma outra forma de avaliação para as escolas regulares.",
-      "authors": [
-        "A. K. Cabral",
-        "B. Rosso",
-        "M. Voges"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "ab7d2265e3ab3b2e1be1f1e64579fec787c77245",
-      "title": "Inteligência Artificial no Ensino de Geometria Espacial",
-      "year": 2024,
-      "venue": "EmRede - Revista de Educação a Distância",
-      "is_brazilian_venue": false,
-      "abstract": "O artigo investiga o impacto da IA no ensino de geometria espacial por meio de um jogoeducativo, implementado em uma escola pública do Norte do Brasil para o ensino fundamental.Utilizando uma abordagem quali-quantitativa e pesquisa-ação, foram aplicados questionários eobservações para avaliar o jogo na promoção de aprendizagem significativa e inclusão digital. Osresultados indicam que a IA pode ser adaptada com sucesso para ambientes educacionais, contribuindopara o interesse e a motivação dos alunos e apoiando o professor na facilitação do aprendizadoconectado ao cotidiano dos estudantes.",
-      "authors": [
-        "Claudiany Calaça de Sousa",
-        "M. F. Sobrinho",
-        "A. G. D. Silva"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 2,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "16620e68932037ca7178df4633e0949bc8d2ec85",
-      "title": "Para pensar o objeto da didática em sala de aula",
-      "year": 2024,
-      "venue": "Cadernos de Educação, Tecnologia e Sociedade",
-      "is_brazilian_venue": false,
-      "abstract": "Neste estudo, apresentamos os resultados de uma pesquisa que demonstrou que estudantes do ensino médio podem compreender fenômenos naturais por meio da exploração de modelos qualitativos de simulação como recurso didático. Utilizamos a abordagem Learning by Modelling (LbM), na qual os próprios estudantes constroem modelos usando técnicas de Inteligência Artificial (IA) baseadas em Raciocínio Qualitativo (RQ). A plataforma DynaLearn foi empregada como ferramenta de modelagem, permitindo a representação diagramática das relações causais entre os componentes de um sistema, além de funções matemáticas sem a necessidade de dados numéricos. Para a coleta de dados, nos apropriamos de questionários com questões fechadas, baseadas na escala Likert, e perguntas abertas. A pesquisa envolveu 39 estudantes da 1.ª série do ensino médio de uma escola pública em Goiás, Brasil. Os resultados indicam que a modelagem qualitativa fundamentada em IA é uma ferramenta potente para colaborar com os estudantes na compreensão da estrutura e do funcionamento de sistemas naturais. Além disso, os estudantes foram capazes de prever e explicar o comportamento dos fenômenos modelados em DynaLearn. Os dados encontrados sugerem que a construção e a manipulação de modelos qualitativos de simulação contribuíram para a compreensão de fenômenos no ensino de ciências.",
-      "authors": [
-        "Paulo Vitor Teodoro",
-        "P. Salles",
-        "Ricardo Gauche"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "6d27b293f28e7c0cc0722a89bfa71679718b2362",
-      "title": "Um estudo teórico sobre competências necessárias para compreender o uso da Inteligência Artificial na Educação",
-      "year": 2023,
-      "venue": "Etic@net. Revista científica electrónica de Educación y Comunicación en la Sociedad del Conocimiento",
-      "is_brazilian_venue": false,
-      "abstract": "Este artigo apresenta um estudo exploratório e interpretativo construído a partir de documentos, propostas curriculares de governos e sociedades científicas sobre alfabetização em Inteligência Artificial (IA). Em vários países a introdução de determinadas disciplinas desta área de conhecimento são introduzidas nas escolas. Nessa direção, em Portugal e no Brasil, a introdução do Pensamento Computacional é uma das estratégias para preparar os cidadãos para um mundo tecnológico no contexto da IA. Este trabalho visa identificar competências necessárias para o entendimento da IA, em particular, ChatGPT, e que possam ser desenvolvidas na Escola Básica. A pesquisa foi desenvolvida por meio de estudos do tipo levantamento bibliográfico, ou seja, estudos documentais que são realizados sobre qualquer tipo de documentação escrita. A coleta de informações foi feita por meio de registros de leituras da documentação. Uma reflexão sobre o papel transdisciplinar da Educação Matemática que está em constante inovação, por meio de teorias e metodologias que a sustentam, colaborou nesse aspecto ao evidenciar sua relação com a IA e permitir o desenvolvimento de habilidades necessárias para sua compreensão.",
-      "authors": [
-        "Celina Aparecida Almeida Pereira Abar",
-        "José Manuel Dos Santos Dos Santos",
-        "Marcio Vieira de Almeida"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 3,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "a8deb57c8827ef40bd2484c783277a3cfa68520b",
-      "title": "Percepções de professores de química da Amazônia paraense sobre a incorporação da inteligência artificial no ensino",
-      "year": 2024,
-      "venue": "Areté, Revista Digital del Doctorado en Educación de la Universidad Central de Venezuela",
-      "is_brazilian_venue": false,
-      "abstract": "Levando em consideração os desafios, dificuldades e anseios de docentes sobre a abordagem da Inteligência Artificial (IA) na educação, este artigo discute os resultados referentes a uma pesquisa de campo com abordagem qualitativa realizada dentro de um contexto de dois professores de química em uma escola da educação básica no estado do Pará, Brasil. Objetivando refletir sobre as concepções de professores, bem como, as necessidades de construção de conhecimento profissional quanto a Inteligência Artificial (IA) na prática docente em química na Amazônia paraense. As informações foram coletadas por meio de entrevistas semiestruturadas adotando como procedimento analítico a Análise Textual Discursiva – ATD com auxílio do software IRAMUTEQ. As análises e reflexões realizadas evidenciaram a íntima relação entre o anseio de ofertas de formação por meio do Estado voltadas para a IA e o acreditar que essa tecnologia poderá apoiar seu desenvolvimento profissional e construir metodologias que favoreçam o ensino de química. Para tanto defendemos a construção e oferta de formações com a perspectiva colaborativa, considerando contexto e território de onde acontece, e assim, imbricando conhecimento da IA para o ensino de química dentro de um processo formativo.",
-      "authors": [
-        "Loyde Mendes Gonçalves Teles",
-        "L. Pereira",
-        "L. Silva"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 41,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "cfc7899489d0c6373419399863d82c3c66170f76",
-      "title": "FORMAÇÃO CONTINUADA E TRANSFORMAÇÕES TECNOLÓGICAS: IMPLICAÇÕES PARA A ATUAÇÃO DO EDUCADOR",
-      "year": 2025,
-      "venue": "Revista Foco",
-      "is_brazilian_venue": false,
-      "abstract": "Este artigo analisa as implicações das transformações tecnológicas para a formação continuada de professores no Brasil atualmente, período marcado pela intensificação do uso das Tecnologias Digitais de Informação e Comunicação (TDIC) na educação e pela consolidação de políticas como a Política Nacional de Educação Digital (PNED). A revisão da literatura brasileira evidencia que a formação continuada permanece essencial para promover o desenvolvimento de competências digitais docentes, articular práticas pedagógica inovadora e enfrentar desigualdades de acesso. Os estudos apontam que modelos formativos centrados apenas em capacitações técnicas são insuficientes para promover mudanças profundas na prática pedagógica, sendo mais efetivos aqueles que integram teoria, prática, acompanhamento e reflexão coletiva. Além disso, emergem novas demandas relacionadas ao uso crítico de ferramentas digitais e de inteligência artificial na escola. Conclui-se que a formação continuada deve ser permanente, contextualizada e apoiada por políticas públicas, infraestrutura e suporte institucional capazes de fortalecer a atuação docente diante das rápidas transformações tecnológicas.",
-      "authors": [
-        "Denise Comin Silva Almeida",
-        "Paulo Edson de Oliveira",
-        "Elineide Alves Ferreira da Silva",
-        "M. Silva",
-        "Aparecida Kristênia de Oliveira",
-        "S. M. Ribeiro",
-        "Alda Maria Lina dos Santos Goulart",
-        "Libny Elisaura de Paula Helrigle Carvalho"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 3,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "10cf4cd81665a5cd1eb76ff7065c87a434df3a68",
-      "title": "Da inovação à crise:",
+      "paper_id": "38481401c4e32cadab759714dad3fdb807064f98",
+      "title": "Entre CAD y inteligencia artificial: utilidad situada en la arquitectura brasileña",
       "year": 2026,
-      "venue": "Revista Desenvolvimento &amp; Civilização",
+      "venue": "Sapiens in Education",
       "is_brazilian_venue": false,
-      "abstract": "O artigo apresenta como ideologias tecnológicas originadas no Vale do Silício, especialmente as associadas à Inteligência Artificial (IA), atuam na produção e intensificação da crise educacional contemporânea. O objetivo voltou-se a analisar a influência das Big Techs e das Edtechs sobre políticas, currículos e práticas escolares no Brasil, refletindo sobre os desdobramentos para os docentes, o currículo e a função da escola. O método utilizado foi revisão teórica e análise de informações da educação brasileira, com apoio em literatura sobre plataformização, capitalismo de vigilância e autores como Gramsci, Dardot e Laval, Zuboff e Hui. Os resultados apontaram a difusão de valores neoliberais, intensificados por meio de plataformas e recursos de IA, com a instrumentalização do currículo em competências técnicas mensuráveis; coleta massiva de dados educacionais; e a precarização do trabalho docente, que passa a operar como mediador de sistemas algorítmicos. Propõe-se revalorizar a escola pública, fortalecer mediação docente, pluralizar cosmotécnicas e promover políticas voltadas à soberania tecnológica como alternativas à lógica tecnocrática.",
+      "abstract": "The expansion of tools based on Artificial Intelligence (AI) can reconfigure the ways architectural projects are conceived, represented, and analyzed. This paper examines the utility, viability, and limits of commercially available AI in the design process in Brazil, focusing on small and medium-sized practices and independent professionals. The objective is to understand the convergence between design process tasks and the capabilities of functional categories of AI tools accessible to the general public. Methodologically, the research is exploratory and applied, grounded in a literature review, the mapping and functional classification of tools, and task-oriented empirical tests, integrated through a task–tool–phase matrix and criteria of productivity, design quality, risk, viability, and regulatory and tectonic alignment. The results show the predominance of the CAD/direct modeling stage and a fragmented parametrization, while generative-analytical AI operates as peripheral support. Contributions are identified in programmatic organization, contextual reading, and preliminary environmental analysis, particularly in the Preliminary Study, and in limited administrative support in the Legal Design phase. In the Executive Design phase, utility remains marginal due to requirements for traceability and constructive control. It is concluded that AI adoption in the Brazilian context is localized and phase-dependent, conditioned by cost, learning curve, and effective demand, and that the proposed matrix offers a replicable instrument for critically and situationally evaluating decisions on technological incorporation.",
       "authors": [
-        "Livia Carolina Vieira",
-        "M. Marcusso",
-        "Danielle Soares e Silva Bicudo Ferraro"
+        "Carlos Quedas Campoy",
+        "Cleide Izidoro",
+        "Bruno Luiz Poça Magno",
+        "Gabriel José De Carvalho"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
-      "reference_count": 0,
+      "reference_count": 9,
       "publication_types": [
-        "JournalArticle"
+        "JournalArticle",
+        "Review"
       ],
       "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "132a0e069d9c1c71dbea1c25bfe949cc92bce887",
-      "title": "Compreendendo o uso da inteligência artificial generativa por professores da educação básica no Brasil",
-      "year": 2025,
-      "venue": "Cuaderno activa",
-      "is_brazilian_venue": false,
-      "abstract": "este estudo investiga como os professores do ensino fundamental e médio no Brasil estão incorporando ferramentas de Inteligência Artificial Generativa (GenAI) em suas práticas pedagógicas, com foco no planejamento das aulas e no desenvolvimento de materiais instrucionais. Fundamentada em uma revisão sistemática da literatura realizada entre 2023 e 2024, esta pesquisa sintetiza seis estudos empíricos que refletem as aplicações atuais do GenAI na educação básica. A análise centra-se em quatro dimensões: usos pedagógicos do GenAI, ferramentas e tecnologias empregadas, desafios e limitações enfrentadas pelos educadores e implicações para a autoria docente. Os resultados indicam que, embora o ChatGPT seja a ferramenta mais adotada, sua integração nas práticas de ensino permanece desigual e exploratória. Os professores usam o GenAI principalmente para gerar planos de aula, exemplos, avaliações e materiais inclusivos. No entanto, questões recorrentes como imprecisões conceituais, desalinhamento com os currículos nacionais, falta de infraestrutura e literacia digital limitada foram identificadas como barreiras para uma implementação eficaz. Notavelmente, nossas descobertas destacam o surgimento de dinâmicas híbridas de autoria, nas quais os professores atuam como curadores e coautores de conteúdo gerado por IA. Este estudo contribui para o debate em curso sobre o potencial pedagógico do GenAI na educação básica, reforçando a necessidade de formação direcionada de professores, desenvolvimento de quadros éticos e políticas públicas que apoiem o uso responsável, crítico e contextualizado das tecnologias da IA.",
-      "authors": [
-        "Paulo César Polastri Polastri",
-        "Flávia Linhalis",
-        "Júlio César Dos Reis"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 6,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "02ee2505d0078858bf4000d0008ef46b99001b85",
-      "title": "Inteligência artificial como ferramenta de transformação na educação empreendedora no Brasil",
-      "year": 2025,
-      "venue": "REVISTA DELOS",
-      "is_brazilian_venue": false,
-      "abstract": "A integração da Inteligência Artificial (IA) na educação empreendedora tem transformado o ensino superior no Brasil, especialmente na formação de engenheiros. Este artigo analisa como a IA contribui para democratizar o acesso ao ensino, aumentar o engajamento dos estudantes e desenvolver competências empreendedoras essenciais em um mercado de trabalho dinâmico e tecnológico. Baseando-se em uma metodologia qualitativa e exploratória, foram analisadas iniciativas nacionais, como o Programa Nacional de Educação Empreendedora do Sebrae e o Hackathon Empreendedor, que utilizam tecnologias de IA para personalizar o aprendizado e conectar estudantes a problemas reais. A pesquisa revela que a IA promove inclusão ao reduzir barreiras socioeconômicas, melhora o engajamento ao oferecer ambientes interativos e práticos, e fortalece habilidades como criatividade e pensamento crítico. Essas competências são fundamentais para enfrentar incertezas e desafios em mercados competitivos. No entanto, o estudo destaca desafios relacionados à infraestrutura tecnológica e à universalização do acesso a essas ferramentas no Brasil. Conclui-se que a IA tem o potencial de transformar a educação empreendedora, preparando futuros engenheiros para atuarem como agentes de inovação. Essa integração fortalece a conexão entre teoria e prática, essencial para a construção de soluções criativas e sustentáveis. Contudo, é necessária uma abordagem estratégica para superar limitações de acesso e garantir que todos os estudantes se beneficiem dessas tecnologias emergentes.",
-      "authors": [
-        "Cibele Mantovanni",
-        "Genilson Valotto Patuzzo"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "96710154d733d08cb65421cab340ee36c00b4b27",
-      "title": "EDUCAÇÃO TÉCNICA PROFISSIONAL E INTELIGÊNCIA ARTIFICIAL: UMA POSSIBILIDADE NO FAZER PEDAGÓGICO DE UMA ESCOLA PÚBLICA ESTADUAL EM RAPOSA-MA",
-      "year": 2025,
-      "venue": "ARACÊ",
-      "is_brazilian_venue": false,
-      "abstract": "Este trabalho originou-se de um estudo bibliográfico sobre a Educação de Jovens e Adultos EJA integrada à Educação Técnica Profissional EJATEC e a utilização da Inteligência Artificial IA no fazer pedagógico de uma escola pública estadual. A pesquisa teve como objetivo analisar as possibilidades e desafios do uso da Inteligência Artificial (IA) na educação técnica profissional. A metodologia utilizada foi estudo bibliográfico e relato de experiência da autora. A integração da Inteligência Artificial IA e a Educação de Jovens e Adultos Técnica Profissional proporcionou insights valiosos sobre a aplicação da IA no contexto educacional. O estudo realizado revelou que a inserção da IA na educação pode oferecer uma gama diversificada de recursos que facilitam e enriquecem o processo pedagógico. Dentre esses recursos, destacam‐se a personalização do ensino, que permite atender às necessidades específicas de cada aluno; o feedback instantâneo, que auxilia na correção de erros em tempo real; a análise de dados, que ajuda a identificar as dificuldades e as lacunas de aprendizado e a otimização do tempo pedagógico na elaboração do planejamento e dos recursos didáticos. Esses avanços tecnológicos têm o potencial de tornar a aprendizagem mais acessível, adaptativa e eficiente, promovendo um ambiente educacional mais dinâmico e inclusivo. No entanto, é fundamental que o tempo pedagógico de cada disciplina seja otimizado e bem planejado, a fim de minimizar os desafios que possam surgir ao longo do processo de ensino e aprendizagem. A implementação estratégica da IA pode, portanto, transformar a educação técnica, tornando‐a mais eficaz e alinhada às demandas contemporâneas.",
-      "authors": [
-        "Francisca Silva De Andrade",
-        "Adriana Zampieri Martinati"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 5,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
-    },
-    {
-      "paper_id": "d2ad89cf1d4c818efb4e7282c340b0994957add4",
-      "title": "Os Impactos da Inteligência Artificial na Personalização do Ensino em Cursos de Educação a Distância no Brasil",
-      "year": 2025,
-      "venue": "EAD em Foco",
-      "is_brazilian_venue": false,
-      "abstract": "O estudo investiga como a Inteligência Artificial pode personalizar o ensino em cursos de Educação a Distância no ensino superior brasileiro, assegurando qualidade educacional e atendendo às necessidades individuais dos alunos. A pesquisa, de abordagem qualitativa, inclui fundamentos da neurociência, teóricos da personalização do ensino, e o uso da ferramenta Research Rabbit para ampliação das referências. Também analisa documentos governamentais e noticiários sobre regulamentação e impactos da EaD no Brasil. Os resultados mostram que a IA tem grande potencial para individualizar o ensino e aumentar a eficiência educacional, mas requer implementação ética, políticas de proteção de dados e formação continuada dos profissionais. Conclui-se que a IA é uma ferramenta promissora para a EaD, desde que apoiada por regulamentações claras e práticas responsáveis.  \n \nPalavras-chave: Educação a distância. Inteligência artificial. Personalização. Neurociência.",
-      "authors": [
-        "D. C. Queiroz",
-        "Eloisa Helena Mello"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 2,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
+      "doc_type": "Teorico",
+      "source_query": "artificial intelligence education Brazil empirical",
+      "collected_at": "2026-04-21 19:47"
     },
     {
       "paper_id": "6c28e20cdf555c6a15d32c703fa497d4ce32ba7f",
@@ -318,21 +66,18 @@
       ],
       "open_access": true,
       "doc_type": "Teorico",
-      "source_query": "Inteligencia Artificial Educacao Brasil escola",
-      "collected_at": "2026-04-20 19:10"
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
     },
     {
-      "paper_id": "90a554189b4a212c166d491812aa34c2c4f8b96e",
-      "title": "Projeto Político-Pedagógico e o direito à educação democrática: uma história de luta pela autonomia da escola pública brasileira",
+      "paper_id": "5b26dbac4371f262dfc7678bf9a5315215a3adb2",
+      "title": "Inteligência Artificial no contexto da ética em pesquisa em educação: a integridade acadêmica e científica em crise?",
       "year": 2025,
-      "venue": "Caderno Pedagógico",
+      "venue": "Praxis Educativa",
       "is_brazilian_venue": false,
-      "abstract": "O texto aborda o Projeto Político-Pedagógico (PPP) como expressão concreta do direito à educação democrática e da autonomia da escola pública brasileira, contextualizando-o historicamente a partir de reformas ocorridas nas décadas de 1980 e 1990. Destaca que a Constituição Federal de 1988 representou um marco ao consagrar a educação como direito fundamental e estabelecer a gestão democrática como princípio, promovendo a descentralização, autonomia escolar e participação popular. A Lei de Diretrizes e Bases da Educação Nacional (LDB/1996) instituiu a obrigatoriedade de elaboração do PPP, reforçando a participação de profissionais da educação e da comunidade nas decisões escolares.​ O PPP é compreendido como instrumento político e pedagógico fundamental para a transformação social, permitindo à escola superar modelos centralizadores e construir coletivamente projetos educativos contextualizados. Inspirado nas concepções de Paulo Freire, é visto como meio de combate às desigualdades e de fortalecimento das práticas democráticas. O texto analisa os desafios contemporâneos, como a ameaça representada pela privatização e militarização das escolas públicas, que fragilizam a autonomia pedagógica e reduzem o espaço para a participação da comunidade escolar. Por fim, defende que a resistência e a continuidade do PPP são essenciais para garantir uma educação pública crítica, inclusiva e transformadora, sustentando-se no compromisso com a justiça social e a democracia.",
+      "abstract": "O objetivo deste artigo foi refletir sobre as condições reais para pensar o uso da Inteligência Artificial (IA) nas pesquisas em educação, sob a seguinte indagação: Quais implicações éticas e de integridade estão postas nos contextos acadêmico-institucionais, sejam universidades e/ou órgãos de fomento à pesquisa? Como forma de evidenciar o estágio em que se encontra a discussão na pesquisa em educação, foram então selecionadas publicações realizadas no Brasil acerca do tema, entre os anos de 2023 e 2025, totalizando cinco artigos e uma notícia. Isso permitiu pensar a realidade do uso das tecnologias e as responsabilidades depositadas no Ensino Superior e na pós-graduação, tanto para as instituições quanto para a formação do pesquisador. A reflexão possibilitou constatar que o desafio para as instituições e para a formação sobre o uso da IA não acompanha a mesma velocidade com que ela se desenvolve, o que divide as opiniões: há os que afirmam haver uma crise, marcada por transformações, e há os que aderiram ao uso indiscriminado, sem preocupações.",
       "authors": [
-        "Tatiana Pinheiro de Assis Pontes",
-        "Silvana Fernandes Lopes",
-        "Mauricio Fonseca Pontes",
-        "N. D. C. E. SILVA NETO"
+        "Sônia Aparecida Siquelli"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
@@ -342,79 +87,19 @@
       ],
       "open_access": true,
       "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
     },
     {
-      "paper_id": "d2f7b734657a63511a64f374943c433a6f5a2e9e",
-      "title": "Os desafios da gestão democrática da escola pública brasileira e o Plano Nacional de Educação 2014-2025",
+      "paper_id": "d2ad89cf1d4c818efb4e7282c340b0994957add4",
+      "title": "Os Impactos da Inteligência Artificial na Personalização do Ensino em Cursos de Educação a Distância no Brasil",
       "year": 2025,
-      "venue": "Revista educación, política y sociedad",
+      "venue": "EAD em Foco",
       "is_brazilian_venue": false,
-      "abstract": "Este artigo propõe uma reflexão sobre a Gestão Democrática da escola pública brasileira, a partir dos indicadores de monitoramento da Meta 19 do Plano Nacional de Educação (2014-2025). A proposta do PNE apresenta a efetivação da gestão democrática da educação destacando as formas de seleção/nomeação dos diretores escolares associada a critérios técnicos de mérito e desempenho e à consulta pública à comunidade escolar, apontando para a necessária participação da comunidade em conselhos intra e extraescolares. Nossa análise se debruçou sobre os indicadores 19A e 19B desenvolvidos pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) para o acompanhamento e monitoramento da Meta 19, concluindo que estes indicadores não foram alcançados na vigência do PNE.",
+      "abstract": "O estudo investiga como a Inteligência Artificial pode personalizar o ensino em cursos de Educação a Distância no ensino superior brasileiro, assegurando qualidade educacional e atendendo às necessidades individuais dos alunos. A pesquisa, de abordagem qualitativa, inclui fundamentos da neurociência, teóricos da personalização do ensino, e o uso da ferramenta Research Rabbit para ampliação das referências. Também analisa documentos governamentais e noticiários sobre regulamentação e impactos da EaD no Brasil. Os resultados mostram que a IA tem grande potencial para individualizar o ensino e aumentar a eficiência educacional, mas requer implementação ética, políticas de proteção de dados e formação continuada dos profissionais. Conclui-se que a IA é uma ferramenta promissora para a EaD, desde que apoiada por regulamentações claras e práticas responsáveis.  \n \nPalavras-chave: Educação a distância. Inteligência artificial. Personalização. Neurociência.",
       "authors": [
-        "Maria da Conceição Calmon Arruda",
-        "Lucília Augusta Lino"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "98a9ada0d2e7f5dcb3bb6877bc7ae389b99cf149",
-      "title": "Interculturalidade na escola pública brasileira: perspectivas para uma educação plural e dialógica",
-      "year": 2026,
-      "venue": "Contribuciones a las ciencias sociales",
-      "is_brazilian_venue": false,
-      "abstract": "A interculturalidade tem se consolidado como uma perspectiva relevante para a reflexão sobre a educação escolar em contextos marcados pela diversidade cultural, como é o caso da escola pública brasileira. Diante das desigualdades históricas e das múltiplas identidades presentes no espaço escolar, torna-se necessário problematizar práticas pedagógicas, currículos e processos formativos a partir de uma abordagem que valorize o diálogo entre culturas. Nesse sentido, este artigo tem como objetivo analisar as contribuições e os desafios da interculturalidade na educação, a partir da síntese de estudos acadêmicos que abordam essa temática no contexto escolar. Metodologicamente, trata-se de uma pesquisa qualitativa, de caráter bibliográfico, baseada na análise de 9 artigos e de 1 tese, selecionados a partir de critérios de inclusão e exclusão previamente definidos. A análise concentrou-se nos resultados e considerações finais dos estudos, organizados em eixos teórico-analíticos. Os resultados evidenciam convergências quanto ao potencial da interculturalidade para a democratização da escola, a valorização de saberes historicamente silenciados e o fortalecimento de práticas pedagógicas mais inclusivas. Por outro lado, os estudos também apontam desafios relacionados à superficialidade das abordagens interculturais, à fragilidade da formação docente e à ausência de orientações mais sistematizadas nas políticas educacionais. Conclui-se que a interculturalidade constitui um horizonte pedagógico necessário e promissor, embora sua efetivação dependa de investimentos institucionais, de processos formativos críticos e da integração contínua dessa perspectiva ao currículo e às práticas escolares.",
-      "authors": [
-        "Francisco Jorge Gondim",
-        "Weden Almeida Vaz",
-        "Carlos Daniel Chaves Mourão",
-        "Ana Cláudia Gonçalves da Silva",
-        "Severino do Ramo Feitosa da Silva",
-        "D. Conceição",
-        "Talita Carneiro Lara",
-        "Ewando José de Sousa",
-        "Gleiciana Marques da Silva Rios",
-        "Patrícia Pereira Luz",
-        "Cláudia Regina B. Sampaio Fernandes da Costa",
-        "Wilson de Andrade Freitas",
-        "J. A. Silva",
-        "Cristiane Arruda de Oliveira",
-        "Samyria Bruna Nogueira da Cunha"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "13c73e7cbef96b3b8d1eb6206c5c1ca67520e74a",
-      "title": "EDUCAÇÃO MIDIÁTICA NA ESCOLA PÚBLICA BRASILEIRA: UMA REVISÃO SISTEMÁTICA DA PRODUÇÃO CIENTÍFICA (2015–2025)",
-      "year": 2026,
-      "venue": "REMUNOM",
-      "is_brazilian_venue": false,
-      "abstract": "As transformações tecnológicas das últimas décadas têm provocado mudanças significativas nas comunicações, produção e circulação do conhecimento na sociedade contemporânea. A expansão da internet, das redes sociais e das plataformas digitais consolidou um cenário marcado pela intensificação dos fluxos informacionais e pela presença constante das Tecnologias da Informação e Comunicação (TICs) no cotidiano social. Nesse contexto, a cultura digital passou a influenciar diretamente diferentes dimensões da vida social, incluindo os processos educativos, exigindo o desenvolvimento de competências relacionadas ao uso crítico e reflexivo das mídias e das tecnologias digitais. Diante desse cenário, a educação midiática emerge como uma abordagem educacional relevante para a formação de cidadãos capazes de compreender, analisar e interpretar criticamente as informações que circulam nos ambientes digitais. Ao estimular o pensamento crítico, a autonomia intelectual e a participação cidadã, essa perspectiva educacional contribui para preparar os estudantes para lidar com os desafios da sociedade contemporânea, marcada pela abundância informacional, pela circulação de desinformação e pela crescente influência das plataformas digitais na mediação do acesso ao conhecimento. Nesse contexto, o presente estudo teve como objetivo analisar a produção científica brasileira publicada entre 2015 e 2025 acerca da educação midiática no ambiente escolar, com foco no contexto da escola pública, buscando identificar tendências teóricas, abordagens metodológicas e desafios relacionados à integração da cultura digital nas práticas pedagógicas. Para isso, foi realizada uma revisão sistemática da literatura, com buscas em bases de dados acadêmicas como SciELO, Google Acadêmico e Portal de Periódicos CAPES, utilizando descritores relacionados à temática investigada. Os estudos selecionados foram analisados por meio da técnica de análise de conteúdo, permitindo identificar categorias temáticas recorrentes. Os resultados indicam avanços nas políticas educacionais voltadas à cultura digital, mas também evidenciam desafios relacionados à infraestrutura tecnológica, ao acesso às tecnologias e à formação docente para o uso pedagógico das mídias. ",
-      "authors": [
-        "Joilma Abreu Cabral do Vale",
-        "M. Zacariotti",
-        "G. Soares",
-        "G. L. R. Brito",
-        "Jefferson da Silva Marques"
+        "D. C. Queiroz",
+        "Eloisa Helena Mello"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
@@ -424,42 +109,20 @@
       ],
       "open_access": true,
       "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
     },
     {
-      "paper_id": "91b84191500a1f550bb4e67b934d81710e748fae",
-      "title": "QUALIDADE DA EDUCAÇÃO: PERSPECTIVAS E DESAFIOS PARA A ESCOLA PÚBLICA BRASILEIRA",
-      "year": 2026,
-      "venue": "International Integralize Scientific",
-      "is_brazilian_venue": false,
-      "abstract": "This study aimed to investigate the perspectives and challenges of education quality in Brazilian public schools, seeking to understand how structural, human, and organizational factors interact in daily school life. Through the review of academic materials and official documents published over the past five years, it was possible to identify that the quality of education goes far beyond quantitative indicators, encompassing aspects related to infrastructure, pedagogical practices, democratic management, and the social context of students. The results show that the main challenges faced by Brazilian public schools include regional and socioeconomic inequalities, precarious school infrastructure, insufficient continuing teacher training, as well as issues related to professional recognition and teacher turnover. These factors directly affect the ability of schools to provide a welcoming, inclusive, and meaningful learning environment. Moreover, school management plays a central role, especially when guided by democratic principles and aligned with pedagogical projects that involve the entire school community. Participatory leadership and collaborative work among administrators, teachers, and families are highlighted as essential elements to overcome learning gaps and promote real improvements in educational quality.",
-      "authors": [
-        "Mariluz Barbosa de Melo Gomes"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle",
-        "Review"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "7b4d8bc43a8596fb846e2aacd8b34b2de31d7e9a",
-      "title": "QUALIDADE DA EDUCAÇÃO NA ESCOLA PÚBLICA E OS DESAFIOS DA GESTÃO DEMOCRÁTICA",
+      "paper_id": "ac84f8795df78975e702452bf8ebb2fd3fd6e469",
+      "title": "Plataformização, financeirização da educação e soberania digital: em questão o trabalho e a formação docente",
       "year": 2025,
-      "venue": "Revista ft",
+      "venue": "Revista Educação e Políticas em Debate",
       "is_brazilian_venue": false,
-      "abstract": "A gestão democrática na escola acompanhou as transformações sociais, nas quais o poder passou a ser exercido de forma descentralizada. Essa legitimação da participação coletiva encontrou respaldo na própria Constituição Federal e, de forma suplementar, na Lei de Diretrizes e Bases da Educação Nacional (LDB), considerada a carta magna da educação brasileira. A gestão democrática impôs-se, portanto, não apenas como uma intenção generalista ou política de governo, mas como uma política de Estado, que deveria ser concretizada em sua plenitude. Ao assegurar a gestão democrática, garantiu-se também a participação dos diversos atores sociais que compõem o universo escolar, como docentes, equipe administrativa, pais e comunidade. No entanto, para que essa gestão participativa se realizasse efetivamente, tornou-se necessária a criação de espaços de participação coletiva, bem como o respeito às opiniões emitidas nesses espaços. A escola, nesse contexto, precisou se constituir como um ambiente verdadeiramente democrático, onde a busca por uma educação de qualidade fosse o objetivo central. A qualidade da educação foi um ideal amplamente buscado e manifestado nas diversas políticas públicas implementadas no Brasil. Contudo, tornou-se imprescindível definir com clareza o que se compreendia por qualidade na educação. Esse conceito pôde ser associado a diferentes dimensões: acadêmicas, sociais e educativas, bem como a critérios de eficiência, eficácia e relevância, ou ainda a juízos de valor e mérito. Dessa forma, verificou-se que a qualidade na educação não se configurava como um tema de menor complexidade. Diante disso, está investigação teve como objetivo descrever a relação entre a gestão democrática e a qualidade da educação na Escola Estadual Roberto dos Santos Vieira. Foram abordados os aspectos teóricos e político-pedagógicos que fundamentaram a gestão democrática, bem como os critérios utilizados na definição dos indicadores de qualidade educacional. ",
+      "abstract": "Este dossiê reúne pesquisas nacionais e internacionais que analisam as relações entre educação e tecnologias digitais em rede, com enfoque nos processos de plataformização, financeirização da educação e soberania digital. Composto por 23 artigos e uma entrevista, organiza-se em três eixos temáticos: “Tecnologias digitais, inteligência artificial e trabalho docente: automação, precarização e resistências”; “Políticas públicas: privatização da educação, mecanismos de controle e vigilância docente e desintelectualização docente”; e “Tecnologia na mediação dos processos formativos: educação a distância, educação híbrida e afins”. Os textos evidenciam que as disputas em torno da tecnologia são, em essência, políticas, ideológicas e de classe, configurando um paradigma de regulação e subordinação do trabalho e formação docente à lógica do capital. Também revelam brechas e resistências que emergem das práticas pedagógicas críticas, da pesquisa e da organização coletiva dos trabalhadores da educação.",
       "authors": [
-        "Estelio Pereira Gabino",
-        "J. D. Silva",
-        "Suzana Gusmão Lima"
+        "Joana Peixoto",
+        "Adda Daniela Lima Figueiredo Echalar",
+        "R. A. Souza"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
@@ -468,41 +131,187 @@
         "JournalArticle"
       ],
       "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
     },
     {
-      "paper_id": "3e63b51b1377e011af2482af6d1b10cf1a54eeba",
-      "title": "OS BANCOS NOS BANCOS DA ESCOLA: O SETOR BANCÁRIO NA EDUCAÇÃO PÚBLICA BRASILEIRA",
-      "year": 2024,
-      "venue": "Educação &amp; Sociedade",
+      "paper_id": "3fcd5eed9a6c2f478441e55825de66958bb20e17",
+      "title": "INTELIGÊNCIA ARTIFICIAL E EDUCAÇÃO DO CAMPO: TERRITÓRIO, ÉTICA TECNOLÓGICA E FORMAÇÃO DOCENTE NO CONTEXTO DO MATOPIBA",
+      "year": 2026,
+      "venue": "ARACÊ",
       "is_brazilian_venue": false,
-      "abstract": "RESUMO O presente artigo é um recorte de duas pesquisas mais abrangentes e tem como objetivo analisar as relações que se constroem e se reconstroem em torno das ações de privatização da educação, formuladas e aplicadas por organizações do terceiro setor ligadas ao setor bancário brasileiro e às redes públicas de ensino. Utilizou-se a abordagem de análise de redes sociais para mapear os nós principais e elos relacionais que constituem tal rede. Foram encontrados 410 elos relacionais, originados de três braços sociais que atuam em educação, pertencentes a dois bancos brasileiros: Itaú Social, Instituto Unibanco e Fundação Bradesco. É possível perceber que a rede é constituída de 99 sujeitos e, além de possuir grande alcance e capilaridade, funciona de maneira orgânica e dissemina conteúdos em torno de pautas comuns, embora com modus operandi de atuação diverso.",
+      "abstract": "Este artigo analisa criticamente as possibilidades e os limites da inserção da Inteligência Artificial (IA) na Educação do Campo, tomando como referência o território do MATOPIBA, com foco no sul do Maranhão. A partir de abordagem qualitativa de natureza bibliográfica e analítico-crítica, articulam-se contribuições da pedagogia freireana, da geografia crítica e dos estudos contemporâneos sobre tecnologia e colonialidade algorítmica. Argumenta-se que a IA integra um regime sociotécnico atravessado por disputas territoriais e epistemológicas. Conclui-se que a formação docente constitui eixo estratégico para que a IA seja apropriada como instrumento de soberania alimentar, letramento ecológico e produção de conhecimento comunitário.",
       "authors": [
-        "K. Morgan",
-        "M. Mocarzel"
+        "José Raimundo Araújo da Silva",
+        "Jesus Leite Nery De Lima"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
+    },
+    {
+      "paper_id": "8241c6337e4c3d112aa3cfecbf26e34f80486240",
+      "title": "Análise de conteúdo sobre inteligência artificial e educação em veículos de imprensa no Brasil",
+      "year": 2024,
+      "venue": "REVISTA PONTO DE VISTA",
+      "is_brazilian_venue": false,
+      "abstract": "O presente trabalho analisou notícias sobre inteligência artificial (IA) e educação em dois meios de comunicação impressos de grande circulação no Brasil e que possuem formato eletrônico. O objetivo foi verificar a frequência e o enfoque das reportagens sobre IA, que abordam temas envolvendo regulamentação, educação, ética e moral. A pesquisa é do tipo descritiva e exploratória, adotando o método análise de conteúdo (BARDIN, 2011). Como resultado, as análises revelaram que as notícias abordam preocupações e problematizam sobre o futuro da IA e seus impactos nas relações sociais, culturais, econômicas e educacionais, principalmente nas questões éticas e morais que envolvem o uso de inteligência artificial.",
+      "authors": [
+        "Marina Vianna de Souza",
+        "M. Borges",
+        "C. A. Sousa"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
+    },
+    {
+      "paper_id": "70fc7df31c42ff0b8fa25f28a2e09093c44212e1",
+      "title": "Letramento digital, formação docente e os novos paradigmas frente aos avanços do uso da Inteligência Artificial na educação",
+      "year": 2025,
+      "venue": "Caderno Pedagógico",
+      "is_brazilian_venue": false,
+      "abstract": "O objetivo da pesquisa foi analisar como o letramento digital se torna essencial na formação de professores diante da crescente incorporação da inteligência artificial (IA) nos contextos educacionais. Por meio de uma revisão bibliográfica, foram examinadas publicações recentes que discutem competências digitais, uso pedagógico de tecnologias e impactos da IA na prática docente. Os resultados apontam que a presença da IA exige que os docentes desenvolvam habilidades ampliadas de leitura, análise crítica, criação e mediação digital, indo além do uso instrumental das tecnologias. Evidenciou-se também que muitos professores ainda apresentam lacunas formativas, especialmente no que diz respeito à compreensão ética, ao pensamento computacional e ao uso de ferramentas inteligentes para personalização da aprendizagem. Conclui-se que o letramento digital orientado pela IA representa um novo paradigma para a formação docente, demandando políticas de capacitação contínua, currículos mais atualizados e práticas formativas que favoreçam tanto a autonomia quanto a atuação crítica dos educadores diante das inovações tecnológicas.",
+      "authors": [
+        "Tatiana Carolina Bernardes",
+        "Larissa Hubner Caitano",
+        "Francisco Evilasio de Sousa",
+        "Fabiana Veríssimo da Costa Souza",
+        "Giuliano Pereira Castro",
+        "Ingrid Tavares Cardoso",
+        "A. Moura",
+        "D. Lopes",
+        "Lucas da Silva Coelho",
+        "Maria Helena de Assis Laranjeira Gomes",
+        "Carlos André Lima Marinho",
+        "Erasmo da Silva Ribeiro",
+        "Anderson da Costa Lino Costa"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 9,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
+    },
+    {
+      "paper_id": "42a5fcfe5211fc3836cee4ff71d3aaa8760354e3",
+      "title": "Inteligência Artificial na elaboração de materiais didáticos: críticas, desafios e implicações para a educação linguística e cultural no Brasil",
+      "year": 2025,
+      "venue": "Cadernos Cajuína",
+      "is_brazilian_venue": false,
+      "abstract": "Este artigo revisa a aplicação da Inteligência Artificial (IA) na criação de materiais didáticos para a educação linguística e cultural brasileira. Tem como objetivo a análise do potencial da IA na personalização do processo de ensino-aprendizagem e, ao mesmo tempo, discute os desafios éticos e sociais, como desigualdade de acesso, autoria, vieses algorítmicos e o fenômeno do colonialismo digital. A metodologia empregada foi a revisão bibliográfica da literatura científica sobre o tema. A análise fundamenta-se em estudos críticos recentes que abordam a integridade acadêmica e autoria (Moraes & Matilha, 2023; Oliveira, 2024), as necessárias adaptações pedagógicas e curriculares (Azambuja & Silva, 2024) e as implicações éticas, filosóficas e sociais decorrentes do avanço da IA na educação (Oliveira, 2023; Hirabahasi & Pilon, 2024). Conclui-se que a adoção da IA exige políticas públicas e diretrizes éticas que garantam sua implementação responsável, valorizando a diversidade cultural e as competências humanas essenciais.",
+      "authors": [
+        "Patricia Cibinel Argentino",
+        "S. Ferreira"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
+    },
+    {
+      "paper_id": "e4c112f8c30de47f545d15049c1b1922aac8ac17",
+      "title": "Infraestruturas tecnológicas para a educação como projeto político rumo à soberania digital",
+      "year": 2024,
+      "venue": "EmRede - Revista de Educação a Distância",
+      "is_brazilian_venue": false,
+      "abstract": " Este ensaio aborda a necessidade de infraestruturas tecnológicas públicas na educação como parte da soberania digital de um país, dado o avanço de serviços baseados em inteligência artificial (IA) ofertados por corporações de tecnologia estadunidenses. Utilizando método bibliográfico, examina documentos sobre sistemas atuais de infraestrutura para a educação digital no contexto brasileiro, reivindicações de pesquisadores e ativistas, e a crescente dependência de empresas privadas por redes de ensino. Conclui-se que é urgente criar um projeto político de soberania digital para a educação que considere a participação social e os modelos federados para a colaboração entre instituições.",
+      "authors": [
+        "Alexandre Costa Barbosa",
+        "Priscila Gonsales"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 2,
+      "reference_count": 9,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
+    },
+    {
+      "paper_id": "bfc9757454bd09e8bcf3a6c05f88e9d8fdc97c63",
+      "title": "A INFLUÊNCIA DA INTELIGÊNCIA ARTIFICIAL NA EDUCAÇÃO: OPORTUNIDADES E DESAFIOS",
+      "year": 2025,
+      "venue": "Revista Multidisciplinar do Nordeste Mineiro",
+      "is_brazilian_venue": false,
+      "abstract": "O uso crescente da Inteligência Artificial (IA) na educação está remodelando as práticas pedagógicas, oferecendo personalização do aprendizado e otimização de processos administrativos. Este artigo investigou, por meio de uma revisão sistemática da literatura, o impacto da IA na formação docente e nos processos de ensino-aprendizagem, visando a transformação dos métodos pedagógicos tradicionais. Os resultados destacam que a IA, utilizando ferramentas como learning analytics e machine learning, proporciona a personalização adaptativa do ensino, ajustando conteúdos e ritmos às necessidades individuais, o que favorece a inclusão e a detecção precoce de dificuldades. Contudo, persistem desafios cruciais, como a necessidade urgente de formação especializada de docentes para o uso ético e responsável da tecnologia. Além disso, o estudo levanta preocupações éticas, incluindo os vieses algorítmicos relacionados a questões de raça e gênero, e a centralização do poder nas Big Techs, que ameaça a soberania digital e a equidade educacional. Conclui-se que a integração efetiva da IA exige políticas consistentes e um equilíbrio entre inovação tecnológica e princípios humanos, éticos e equitativos, mediada por profissionais da educação.",
+      "authors": [
+        "Emerson Roberto de Oliveira",
+        "Alexandre José Rossi"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 17,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
+    },
+    {
+      "paper_id": "9e78964ac15f39839399e8d38c6fbfa4cda239c5",
+      "title": "A Inteligência Artificial como estratégia inovadora na educação básica: desafios de um futuro digital para a formação de professores",
+      "year": 2026,
+      "venue": "Cadernos Cajuína",
+      "is_brazilian_venue": false,
+      "abstract": "Este artigo examina, com base em revisão bibliográfica de abordagem qualitativa e método comparativo, os desafios e as possibilidades da formação inicial de professores da educação básica para o uso pedagógico da inteligência artificial (IA) como estratégia inovadora. A partir de um mapeamento inicial de 18 trabalhos, foram selecionados cinco estudos (Sousa, 2023; Gomes, 2024; Franco, 2024; Severo, 2024; Silva, 2024) segundo critérios de pertinência temática e consistência metodológica. Procedeu-se à análise documental com matriz comparativa (Tabela 2) e à sistematização interpretativa (Tabela 3), articulando evidências empíricas aos referenciais de Freire (1979; 1987; 1996) (educação como práxis emancipatória; crítica ao tecnicismo/ensino bancário), Vygotski (1991) (mediação, instrumentos culturais, ZDP e andaimagens ajustadas) e às diretrizes da UNESCO (2022; 2023) e da BNC-Formação (CNE, 2020) - dimensões: conhecimento, prática e engajamento; cultura digital; centralidade da agência humana e ética de dados. Os resultados convergem em quatro eixos: (i) Percepções docentes — reconhece-se o potencial da IA, mas o uso é incipiente, tensionado por receios sobre autonomia, tecnicização e critérios éticos (Sousa); (ii) Integração curricular — a articulação GG/PLN+IA+BNCC configura via promissora para licenciaturas, desde que evite prescritivismos e garanta mediação crítica (Gomes); (iii) Desenvolvimento profissional — soluções de autoavaliação mediadas por IA (p.ex., ChatEduc) fortalecem processos autorregulatórios (metas, monitoramento, feedback), requerendo validação pedagógica e salvaguardas éticas (Franco); (iv) Práticas em sala de aula — multiletramentos e personalização responsável (jogos/diários com aprendizagem de máquina; aprendizagem baseada em dados) ampliam a agência discente e qualitam intervenções docentes, com atenção à inclusão (ODS 4) e à literacia de dados do professor (Severo; Silva). A discussão, ancorada em Freire (1979; 1987; 1996) e Vygotski (1991), indica que tecnologias não são neutras e que a IA só se legitima educativamente quando integrada como instrumento cultural sob mediação docente, orientada por finalidades humanizadoras e por protocolos ético-pedagógicos. No plano normativo, UNESCO (2022, 2023) e BNC-Formação (CNE, 2020) convergem na exigência de competências digitais críticas e de procedimentos de avaliação responsável das saídas da IA. Conclui-se que a incorporação da IA na formação inicial é viável e desejável quando estruturada em ciclos de autorregulação (planejamento–ação–avaliação), com curricularização de conteúdos de IA/PLN, rotinas de autoavaliação docente, sequências multimodais e learning analytics em chave formativa. Como limitações, reconhece-se o recorte do corpus (cinco estudos nacionais) e a natureza documental da análise. Propõe-se co-projetar e validar, em licenciaturas e residências pedagógicas, a integração curricular de IA/PLN e rotinas de autorregulação docente, com métricas de aprendizagem e protocolos ético-pedagógicos (agência humana, proteção de dados e equidade).",
+      "authors": [
+        "Weslley Amaro da Silva",
+        "Sebastião Almeida Mota",
+        "Romário Domingos Ramos",
+        "E. S. Machado"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 1,
-      "reference_count": 16,
+      "reference_count": 0,
       "publication_types": [
         "JournalArticle"
       ],
       "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
+      "doc_type": "Teorico",
+      "source_query": "Inteligencia Artificial educacao etica soberania digital Brasil",
+      "collected_at": "2026-04-21 20:09"
     },
     {
-      "paper_id": "c4ce5a40b16cf97798077694ac7c89c0ed754c37",
-      "title": "A beleza negra: ações de valorização da cultura afro-brasileira em uma escola pública municipal",
+      "paper_id": "42226c693ae4b6df5be4465e91673c405f8c661f",
+      "title": "COLONIALISMO DIGITAL E RACISMO ALGORÍTMICO: AS PLATAFORMA DIGITAIS COMO AMPLIFICADORAS DA DESIGUALDADE ESTRUTURAL E O PAPEL DO DIREITO NA PERPETUAÇÃO DO RACISMO NO BRASIL",
       "year": 2025,
-      "venue": "Kwanissa",
+      "venue": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
       "is_brazilian_venue": false,
-      "abstract": "O objetivo deste artigo foi indicar a valorização da cultura afro-brasileira, a partir de ações didático-pedagógicas em uma escola pública municipal denominada Hélio Frota Lima. Trata-se de uma ação que foi realizada com alunos do Ensino Fundamental II e Ensino Médio com 20 professores e 300 estudantes para a confecção de objetos culturais das artes negras, a importância da dança na formação cultural brasileira. Para a operacionalização da pesquisa, houve uma mobilização do corpo docente e estudantes, na confecção de materiais que refletiram positivamente na importância da cultura como parte indissociável da formação cultural brasileira. Os resultados foram a amostra de danças e objetos de artes da cultura negra.  Por conseguinte, foi realizada a exposição desses objetos, bem como a apresentação em forma de danças. Os resultados indicaram que, o trabalho nessa perspectiva, contribui para o fortalecimento etnocultural conforme a legislação da Lei de Diretrizes e Bases da Educação (LDB).",
+      "abstract": "Este artigo buscou compreender como as tecnologias digitais e a inteligência artificial, sob a lógica capitalista, perpetuam e amplificam discriminações estruturais de gênero, raça e classe no Brasil. A metodologia empregada foi uma análise crítica multidisciplinar da literatura acadêmica, dados demográficos brasileiros e exemplos empíricos, com enfoque nas plataformas digitais e sua relação com o racismo algorítmico. Os principais resultados indicam que o colonialismo digital e o racismo algorítmico reproduz desigualdades históricas, opera sob a aparência de neutralidade técnica e sistematiza a exclusão social em múltiplas esferas, sobretudo no mercado de trabalho digital. Constatou-se que o direito brasileiro ainda trata a tecnologia como neutra, legitimando novas formas de opressão, e que a plataformização do trabalho reforça a precarização principalmente para jovens negros e periféricos. Conclui-se que é urgente a regulamentação específica do racismo algorítmico, a promoção de políticas públicas inclusivas e a integração de abordagens interdisciplinares para uma sociedade mais justa e igualitária.",
       "authors": [
-        "Lucas Silva Pires"
+        "Victor Gomes Soares de Barros"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
@@ -512,136 +321,40 @@
       ],
       "open_access": true,
       "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
     },
     {
-      "paper_id": "8756d66853cf5c92a081b90e68cc8bee1d7a5539",
-      "title": "DESAFIOS PARA A EDUCAÇÃO DE SURDOS EM ESCOLA PÚBLICA DO DISTRITO FEDERAL: UM ESTUDO NA ESCOLA PÚBLICA DA ASA SUL",
-      "year": 2024,
-      "venue": "RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218",
-      "is_brazilian_venue": false,
-      "abstract": "Este estudo tem como objetivo analisar e compreender o processo da Educação Inclusiva nas Escolas Públicas do Distrito Federal e os principais desafios enfrentados por alunos com déficit auditivo e seus professores, as leis que garantem sua inclusão na sociedade escolar sem discriminação e, sobretudo, que garantam uma educação de qualidade. Uma vez que a comunicação com as pessoas surdas deve se dar efetivamente por meio da Linguagem Brasileira de Sinais – LIBRAS. Neste sentido, foi levantado o processo histórico da legislação vigente no Brasil e a legislação distrital, para melhor retratar a realidade da educação inclusiva no Distrito Federal e, particularmente, compreender o que de fato acontece nas escolas públicas. Tendo como ponto focal o estudo de caso de uma escola pública do Distrito Federal. Portanto, foi necessário conhecer a realidade do cotidiano dos alunos com deficiência auditiva e levantar informações sobre os principais desafios enfrentados por eles e pelos professores que os ensinam. Neste sentido, foram realizadas entrevistas para se ter mais esclarecimentos sobre a rotina diária de cada um deles: gestores, professores, servidores, alunos, pais e profissionais da educação que atuam nos serviços auxiliares aos professores, pais e alunos.",
-      "authors": [
-        "Jefferson Teixeira Maciel"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 2,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "bb694ef95daa0ce83de43851235cda61ece3ef64",
-      "title": "Política de educação inclusiva em uma escola pública de Teresina (PI): dificuldades e desafios",
-      "year": 2024,
-      "venue": "Caderno Pedagógico",
-      "is_brazilian_venue": false,
-      "abstract": "A educação é por lei uma garantia de direito fundamental a todos os indivíduos. O direito ao ensino especializado para alunos com deficiência é garantido no artigo 208 da Constituição Federal Brasileira, que estabelece como dever do Estado oferecer atendimento educacional especializado para todas as crianças e jovens com necessidades educativas especiais – NEE, de preferência, atendidos pela rede regular de ensino. Além da Constituição, o artigo 54 do Estatuto da Criança e do Adolescente – ECA, também garante o direito à escola para crianças e jovens com NEE. A proposta metodológica desta pesquisa é de caráter bibliográfico, qualitativo e exploratório. Para a coleta de dados, foi utilizada uma entrevista semiestruturada. Afim de alcançar o objetivo geral foram delimitados os objetivos específicos que consistem em conhecer as políticas públicas de atendimento das crianças com deficiência na educação infantil; destacar a importância da estrutura física e o atendimento especializado no processo de ensino e aprendizagem inclusiva na educação infantil; apresentar como ocorre o atendimento de crianças com deficiência em uma escola pública municipal de educação infantil em Teresina – PI. A escola em estudo assiste alunos com deficiência, mas não possui uma estrutura adequada e não tem sala de AEE – Atendimento Educacional Especializado. Destaca-se, que esta pesquisa não busca discutir a inclusão educacional de forma findável, mas sim, incitar novas discussões relacionadas a esta temática tão relevante na atualidade.",
-      "authors": [
-        "Claudete Vieira Dias",
-        "Elza Ribeiro Dos Santos Neta",
-        "Rosana Sousa Pereira",
-        "Aline De Moraes",
-        "A. Pereira",
-        "Yara de Sousa Lima",
-        "Diego Armando da Silva E Silva",
-        "Maria Joelma Santos Mesquita"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "b087866f22b895350db19edd1abe5d7b0e88a13a",
-      "title": "Tendência à privatização e decorrências na educação pública brasileira",
+      "paper_id": "358b624db562c8ae7131e64a0792bf3a8d487813",
+      "title": "Educação Digital como Ferramenta de Equidade: Um Projeto de Extensão para Colaboradores em Situação de Vulnerabilidade",
       "year": 2025,
-      "venue": "Education Policy Analysis Archives",
+      "venue": "Anais do XXII Congresso Latino-Americano de Software Livre e Tecnologias Abertas (Latinoware 2025)",
       "is_brazilian_venue": false,
-      "abstract": "Este artigo, de caráter ensaístico, analisa as tendências de privatização da educação decorrentes das políticas neoliberais e da Nova Gestão Pública. O objetivo é compreender como o ideário da Reforma do Estado dos anos 1990, conduzida por Luiz Carlos Bresser-Pereira, e as políticas neoliberais têm levado a uma tendência de privatização da educação, considerando casos tanto longevos quanto recentes. Para tal, foi realizada uma pesquisa bibliográfica e documental, especialmente nos Cadernos MARE da Reforma do Estado. O texto, organizado em quatro seções, apresenta um referencial teórico crítico para a análise da reforma gerencial e de suas consequências na escola pública. Destaca a alegada racionalidade técnica e neutralidade política, com a adoção de políticas educacionais por sucessivos governos, via administração pública gerencial, sobretudo no estado de São Paulo. Além de apresentar o atual estágio de materialização da tendência à privatização da educação escolar pública brasileira, o artigo propõe algumas iniciativas que buscam contribuir para que os governos sejam instados a implementar, nas várias esferas administrativas, políticas educacionais em contraposição à maioria das políticas então vigentes, as quais sequer podem ser caracterizadas como republicanas.",
+      "abstract": "A desigualdade social no Brasil ainda representa um obstáculo significativo para o acesso à tecnologia e às oportunidades de desenvolvimento, especialmente entre profissionais que atuam em setores operacionais. Grande parte da população permanece excluída digitalmente por falta de conhecimento ou por limitações econômicas. Este trabalho apresenta um projeto de capacitação digital voltado a colaboradores em situação de vulnerabilidade social, com foco em habilidades básicas de informática, segurança digital e uso de plataformas online. O curso, baseado em aulas práticas e avaliação contínua, foi bem recebido pela instituição e seus participantes, demonstrando alto potencial para promover inclusão digital, autonomia e valorização profissional.O projeto encontra-se atualmente em fase de implementação, com resultados preliminares obtidos a partir do levantamento de interesse e do planejamento pedagógico. Os resultados preliminares evidenciam a educação digital como ferramenta estratégica para a redução de desigualdades e para a construção da cidadania em uma sociedade cada vez mais tecnológica.",
       "authors": [
-        "César Augusto Minto",
-        "A. Barbosa",
-        "M. Jacomini"
+        "Ana Mara de Oliveira Figueiredo",
+        "Vitória Graciano",
+        "Joana Felizardo"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "fc578a80f2013af5685a4a7b5e6cef4a88b1684d",
-      "title": "CONSEQUÊNCIAS DO NEOLIBERALISMO NA EDUCAÇÃO PÚBLICA BRASILEIRA",
-      "year": 2025,
-      "venue": "Revista Eletrônica Científica Ensino Interdisciplinar",
-      "is_brazilian_venue": false,
-      "abstract": "Esse estudo investiga quais são as consequências e implicações do neoliberalismo, esse novo modelo capitalista, sobre a educação pública brasileira, tendo como ponto de partida inicial as reformas dos anos 90 no país e o recorte local da educação estadual paulista. Por meio de análise e estudo bibliográfico sobre o tema, parte-se da investigação do que é o fenômeno neoliberal e sua historicidade, também tendo destaque sua relação específica com países dependentes como o Brasil, para então analisar seus efeitos na educação, em especial, no que toca a precarização docente, as mudanças nas diretrizes e bases curriculares e a descaracterização da escola pública.",
-      "authors": [
-        "Juliano Pereira da Silva",
-        "Tito Flávio Bellini Nogueira de Oliveira"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 3,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "ab0d1551bbba274c35d30db773e75ae2cf33a731",
-      "title": "ESCOLA PÚBLICA BRASILEIRA E EDUCAÇÃO INTEGRAL: DESAFIOS E POSSIBILIDADES",
-      "year": 2020,
-      "venue": "",
-      "is_brazilian_venue": false,
-      "abstract": "A escola publica brasileira, nos seculos XX e XXI, foi palco de algumas experiencias pedagogicas democraticas exitosas pautadas na ideia de Educacao Integral, que ocorreram de modo intermitente na historia do Brasil. Essas experiencias sao preciosidades a serem entendidas e atualizadas pelos estudiosos da educacao e amigos da democracia. Sao sementes para a renovacao da longa luta pelo direito a educacao escolar de qualidade social no Brasil. Este artigo-entrevista visa colocar as vistas de leitores interessados no assunto o testemunho de uma das mais recentes acoes nessa direcao por meio da palavra da Professora Jaqueline Moll, uma das grandes referencias atuais em Educacao Integral no Brasil, que foi responsavel pela implementacao do Programa Mais Educacao (2007-2016), uma experiencia que o Golpe politico-juridico-midiatico que ocorreu em 2016 tentou abortar. No dialogo dos entrevistadores com a entrevistada, debate-se a potencia de iniciativas contra-hegemonicas e a possibilidade de promocao de uma escola publica onde caibam todos/as e em que a dignidade humana seja a primeira pauta. Atualiza-se o conceito de Educacao Integral e enfatiza-se a necessidade da criacao de politicas publicas de carater inclusivo que considerem a intersetorialidade e deem ouvidos aos saberes comunitarios/populares, assim como a importância de manter o “sonho possivel” e a luta por um mundo melhor, mesmo em momentos de obscurantismo e crises humanitarias",
-      "authors": [
-        "J. Moll",
-        "Branca Jurema Ponce",
-        "Antonio Carlos Caruso Ronca",
-        "José Nildo Oliveira Soares"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 8,
       "reference_count": 3,
       "publication_types": [],
       "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
+      "doc_type": "Teorico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
     },
     {
-      "paper_id": "a5b4529f029a7c730076989924a8f40e9116cb10",
-      "title": "DO GIZ À (R)EVOLUÇÃO: O FUTURO DOS ALUNOS DA ESCOLA PÚBLICA BRASILEIRA ENQUANTO SUJEITOS DE DIREITOS",
+      "paper_id": "e94975a8781892f096c03e64c6db9aa3f5e250ad",
+      "title": "Contribuições de Tecnologia do Oprimido para a área de Computer Assisted Language Learning (CALL)",
       "year": 2024,
-      "venue": "Revista Interinstitucional Artes de Educar",
+      "venue": "Domínios de Lingu@gem",
       "is_brazilian_venue": false,
-      "abstract": "A pesquisa aborda a complexidade da educação, indo além da simples transmissão formal de conhecimento, com ênfase na promoção da cidadania. O foco está na capacitação dos estudantes para gerir seu próprio futuro, conquistar espaço no mundo profissional e reconhecer suas vocações. O cerne da problemática analisada reside na escassez de recursos e tecnologias nas instituições de ensino público, influenciando significativamente a preparação dos estudantes para os atuais desafios do mercado de trabalho, notadamente quando comparados aos colegas de instituições privadas. A inclusão digital, inseparável da inclusão social, é abordada como um direito fundamental para evitar sua instrumentalização como meio de exclusão. Surge, assim, o direito emergente na sociedade: o direito à inclusão digital. Contudo, a pesquisa vai além de uma análise comparativa, destacando a urgência de transformações na estrutura da escola pública diante de uma sociedade em constante reinvenção, impulsionada pelas evoluções tecnológicas. O objetivo central é identificar os principais obstáculos enfrentados pela escola pública e avaliar as consequências caso as mudanças necessárias não se efetivem. A pesquisa, embasada em abordagem qualitativa, utiliza conceitos da literatura científica, abordando temas como a relação entre escola e mundo contemporâneo, direitos humanos, tecnologia no ensino, Quarta Revolução Industrial e as disparidades entre o ensino privado e público no Brasil. A constatação é que a falta de políticas públicas para apoiar a educação tende a negligenciar a preparação dos estudantes para os novos paradigmas, acentuando as desigualdades sociais. Nesse contexto, é imperativo que a educação brasileira se modernize, ouvindo atentamente seus alunos, para se ajustar a um mundo que transcende os limites físicos das instituições educacionais.",
+      "abstract": "O objeto de análise desta resenha é a obra Tecnologia do Oprimido: desigualdade e o mundano digital nas favelas do Brasil, de David Nemer. Com um estudo sensível às pessoas e suas práticas tecnológicas cotidianas na favela, o autor busca no legado de Paulo Freire o conceito de “oprimido” para repensar as “tecnologias mundanas”, razão principal por que contribui com a área de Computer Assisted Language Learning (CALL), ou “ensino e aprendizagem de línguas mediado por tecnologias”. Tal campo, que pode nutrir-se de produções acadêmicas de várias áreas, como a Sociologia, a Informática e a Educação, encontra no livro de Nemer conteúdo substancial para novas pesquisas e trabalhos futuros.",
       "authors": [
-        "Carlos Henrique Barbosa Rozeira",
-        "Carla Corê Maette",
-        "Geórgia Regina Rodrigues Gomes"
+        "Alan Ricardo Costa",
+        "P. Silva"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
@@ -651,76 +364,266 @@
       ],
       "open_access": true,
       "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
     },
     {
-      "paper_id": "6da57b11ac152ed0b130fce92f4de511657a4a6e",
-      "title": "Corpos negros e cultura rap: diálogos com a literatura e cultura afro-brasileira em uma escola pública do ensino médio no tempo presente",
-      "year": 2024,
-      "venue": "Observatorio de la Economía Latinoamericana",
-      "is_brazilian_venue": false,
-      "abstract": "Este texto apresenta uma pesquisa que discute questões relacionadas à educação formal pública do ensino médio, em Salvador, Bahia, Brasil, numa perspectiva transformadora/libertadora. Objetivou-se refletir e ressignificar o ensino de literatura a partir de expressões corporais em diálogo com a cultura do rap e tradições afro-brasileiras, tanto como conhecimento escolar e, também, como possibilidade de aproximação das manifestações culturais clássicas de outras, consideradas à margem da cultura escolar hegemônica. Elegemos como caminho metodológico a teoria dos círculos de cultura de Paulo Freire. O corpo e a cultura foram selecionados como categorias que enunciam linguagens e evidenciam outros sujeitos e conhecimentos. Como resultados, destaca-se a ressignificação das aulas de literatura em duas turmas de ensino médio de uma escola pública da periferia de Salvador. Perseguimos a compreensão do ser na rasura de corpos e culturas de grupos sociais desprivilegiados que surgem novas possibilidades de ensino as quais permitem reinscrever e reinventar uma outra práxis educativa que valorize manifestações de corpos e culturas plurais que acolham outras linguagens. Apostar em uma educação enunciadora de mudanças implica em dar importância a outros saberes que pulsam na vida cotidiana e muitas vezes não são considerados no espaço da escola.",
-      "authors": [
-        "Cleidinalva Silva Cerqueira",
-        "Maria Cecília de Paula Silva"
-      ],
-      "institution_br": "Nao identificada",
-      "citation_count": 0,
-      "reference_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "open_access": true,
-      "doc_type": "Empirico",
-      "source_query": "ChatGPT educacao brasileira escola publica",
-      "collected_at": "2026-04-20 19:21"
-    },
-    {
-      "paper_id": "91c8cf48fe5cbdfaab3094faeb24ae889b671d63",
-      "title": "Artificial Intelligence and Ethical Dimensions of Automated Traffic Enforcement: Implications for Public Health, Healthcare Equity, and Social Justice",
+      "paper_id": "a33e321fb25b5569812efc5b23cb09b1c894c2c2",
+      "title": "O ensino híbrido como política pública: reflexões e experiências no póspandemia",
       "year": 2025,
-      "venue": "Health Economics and Management Review",
+      "venue": "Cuadernos de Educación y Desarrollo",
       "is_brazilian_venue": false,
-      "abstract": "This study provides a critical examination of AI-integrated speed and red-light camera systems through the theoretical lenses of Surveillance Capitalism, the Panopticon Model, Social Control Theory, Technological Determinism, and Structural Violence Theory. While artificial intelligent speed safety cameras demonstrate efficacy in reducing traffic violations and fatalities, this research addresses a critical gap in healthcare literature regarding their broader societal and ethical consequences, including algorithmic bias, data governance failures, and privacy violations that directly impact public trust and health equity. The analysis reveals how machine learning and predictive analytics in automated enforcement create disproportionate burdens on marginalized populations through three specific mechanisms: (1) biased algorithmic design that targets low-income neighborhoods more intensively, (2) punitive traffic fine structures that impose greater relative financial hardship on economically disadvantaged families, and (3) opaque implementation practices that limit community understanding and participation. These patterns perpetuate health disparities by increasing chronic stress, economic instability, and barriers to healthcare access among vulnerable populations. This work’s novel contribution lies in applying four foundational health equity principles to AI-powered traffic enforcement: distributive justice (fair allocation of enforcement across communities), procedural justice (transparent and accountable decision-making processes), recognition justice (acknowledgment of community voices and concerns), and capabilities approach (ensuring enforcement practices do not undermine individuals’ fundamental capabilities for health and wellbeing). Additionally, the study examines three core social justice principles: substantive equality (addressing systemic disadvantages rather than treating all violations identically), participatory parity (ensuring affected communities can participate meaningfully in policy decisions), and non-domination (preventing the arbitrary exercise of state power through automated systems). The study advocates for the development of ethical artificial intelligence governance frameworks that incorporate transparent algorithmic auditing, community driven design processes, and robust oversight mechanisms. These evidence-based recommendations support equitable and trustworthy applications of artificial intelligence that advocate for, rather than undermine, population health and social justice in traffic safety initiatives. A novel contribution of this work lies in its exploration of how artificial intelligence powered speed safety cameras intersect with specific health equity principles in distributive justice, procedural justice, and the capabilities approach, as well as core social justice principles, including substantive equality, participatory parity, and nondomination, in the governance of public infrastructure. The analysis applies distributive justice to examine the fair allocation of enforcement across communities, procedural justice to evaluate transparent decision-making processes, and the capabilities approach to assess whether enforcement practices undermine individuals’ fundamental capabilities for health and wellbeing.",
+      "abstract": "A pesquisa teve como objetivo analisar o ensino híbrido como política pública, com ênfase nas reflexões e experiências durante e após a pandemia de COVID-19. O problema central abordado foi entender como o ensino híbrido impactou a qualidade educacional e a inclusão digital no Brasil, considerando os desafios enfrentados pelas escolas públicas. A metodologia adotada foi uma revisão bibliográfica qualitativa, com a análise de artigos, dissertações e relatórios institucionais sobre o tema. Os resultados mostraram que, embora o ensino híbrido tenha o potencial de melhorar a qualidade educacional e promover a inclusão digital, a sua implementação enfrenta desafios significativos, como a desigualdade no acesso à tecnologia e a falta de capacitação dos professores. Além disso, constatou-se que a infraestrutura tecnológica e o apoio pedagógico contínuo são essenciais para o sucesso do modelo híbrido. As considerações finais indicaram que o ensino híbrido pode ser uma ferramenta importante para transformar a educação no Brasil, desde que haja um esforço conjunto entre governos e instituições para garantir o acesso equitativo às tecnologias e oferecer suporte adequado aos educadores. A pesquisa sugere a necessidade de novos estudos sobre o impacto do ensino híbrido em contextos específicos e o papel das políticas públicas na superação dos desafios identificados.",
       "authors": [
-        "Patricia Haley"
+        "Alysson Felype Martins Souza",
+        "C. E. Pupim",
+        "Glenda Gonçalves Araújo Caetano",
+        "João Moura Leal Filho",
+        "M. Almeida",
+        "Neise Marino Cardoso",
+        "Selma Noêmia Ribeiro do Nascimento",
+        "Simone Gonçalves Rodrigues Gomes"
       ],
       "institution_br": "Nao identificada",
-      "citation_count": 9,
+      "citation_count": 0,
+      "reference_count": 1,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "00ead9505d1d64076480b2332e55fda2de5319aa",
+      "title": "Mapeamento de estudos sobre a formação inicial de professores de ciências e matemática no contexto da pandemia",
+      "year": 2025,
+      "venue": "Alexandria Revista de Educação em Ciência e Tecnologia",
+      "is_brazilian_venue": false,
+      "abstract": "Este trabalho investigou as produções acadêmicas desenvolvidas sobre a formação inicial de professores de ciências e matemática relacionadas à pandemia entre 2020 e 2022. A busca foi realizada no Mendeley®, com os termos chave: formação de professores de ciências, pandemia, química, biologia, física, matemática, tecnologia. Foram selecionados 35 artigos de todas as regiões do Brasil. A análise de conteúdo, com apoio dos softwares Microsoft Excel® e MAXQDA2020, revelou que a maioria das produções são relatos de experiência (20), concentrados nas vivências dos estágios curriculares/residência pedagógica. As pesquisas científicas (15) apontam os impactos da pandemia na formação, como a exclusão digital e a autopercepção docente sobre o letramento digital. A partir dos trabalhos analisados, foi possível evidenciar alguns impactos da pandemia, entre elesa intensificação da desigualdade educacional e as lacunas na formação docente em termos das competências digitais, o que sugere a necessidade de processos e políticas de formação que articulem tecnologias, pedagogia e inclusão.",
+      "authors": [
+        "S. Farias",
+        "Marcel Bruno Pereira Braga",
+        "Wilmo Ernesto Francisco Junior"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "26eade4b8fd0d4e852a35c74dc6883c1651f1af5",
+      "title": "Explorando TV Boxes em Ambientes Educacionais: Vantagens e Limitações operando como Thin Client",
+      "year": 2024,
+      "venue": "Anais da XII Escola Regional de Computação do Ceará, Maranhão e Piauí (ERCEMAPI 2024)",
+      "is_brazilian_venue": false,
+      "abstract": "Com o avanço da tecnologia e o crescimento das plataformas de streaming pagas, o consumo ilegal de conteúdo de TV por assinatura se tornou um problema significativo no Brasil. Para combater a pirataria e reduzir a desigualdade tecnológica, a Receita Federal firmou parceria com instituições de ensino para reaproveitar aparelhos de TV Boxes apreendidos. Esses dispositivos são reconfigurados com software de código aberto e utilizados em projetos acadêmicos que promovem a inclusão digital. Este estudo compara o desempenho de uma TV Box operando como computador, utilizando seus próprios recursos, e como Thin Client acessando um servidor via Remote Desktop Protocol (RDP). A metodologia envolveu a configuração dos dispositivos para ambas as funções. Os resultados demonstram a viabilidade e eficiência dessas soluções, evidenciando a redução de custos e o impacto positivo na educação e no meio ambiente.",
+      "authors": [
+        "Moises Pinhao Sobrinho",
+        "José Vigno Moura Sousa",
+        "Francisco Heron Alves de Carvalho",
+        "Carlos Alberto Silva da Silva",
+        "Leone Rodrigues Santos"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 4,
+      "reference_count": 1,
+      "publication_types": [],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "7a25971326e2feae5c0ed6cba521d0bb9d41b9a2",
+      "title": "Educação e desigualdade digital: o impacto das políticas públicas na equidade de acesso e permanência escolar",
+      "year": 2025,
+      "venue": "Caderno Pedagógico",
+      "is_brazilian_venue": false,
+      "abstract": "A desigualdade digital se configura, nas últimas décadas, como uma das faces mais persistentes das desigualdades sociais e educacionais no Brasil. Apesar dos avanços na universalização do acesso à educação básica, a distância entre o uso pleno das tecnologias e a mera disponibilidade de conexão tornou-se um marcador de exclusão e vulnerabilidade. Este artigo tem por objetivo analisar como a desigualdade digital — que transcende o simples acesso e abrange a qualidade da conexão, dos equipamentos e do letramento — intensifica as disparidades educacionais, ameaçando o direito à educação e elevando os índices de evasão escolar, especialmente entre estudantes da rede pública. O estudo, de natureza qualitativa e caráter bibliográfico, fundamenta-se em autores que discutem o papel das políticas públicas na construção de uma escola digitalmente inclusiva e equitativa. Os resultados apontam que, embora programas federais e estaduais tenham promovido avanços, a ausência de infraestrutura adequada, a formação docente insuficiente e a concentração de investimentos em regiões mais favorecidas mantêm o ciclo de exclusão. Conclui-se que a superação da desigualdade digital requer políticas intersetoriais contínuas, voltadas à democratização do acesso, à formação digital crítica e à garantia de permanência escolar em um cenário de crescente dependência tecnológica.",
+      "authors": [
+        "Sandra Araldi Rodrigues",
+        "A. Oliveira",
+        "Anselmo Accioly Francisco Ferreira",
+        "Eliziário Jackson Mesquita",
+        "Emerson Soares dos Santos",
+        "Sonia Haruko Ito"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
       "reference_count": 0,
       "publication_types": [
         "JournalArticle"
       ],
       "open_access": true,
       "doc_type": "Teorico",
-      "source_query": "artificial intelligence education equity Brazil social justice",
-      "collected_at": "2026-04-20 19:33"
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
     },
     {
-      "paper_id": "327c0aede81d3d5cf52d0e9d0a57b881bfe20164",
-      "title": "Artificial Intelligence for All? Brazilian Teachers on Ethics, Equity, and the Everyday Challenges of AI in Education",
+      "paper_id": "4f58164f1fbabd3aa4070c7a2aaa0d9f599cf12f",
+      "title": "Impactos da desigualdade digital na educação básica em diferentes regiões do mundo",
       "year": 2025,
-      "venue": "arXiv.org",
+      "venue": "Ensino e Tecnologia em Revista",
       "is_brazilian_venue": false,
-      "abstract": "This study examines the perceptions of Brazilian K-12 education teachers regarding the use of AI in education, specifically General Purpose AI. This investigation employs a quantitative analysis approach, extracting information from a questionnaire completed by 346 educators from various regions of Brazil regarding their AI literacy and use. Educators vary in their educational level, years of experience, and type of educational institution. The analysis of the questionnaires shows that although most educators had only basic or limited knowledge of AI (80.3\\%), they showed a strong interest in its application, particularly for the creation of interactive content (80.6%), lesson planning (80.2%), and personalized assessment (68.6%). The potential of AI to promote inclusion and personalized learning is also widely recognized (65.5%). The participants emphasized the importance of discussing ethics and digital citizenship, reflecting on technological dependence, biases, transparency, and responsible use of AI, aligning with critical education and the development of conscious students. Despite enthusiasm for the pedagogical potential of AI, significant structural challenges were identified, including a lack of training (43.4%), technical support (41.9%), and limitations of infrastructure, such as low access to computers, reliable Internet connections, and multimedia resources in schools. The study shows that Brazil is still in a bottom-up model for AI integration, missing official curricula to guide its implementation and structured training for teachers and students. Furthermore, effective implementation of AI depends on integrated public policies, adequate teacher training, and equitable access to technology, promoting ethical, inclusive, and contextually grounded adoption of AI in Brazilian K-12 education.",
+      "abstract": "As tecnologias educacionais em rede suscitam diversas questões, gerando múltiplos olhares que variam de acordo com fatores sociais, culturais e econômicos. Diante desse contexto, é fundamental compreender as desigualdades digitais no âmbito da Educação Básica, identificando padrões globais e regionais em diferentes cenários – desenvolvidos ou em desenvolvimento – e relacionando-os à realidade local. Esse entendimento permite analisar como essas desigualdades afetam escolas, professores e estudantes. O objetivo do estudo é investigar as desigualdades digitais na Educação Básica em distintas regiões do mundo. Metodologicamente, a pesquisa caracteriza-se como descritiva e explicativa, com abordagem qualitativa, adotando a revisão bibliográfica como procedimento principal. A coleta de dados foi realizada nas bases Eric e no Portal da Capes, incluindo estudos publicados entre 2020 e 2024 que discutem desigualdades digitais. No total, foram selecionados 17 estudos para análise. Os resultados evidenciam que apesar do potencial das tecnologias digitais para promover a inclusão e a equidade, sua implementação enfrenta desafios significativos, especialmente nas regiões mais vulneráveis.",
       "authors": [
-        "B. Florentino",
-        "C. Sestito",
-        "W. Cruz",
-        "A. Carvalho",
-        "Robson Bonidia"
+        "Daniela Viero Catelan Pivetta",
+        "A. Reginatto",
+        "J. S. Tybusch",
+        "Aldriana Aparecida de Almeida Favero"
       ],
       "institution_br": "Nao identificada",
       "citation_count": 0,
-      "reference_count": 19,
+      "reference_count": 0,
       "publication_types": [
         "JournalArticle"
       ],
       "open_access": true,
-      "doc_type": "Teorico",
-      "source_query": "artificial intelligence education equity Brazil social justice",
-      "collected_at": "2026-04-20 19:33"
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "bd4a717c07b862c45a3e4ec8c3d2e125444eea6a",
+      "title": "Tecnologia, Educação e Transformação Digital na Sociedade Contemporânea: Uma Análise a partir de “Tecnologia na Educação” de Edinilson Santos Vieira (2020)",
+      "year": 2025,
+      "venue": "Anais do(a) Tecnologia, Educação e Transformação Digital na Sociedade Contemporânea: Uma Análise a partir de “Tecnologia na Educação” de Edinilson Santos Vieira (2020)",
+      "is_brazilian_venue": false,
+      "abstract": "A transformação digital intensificou mudanças profundas nas práticas pedagógicas, nas instituições de ensino e no modo como o conhecimento é produzido e compartilhado na sociedade contemporânea. Com base na obra Tecnologia na Educação 2 edição, de Edinilson Santos Vieira (2024), este artigo apresenta uma revisão aprofundada das dimensões tecnológicas, educacionais e estruturais que moldam o ensino presencial e a educação a distância (EaD). O estudo aborda o impacto das Tecnologias da Informação e Comunicação (TIC), os efeitos da pandemia de Covid-19, os fundamentos da EaD no Brasil, o papel das políticas públicas, bem como as contribuições da tecnologia na democratização do acesso, na inclusão, na acessibilidade e na inovação pedagógica.",
+      "authors": [
+        "E. Vieira"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "985b091f9ea0827d2d34a1d7a4a4239de82db5af",
+      "title": "Uso de tecnologia digital e educação ambiental com foco nos resíduos sólidos no município de Magalhães Barata, Estado do Pará, Brasil",
+      "year": 2024,
+      "venue": "Research, Society and Development",
+      "is_brazilian_venue": false,
+      "abstract": "A gestão de Resíduos Sólidos Urbanos no Brasil, apresenta que, essa abordagem, têm caráter multidimensional, em vista do envolvimento de questões relacionadas ao meio ambiente, a economia, a cultura e além de questões sociais, que são vistos como resíduos que não são aproveitados. Foi construído o objetivo deste estudo: Relatar fatos sobre o grupo de mulheres com foco nos resíduos sólidos no município de Magalhães Barata no estado do Pará, Brasi. Metodologia deste estudo, refere-se a uma pesquisa do tipo ex-post-facto de natureza descritiva de abordagem qualitativa e quantitativa. Resultados: nesta construção foram identificados 17 publicações e 4 livros de metodologia científica, no qual foram sistematizados os dados na sequência foi construído o corpo textual deste estudo. Considerações finais: Observa-se que o município de Magalhães Barata/Pa, deveria criar lei mais rígidas quanto ao descarte de Resíduos Sólidos Urbanos – RSU. Desta forma, com o uso da tecnologia digital e a educação ambiental para os cidadãos, seriam ações economicamente viável que podem contribuir com a mitigação de uma disposição final ambientalmente adequada de geração de RSU.",
+      "authors": [
+        "Junia Marise Matos de Sousa"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "1b4277508e54334c39bbd5128ce798be17323f17",
+      "title": "importância dos Institutos Federais de Educação, Ciência e Tecnologia para a redução da desigualdade educacional no Brasil",
+      "year": 2023,
+      "venue": "Revista on line de Política e Gestão Educacional",
+      "is_brazilian_venue": false,
+      "abstract": "O presente estudo tem como objetivo investigar a importância dos Institutos Federais de Educação, Ciência e Tecnologia (IFE's) na redução da desigualdade educacional no Brasil. A pesquisa foi conduzida por meio de uma revisão bibliográfica e análise de documentos, utilizando dados provenientes do Censo da Educação Básica, Relatórios do INEP, OCDE/PISA e Plataforma Nilo Peçanha. Os resultados derivados da análise do PISA indicam que os IFE’s apresentam um desempenho superior à média nacional. Além disso, em relação ao IDEB, as notas médias dos IFE’s são mais elevadas do que a média geral. Ao considerar os resultados específicos dos Institutos localizados nas regiões Norte e Nordeste, observa-se que essas instituições, além de superarem a média geral, aproximam-se das notas mais altas alcançadas pelas escolas privadas. Esses resultados, aliados à concepção de educação para a emancipação humana, visa oferecer uma formação integral e oportunidades aos indivíduos menos privilegiados da sociedade, revelando que os IFE's constituem uma estratégia eficaz para a redução da desigualdade educacional.",
+      "authors": [
+        "Henry Antônio Silva Nogueira",
+        "Rucelino de Sousa Aguiar",
+        "M. L. Gisi"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 1,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "ba9f3d72de6360fd2924ec9c61e0114f47f73227",
+      "title": "EDUCAÇÃO DE JOVENS E ADULTOS NO BRASIL: ANÁLISE CRÍTICA DE POLÍTICAS, PERMANÊNCIA E APRENDIZAGENS EM CONTEXTOS DE DESIGUALDADE",
+      "year": 2025,
+      "venue": "Lumen et Virtus",
+      "is_brazilian_venue": false,
+      "abstract": "Este estudo examina a Educação de Jovens e Adultos (EJA) no Brasil, com foco em permanência, aprendizagem e políticas recentes. O objetivo é mapear desafios e caminhos de melhoria relacionados a currículo, trabalho docente, inclusão digital e condições de vida dos estudantes. Adota-se revisão de literatura dos últimos cinco anos em bases nacionais e internacionais, aliada a análise documental de normativas e programas, buscando identificar evidências sobre acesso, trajetórias e resultados. Os achados indicam queda de matrículas, oferta irregular e descontinuidade de políticas, ao mesmo tempo em que emergem experiências potentes em projetos interdisciplinares, articulação com trabalho e cultura, mediações tecnológicas e avaliação formativa. Sugerem-se estratégias: formação docente em serviço, flexibilização de tempos e espaços, materiais contextualizados, apoio psicossocial, busca ativa e governança de dados para monitorar fluxos. A contribuição do estudo está em organizar sínteses úteis para gestão e prática pedagógica, oferecendo indicadores e perguntas-guia para planejamento local. O texto dialoga com agendas de equidade educacional, alfabetização de adultos e aprendizagem ao longo da vida, reforçando a EJA como política pública essencial para reduzir desigualdades, ampliar direitos e sustentar percursos educativos de pessoas que concilam estudo, trabalho e cuidado. Resultados orientam decisões, investimentos, acompanhamento e pactos intersetoriais locais duradouros.",
+      "authors": [
+        "Patrícia Raasch Chiapani De Martin"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 11,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "501fd16aadefd14de192580727af6b7ab7de66fc",
+      "title": "Pesquisa em Educação no Brasil: interseções entre teoria e prática com foco em tecnologia educacional e inclusão",
+      "year": 2025,
+      "venue": "REVISTA DELOS",
+      "is_brazilian_venue": false,
+      "abstract": "A pesquisa em educação no Brasil exerce um papel central na formulação de políticas públicas, no aprimoramento das práticas pedagógicas e na promoção da equidade no sistema educacional. Este artigo analisa as interseções entre pesquisa básica e aplicada, com ênfase nas áreas de tecnologia educacional e inclusão. A partir de uma abordagem teórica, o estudo destaca como essas dimensões se articulam na prática educacional, influenciando tanto o cotidiano escolar quanto as decisões políticas. Também são discutidos os principais temas que emergem na atualidade, como a formação docente, a integração de tecnologias e os desafios da inclusão digital. Ao final, são apontadas recomendações para fortalecer o vínculo entre produção acadêmica e transformações concretas na educação brasileira.",
+      "authors": [
+        "Hélida Rosa Silva",
+        "Maria Auxiliadora Silva Freitas",
+        "Marcel Raullino Rocha do Nascimento",
+        "Jessé Marques Lima Costa",
+        "Raimundo Ronald Caxias Garcia",
+        "Eliezer Maia Martins",
+        "Daniele Kelly Lima de Oliveira",
+        "J. F. P. Arantes"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
+    },
+    {
+      "paper_id": "5688818ac2e9ff7fd53331fea615dff843973553",
+      "title": "O AMANHÃ JÁ CHEGOU: DA CONCEPÇÃO DE TECNOLOGIA PARA ANÍSIO TEIXEIRA À EDUCAÇÃO DIGITAL DO SÉCULO XXI",
+      "year": 2025,
+      "venue": "ARACÊ",
+      "is_brazilian_venue": false,
+      "abstract": "Este artigo de revisão da literatura analisa a trajetória da relação entre Educação e Tecnologia, desde a compreensão de Anísio Teixeira, na metade do século XX, até a formulação da Política Nacional de Educação Digital, em 2023. Em uma abordagem qualitativa, a pesquisa debruçou-se sobre as obras de Anísio Teixeira, identificando cinco delas que tratam diretamente da temática das Tecnologias Educacionais. A leitura e a análise do conteúdo desses textos permitiram compreender a concepção de tecnologia proposta pelo autor. Além disso, foi realizado um contraponto com a trajetória da Informática Educativa no Brasil, partindo dos ideais da Escola Nova, passando pelas estratégias nacionais de soberania digital, até a elaboração da atual Política Nacional de Educação Digital. Conclui-se que a integração da tecnologia à educação deve ser entendida não apenas como uma modernização dos métodos tradicionais, mas como uma oportunidade de revitalizar e atualizar ideias centrais da Educação Brasileira, especialmente as de Anísio Teixeira. Sua proposta de uma escola pública, laica, democrática e integral encontra, nas ferramentas tecnológicas contemporâneas, uma aliada potente para se concretizar em larga escala.",
+      "authors": [
+        "Marcelo Wilson Ferreira Pacheco",
+        "Ney Cristina Monteiro De Oliveira"
+      ],
+      "institution_br": "Nao identificada",
+      "citation_count": 0,
+      "reference_count": 3,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "open_access": true,
+      "doc_type": "Empirico",
+      "source_query": "tecnologia educacao desigualdade digital Brasil",
+      "collected_at": "2026-04-21 20:21"
     }
   ]
 }

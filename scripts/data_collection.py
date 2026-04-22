@@ -41,7 +41,8 @@ BASE_URL = "https://api.elsevier.com/content/search/scopus"
 QUERY = (
     'TITLE-ABS-KEY("Artificial Intelligence" OR "Generative AI" OR "Large Language Models" OR "LLM") '
     'AND TITLE-ABS-KEY("Education" OR "Schools" OR "Higher Education" OR "Pedagogy") '
-    'AND TITLE-ABS-KEY("Social Impact" OR "Inequality" OR "Equity" OR "Ethics" OR "Bias")'
+    'AND TITLE-ABS-KEY("Social Impact" OR "Inequality" OR "Equity" OR "Ethics" OR "Bias" '
+    'OR "Empirical" OR "Case Study" OR "Experiment" OR "Survey" OR "Quantitative" OR "Qualitative")'
 )
 
 # Filtros temporais (conforme protocolo)
@@ -72,7 +73,7 @@ SCOPUS_API_KEY = os.getenv("SCOPUS_API_KEY", "")
 
 # Controle de paginação
 LIMIT_PER_REQUEST = 100   # Máximo permitido pela API
-MAX_RESULTS = 1000         # Limite total de resultados por execução
+MAX_RESULTS = 2000         # Limite total de resultados por execução
 REQUEST_DELAY_SECONDS = 5  # Respeito ao rate limit da API (sem chave: ~1 req/s)
 MAX_RETRIES = 4            # Tentativas com backoff exponencial
 

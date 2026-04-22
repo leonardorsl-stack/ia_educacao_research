@@ -117,14 +117,13 @@ def extrair_impacto(row: pd.Series) -> pd.Series:
             break
 
     # B2 — Direção do achado principal
-    positive = re.search(
-        r"improv|increas|positive|benefit|effective|significan.{0,10}(gain|improve|higher|better)|"
-        r"reduc.{0,15}(workload|burden|time)|higher performance|better outcome", t
-    )
-    negative = re.search(
-        r"reduc.{0,15}(autonomy|critical thinking|performance)|negativ|harm|risk|"
-        r"bias|discriminat|inequit|disparit|limit|concern|challeng|barrier|overus", t
-    )
+    positive_kws = r"improv|increas|positive|benefit|effective|significan.{0,10}(gain|improve|higher|better)|" \
+                   r"reduc.{0,15}(workload|burden|time)|higher performance|better outcome"
+    negative_kws = r"reduc.{0,15}(autonomy|critical thinking|performance)|negativ|harm|risk|" \
+                   r"bias|discriminat|inequit|disparit" # Removido 'limit', 'concern', 'challeng', 'barrier' que são normais em qualquer artigo
+
+    positive = re.search(positive_kws, t)
+    negative = re.search(negative_kws, t)
 
     if positive and negative:
         direction = "Mixed / Neutral"
@@ -135,8 +134,7 @@ def extrair_impacto(row: pd.Series) -> pd.Series:
     else:
         direction = "Mixed / Neutral"
 
-    # B3 — Descrição sucinta do efeito (primeiro resultado quantificável ou qualitativo)
-    # Tenta capturar % / d= / e numerais com palavras de resultado
+    # B3 — Descrição sucinta do efeito
     quant = re.search(
         r"(\d+\s*%\s*\w[\w\s]{0,40}|effect size[^\.,]{0,40}|d\s*=\s*[\d\.]+[^\.,]{0,30}|"
         r"\d+\s*(?:point|percent|fold|times)[^\.,]{0,40})",
@@ -145,7 +143,6 @@ def extrair_impacto(row: pd.Series) -> pd.Series:
     if quant:
         effect_desc = quant.group(0).strip()[:120]
     else:
-        # Fallback: primeira sentença com "result" ou "finding" ou "show"
         sent = re.search(r"[^.]*(?:result|finding|show|reveal|indicate|suggest)[^.]{0,150}\.", text, re.I)
         effect_desc = sent.group(0).strip()[:120] if sent else "See abstract"
 
@@ -154,7 +151,6 @@ def extrair_impacto(row: pd.Series) -> pd.Series:
     if not inequity_flag:
         inequity_ev = "Not reported"
     else:
-        # Extrai trecho mais relevante sobre desigualdade
         ineq_sent = re.search(
             r"[^.]*(?:inequit|inequalit|disparit|gap|access barrier|rural|low.income|"
             r"marginali|global south|developing|underserved|exclusion)[^.]{0,180}\.",
@@ -162,7 +158,16 @@ def extrair_impacto(row: pd.Series) -> pd.Series:
         )
         inequity_ev = ineq_sent.group(0).strip()[:160] if ineq_sent else "Flagged in abstract (see full text)"
 
-    return pd.Series([ai_type, direction, effect_desc, inequity_ev])
+    # B5 — Qualidade Metodológica Simplificada (Novo)
+    # Pontuação de 0 a 5 com base em evidências no abstract
+    quality_score = 0
+    if re.search(r"n\s*=\s*\d+|sample\s+of", t): quality_score += 1 # Amostra definida
+    if re.search(r"control group|randomized|experiment|rct", t): quality_score += 1 # Design robusto
+    if re.search(r"statistically significant|p\s*<\s*0", t): quality_score += 1 # Rigor estatístico
+    if re.search(r"methodology|mixed methods|qualitative|quantitative", t): quality_score += 1 # Metodologia explícita
+    if len(t) > 500: quality_score += 1 # Detalhamento do abstract
+
+    return pd.Series([ai_type, direction, effect_desc, inequity_ev, quality_score])
 
 
 # ---------------------------------------------------------------------------
@@ -184,7 +189,7 @@ def run_enrichment() -> pd.DataFrame:
 
     # --- Dimensão B ---
     logger.info("Extraindo dimensões de impacto (B)...")
-    df[["ai_type", "main_finding_direction", "effect_description", "inequity_evidence"]] = \
+    df[["ai_type", "main_finding_direction", "effect_description", "inequity_evidence", "quality_score"]] = \
         df.apply(extrair_impacto, axis=1)
 
     # --- Reordenar colunas para leitura científica ---
@@ -193,7 +198,7 @@ def run_enrichment() -> pd.DataFrame:
         # Dimensão A
         "methodology_type", "education_level", "geographic_focus", "sample_size",
         # Dimensão B
-        "ai_type", "main_finding_direction", "effect_description",
+        "ai_type", "main_finding_direction", "effect_description", "quality_score",
         "impact", "inequity", "ethics", "inequity_evidence",
         # Cluster
         "cluster", "cluster_label",

@@ -1,8 +1,23 @@
 [
   {
+    "title": "Exploring the impact of generative AI-based technologies on learning performance through self-efficacy, fairness & ethics, creativity, and trust in higher education",
+    "link": "https://link.springer.com/article/10.1007/s10639-024-12949-9",
+    "abstract": "\u2026 This study focused on how generative AI-based technologies, LLM-based ChatGPT, and \nchatbots affect students\u2019 learning performance in higher education. In light of the SCT theory \u2026"
+  },
+  {
+    "title": "The life cycle of large language models in education: A framework for understanding sources of bias",
+    "link": "https://bera-journals.onlinelibrary.wiley.com/doi/abs/10.1111/bjet.13505",
+    "abstract": "\u2026 LLM life cycle and identify potential sources of bias that may arise in the context of education\u2026 \ncurrent measures of bias from traditional machine learning fail to transfer to LLM-generated \u2026"
+  },
+  {
     "title": "Opportunities and challenges of generative artificial intelligence: Research, education, industry engagement, and social impact",
     "link": "https://ieeexplore.ieee.org/abstract/document/10680463/",
-    "abstract": "\u2026 , Generative AI is signaling a paradigm shift in the intelligence of machines, an increased \ngeneralization capability with increased accessibility and equity \u2026 of Generative AI in advancing \u2026"
+    "abstract": "\u2026 This section presents an overview of Generative AI, starting with some early work and \u2026 \nGenerative AI: they are, algorithms, data, computing, and limitations. The journey of Generative AI \u2026"
+  },
+  {
+    "title": "[LIVRO][B] Guidance for generative AI in education and research",
+    "link": "https://books.google.com/books?hl=pt-BR&lr=&id=cKnYEAAAQBAJ&oi=fnd&pg=PA2&dq=(%22Artificial+Intelligence%22+OR+%22Generative+AI%22+OR+%22Large+Language+Models%22+OR+%22LLM%22)+AND+(%22Education%22+OR+%22Schools%22+OR+%22Higher+Education%22+OR+%22Pedagogy%22)+AND+(%22Social+Impact%22+OR+%22Inequality%22+OR+%22Equity%22+OR+%22Ethics%22+OR+%22Bias%22+OR+%22Empirical%22+OR+%22Case+Study%22+OR+%22Experiment%22+OR+%22Survey%22+OR+%22Quantitative%22+OR+%22Qualitative%22)&ots=wmKfjcJ9fJ&sig=OWzJv6C5GF6yPHiCadZ_-_0nAG0",
+    "abstract": "\u2026 Recommendation on the Ethics of Artificial Intelligence, the guidance is anchored in a \nhumanistic approach to education that promotes human agency, inclusion, equity, gender equality\u2026"
   },
   {
     "title": "The social impact of generative LLM-based AI",
@@ -10,29 +25,14 @@
     "abstract": "Liking it or not, ready or not, we are likely to enter a new phase of human history in which \nartificial intelligence (AI) will dominate economic production and social life\u2014the AI revolution. \u2026"
   },
   {
-    "title": "Advancing equity and inclusion in educational practices with AI\u2010powered educational decision support systems (AI\u2010EDSS)",
-    "link": "https://bera-journals.onlinelibrary.wiley.com/doi/abs/10.1111/bjet.13507",
-    "abstract": "\u2026 for bias in the final deployed LLM to assess potential harms. To this end, the authors review \nmeasures for assessing bias \u2026 gaps in higher education and advance equity and inclusion in \u2026"
-  },
-  {
-    "title": "[LIVRO][B] Guidance for generative AI in education and research",
-    "link": "https://books.google.com/books?hl=pt-BR&lr=&id=cKnYEAAAQBAJ&oi=fnd&pg=PA2&dq=(%22Artificial+Intelligence%22+OR+%22Generative+AI%22+OR+%22Large+Language+Models%22+OR+%22LLM%22)+AND+(%22Education%22+OR+%22Schools%22+OR+%22Higher+Education%22+OR+%22Pedagogy%22)+AND+(%22Social+Impact%22+OR+%22Inequality%22+OR+%22Equity%22+OR+%22Ethics%22+OR+%22Bias%22)&ots=wmKfifI2iJ&sig=UOkUyKzm9RuyBLAmBxPhmWP2EgE",
-    "abstract": "\u2026 Recommendation on the Ethics of Artificial Intelligence, the guidance is anchored in a \nhumanistic approach to education that promotes human agency, inclusion, equity, gender equality\u2026"
-  },
-  {
     "title": "[HTML][HTML] Generative AI, research ethics, and higher education research: Insights from a scientometric analysis",
     "link": "https://www.mdpi.com/2078-2489/15/6/325",
-    "abstract": "\u2026 studies at the intersection of AI, ethics, and HE. The analysis \u2026 terms such as \u2018large language \nmodels\u2019 and \u2018ethics\u2019, pointing \u2026 on higher education, encompassing terms like \u2018generative AI\u2026"
+    "abstract": "\u2026 and ethics, \u2026 ethics and integrity, highlighting novel forms of research misconduct and \nstrategies for their mitigation [3]. Thus, in this study, we seek to provide quantitative and qualitative \u2026"
   },
   {
-    "title": "Navigating the ethical and societal impacts of generative AI in higher computing education",
-    "link": "https://dl.acm.org/doi/abs/10.1145/3760545.3783975",
-    "abstract": "\u2026 Generative AI (GenAI) presents societal and ethical challenges related to equity, academic \nintegrity, bias, and data provenance. In this paper, we outline the goals, methodology and \u2026"
-  },
-  {
-    "title": "Artificial intelligence in higher education: a systematic review of contributions to SDG 4 (quality education) and SDG 10 (reduced inequality)",
-    "link": "https://www.emerald.com/ijem/article-abstract/doi/10.1108/IJEM-12-2024-0856/1272029",
-    "abstract": "Purpose This research systematically examines how AI technologies in higher education \ncontribute to achieving Sustainable Development Goals (SDGs), focusing on SDG 4 (quality \u2026"
+    "title": "Adoption of artificial intelligence in higher education: A quantitative analysis using structural equation modelling",
+    "link": "https://link.springer.com/article/10.1007/s10639-020-10159-7",
+    "abstract": "\u2026 application of Artificial Intelligence (AI) in higher education in \u2026 of Indian Institutes of higher \neducation. The prospect of use of \u2026 taken in the institutes of higher education. This is important \u2026"
   },
   {
     "title": "Practical and ethical challenges of large language models in education: A systematic scoping review",
@@ -40,29 +40,44 @@
     "abstract": "\u2026 As the intersection of AI and education is continuously evolving, the \u2026 enabled by ChatGPT \nand other generative AI models. \u2026 There are ongoing debates regarding AI ethics in education \u2026"
   },
   {
-    "title": "[HTML][HTML] \u2026\u00a0language models into accessible and inclusive education: access democratization and individualized learning enhancement supported by generative artificial\u00a0\u2026",
-    "link": "https://www.mdpi.com/2078-2489/16/6/473",
-    "abstract": "\u2026 This study explores the integration of large language models (LLMs) into \u2026 to education \nand to foster inclusive learning practices, thereby advancing the effectiveness and equity of \u2026"
-  },
-  {
     "title": "Revolutionizing higher education: Unleashing the potential of large language models for strategic transformation",
     "link": "https://ieeexplore.ieee.org/abstract/document/10529287/",
     "abstract": "\u2026 to explore the broader social impact of LLM integration and inform \u2026 bias, ethics of LLM \nuse, and the societal impact of LLM-\u2026 needed to engage responsibly with LLM technologies [1]\u2026"
   },
   {
-    "title": "[HTML][HTML] The transformative power of generative artificial intelligence for achieving the sustainable development goal of quality education",
-    "link": "https://www.mdpi.com/2071-1050/16/22/9779",
-    "abstract": "\u2026 First, this paper outlines a framework that leverages GAI to enhance educational equity, \nquality, and lifelong learning opportunities. By highlighting the synergy between GAI and the \u2026"
+    "title": "[HTML][HTML] Generative AI and higher education: Trends, challenges, and future directions from a systematic literature review",
+    "link": "https://www.mdpi.com/2078-2489/15/11/676",
+    "abstract": "\u2026 include only articles that describe scientific empirical research on the use of GAI in higher \neducation. In this context, we define empirical research as investigations in which researchers \u2026"
+  },
+  {
+    "title": "Large language models for education: A survey",
+    "link": "https://arxiv.org/abs/2405.13001",
+    "abstract": "\u2026 LLM technology engages with schools, online education \u2026 the application of LLMs in education. \nPartnering to provide actual \u2026 the application of LLM in the field of education. The details \u2026"
   },
   {
     "title": "[HTML][HTML] Generative AI in higher education: Balancing innovation and integrity",
     "link": "https://www.frontierspartnerships.org/journals/british-journal-of-biomedical-science/articles/10.3389/bjbs.2024.14048/full?utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field&journalName=British_Journal_of_Biomedical_Science&id=14048&fbclid=IwZXh0bgNhZW0CMTEAAR1gmz4CjU6MedvKcbCS2bOqVGiSJINnDAn-vCiR89mafG-rfDP1noEgBqU_aem_-qhAckgURYS4GrjewsLr4Q&sfnsn=scwspmo",
-    "abstract": "\u2026 in education, ensuring fairness and equity, AI Literacy: Evaluating the effectiveness of GenAI \nliteracy programs for educators and students, Policy Impact: Studying the effectiveness of \u2026"
+    "abstract": "\u2026 In the context of academia, this would mean that uploading student assessments to generate \nfeedback or qualitative and quantitative research data to an LLM for analysis could breach \u2026"
   },
   {
-    "title": "Justice, Equity, Diversity, and Inclusion in Artificial Intelligence and Childhood Education: A Critical Systematic Review",
-    "link": "https://www.tandfonline.com/doi/abs/10.1080/02568543.2025.2578526",
-    "abstract": "\u2026 sources of bias at each stage. Importantly, they also discuss why traditional bias measures \nare inadequate for assessing LLM-\u2026 In other words, \u201cdifferences\u201d in LLM responses may reflect \u2026"
+    "title": "Large Language Models for Education: A survey and outlook",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11364183/",
+    "abstract": "\u2026 , the present survey article provides a thorough technological review of LLMs in education, \u2026 \ndeeper understanding in the evolving landscape of LLM-driven educational technologies. \u2026"
+  },
+  {
+    "title": "[HTML][HTML] The impact of large language models on higher education: exploring the connection between AI and Education 4.0",
+    "link": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1392091/full",
+    "abstract": "\u2026 show that quantitative methodology has been used in 27.71% (n = 23) of the studies, \nindicating a preference for approaches that rely on collecting and analyzing quantitative data. \u2026"
+  },
+  {
+    "title": "[LIVRO][B] Artificial intelligence applications in higher education: Theories, ethics, and case studies for universities",
+    "link": "https://books.google.com/books?hl=pt-BR&lr=&id=fVgjEQAAQBAJ&oi=fnd&pg=PP1&dq=(%22Artificial+Intelligence%22+OR+%22Generative+AI%22+OR+%22Large+Language+Models%22+OR+%22LLM%22)+AND+(%22Education%22+OR+%22Schools%22+OR+%22Higher+Education%22+OR+%22Pedagogy%22)+AND+(%22Social+Impact%22+OR+%22Inequality%22+OR+%22Equity%22+OR+%22Ethics%22+OR+%22Bias%22+OR+%22Empirical%22+OR+%22Case+Study%22+OR+%22Experiment%22+OR+%22Survey%22+OR+%22Quantitative%22+OR+%22Qualitative%22)&ots=UW5o_PMUZ5&sig=BOZdFDri6jq1qLfC5_4MTxCZ0xk",
+    "abstract": "\u2026 of how artificial intelligence systems can be applied in today\u2019s higher education contexts. As \n\u2026 university programs offers fresh perspectives on generative AI, adaptive learning, intelligent \u2026"
+  },
+  {
+    "title": "[HTML][HTML] The transformative power of generative artificial intelligence for achieving the sustainable development goal of quality education",
+    "link": "https://www.mdpi.com/2071-1050/16/22/9779",
+    "abstract": "\u2026 artificial intelligence (GAI) for achieving the UN Sustainable Development Goal on Quality \nEducation (\u2026 that leverages GAI to enhance educational equity, quality, and lifelong learning \u2026"
   },
   {
     "title": "Who benefits and who is excluded?: Transformative learning, equity, and generative artificial intelligence",
@@ -70,19 +85,24 @@
     "abstract": "\u2026 the influence of generative AI in higher education necessitates \u2026 generative AI to enhance \nequity, but that there are cautions. Subsequent sections explore the influences of generative AI \u2026"
   },
   {
+    "title": "Justice, Equity, Diversity, and Inclusion in Artificial Intelligence and Childhood Education: A Critical Systematic Review",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/02568543.2025.2578526",
+    "abstract": "\u2026 sources of bias at each stage. Importantly, they also discuss why traditional bias measures \nare inadequate for assessing LLM-\u2026 In other words, \u201cdifferences\u201d in LLM responses may reflect \u2026"
+  },
+  {
+    "title": "The impact of Generative AI (GenAI) on practices, policies and research direction in education: A case of ChatGPT and Midjourney",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/10494820.2023.2253861",
+    "abstract": "\u2026 , this qualitative study aims to investigate how GenAI changes our school education from the \n\u2026 in a systematic literature review study on AI in education. The participants were 88 school \u2026"
+  },
+  {
     "title": "[PDF][PDF] ChatGPT impacts on access-efficiency, employment, education and ethics: The socio-economics of an AI language model",
     "link": "https://www.researchgate.net/profile/Olaniyi-Evans/publication/372476026_ChatGPT_impacts_on_access-efficiency_employment_education_and_ethics_The_socio-economics_of_an_AI_language_model/links/64df1eaf14f8d17338083a14/ChatGPT-impacts-on-access-efficiency-employment-education-and-ethics-The-socio-economics-of-an-AI-language-model.pdf",
     "abstract": "\u2026 the impact of ChatGPT on scholarly publishing and the ethics of large language models. \u2026 \nbias, which must be addressed. To explore the impact of ChatGPT and large language models \u2026"
   },
   {
-    "title": "Guiding the future: developing an ethical framework for generative AI use in education",
-    "link": "https://www.emerald.com/ijilt/article/43/1/26/1332290",
-    "abstract": "\u2026 virtue and care ethics, as well as social learning and social exchange theory, tailored to \ndifferent educational levels and the rapidly evolving landscape of generative AI in education. To \u2026"
-  },
-  {
-    "title": "Ethics of artificial intelligence in university education",
-    "link": "https://ieeexplore.ieee.org/abstract/document/10590285/",
-    "abstract": "\u2026 This paper explores the ethics of artificial intelligence (AI) in \u2026 the ethics of using artificial \nintelligence in higher education \u2026 surrounding human rights and educational equity. Additionally, it \u2026"
+    "title": "Towards responsible development of generative AI for education: An evaluation-driven approach",
+    "link": "https://arxiv.org/abs/2407.12687",
+    "abstract": "\u2026 to ethics and safety goes beyond the common gen AI guidelines, as we develop education-\u2026 \n159, 160], we propose a framework leveraging LLM-based critics to automatically assess \u2026"
   },
   {
     "title": "A meta systematic review of artificial intelligence in higher education: A call for increased ethics, collaboration, and rigour",
@@ -95,9 +115,24 @@
     "abstract": "\u2026 To identify and quantify ability bias in generative artificial intelligence large language model \n\u2026 that bias exists in their responses, but, to our knowledge, quantifying ability bias has not yet \u2026"
   },
   {
-    "title": "Levelling the playing field through GenAI: Harnessing artificial intelligence to bridge educational gaps for equity and disadvantaged students",
-    "link": "https://www.ingentaconnect.com/content/openu/jwpll/2024/00000026/00000003/art00013",
-    "abstract": "\u2026 (GenAI), particularly large language models (LLMs) like ChatGPT, can address educational \ndisparities faced by equity students in higher education (HE). Equity students, including \u2026"
+    "title": "Artificial intelligence in early childhood STEM education: A review of pedagogical paradigms, ethical issues, and socio-political implications",
+    "link": "https://www.jeseh.net/index.php/jeseh/article/view/800",
+    "abstract": "\u2026 This study adopts a qualitative \u2026 of artificial intelligence (AI) in early childhood education. \nThe primary aim of the research is to explore the impacts of AI on early childhood education and \u2026"
+  },
+  {
+    "title": "Ethical implications of artificial intelligence in higher education",
+    "link": "http://www.scientiamoralitas.com/index.php/sm/article/view/313",
+    "abstract": "\u2026 We do not intend to build a case study on a particular higher education system, our intention \nis to formulating preliminary conclusions that are relevant regardless of the geographical \u2026"
+  },
+  {
+    "title": "Exploring the transformative impact of generative AI on higher education",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-031-50040-4_6",
+    "abstract": "\u2026 the widespread use of generative AI. Through a qualitative lens, this study has explored the \nthoughts and feeling of staff and students on the adoption of generative AI giving the sector \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Exploring the ethical implications of using generative AI tools in higher education",
+    "link": "https://www.mdpi.com/2227-9709/12/2/36",
+    "abstract": "\u2026 As indicated by the findings of this study, the field of Artificial Intelligence in Education (AIED) \nwould benefit from empirical studies that incorporate multiple factors specific to educational \u2026"
   },
   {
     "title": "Implicit bias in large language models: Experimental proof and implications for education",
@@ -105,9 +140,9 @@
     "abstract": "\u2026 research at the intersection of technology, critical studies, and education. First, we explore \nthe discourse on ethics and AI in education and society. Then, we broaden our perspective, \u2026"
   },
   {
-    "title": "Artificial Intelligence in education: Opportunities, challenges, and ethical concerns",
-    "link": "https://asjp.cerist.dz/en/article/266929",
-    "abstract": "\u2026 Artificial Intelligence (AI) is rapidly transforming education, \u2026 The present paper explores the \nintegration of AI in education, \u2026 methodologies and making education more accessible and \u2026"
+    "title": "[HTML][HTML] Generative AI in education: Perspectives through an academic lens",
+    "link": "https://www.mdpi.com/2079-9292/14/5/1053",
+    "abstract": "In this paper, we investigated the role of generative AI in education in academic publications \nextracted from Web of Science (3506 records; 2019\u20132024). The proposed methodology \u2026"
   },
   {
     "title": "[HTML][HTML] Generative artificial intelligence in higher education: Evidence from an analysis of institutional policies and guidelines",
@@ -115,44 +150,9 @@
     "abstract": "\u2026 uptake of generative artificial intelligence (GenAI) across higher education institutions (HEIs)\u2026 \ntalked about the ethics of GenAI on a broad range of topics, including Diversity, Equity and \u2026"
   },
   {
-    "title": "Artificial intelligence in early childhood STEM education: A review of pedagogical paradigms, ethical issues, and socio-political implications",
-    "link": "https://www.jeseh.net/index.php/jeseh/article/view/800",
-    "abstract": "\u2026 The role of artificial intelligence (AI) in early childhood education, its integration into \npedagogical practices, concerns related to data privacy and ethics, and the frameworks of national \u2026"
-  },
-  {
-    "title": "[HTML][HTML] Fairness, Accountability, Transparency, and Ethics (FATE) in Artificial Intelligence (AI) and higher education: A systematic review",
-    "link": "https://www.sciencedirect.com/science/article/pii/S2666920X23000310",
-    "abstract": "\u2026 The use of Artificial Intelligence or AI is rising in higher education. With this rise, the morality \nof AI \u2026 , and Ethics or FATE are identified in the AI and higher education studies to date. \u2026"
-  },
-  {
-    "title": "Artificial intelligence in higher education: A state-of-the-art overview of pedagogical integrity, artificial intelligence literacy, and policy integration",
-    "link": "https://www.mdpi.com/2673-8392/5/4/180",
-    "abstract": "\u2026 content), algorithmic bias and data privacy, \u2026 AI higher education, AI literacy, AI tools for \neducators and teaching staff, ethical use of AI, and institutional integration of AI in higher education\u2026"
-  },
-  {
-    "title": "The social impact of generative ai: An analysis on chatgpt",
-    "link": "https://dl.acm.org/doi/abs/10.1145/3582515.3609555",
-    "abstract": "\u2026 impacts of ChatGPT in education, we created the code \"Benefits for education\". After reviewing \n\u2026 On the other hand, the category of negative impacts encompasses codes such as \"Bias \u2026"
-  },
-  {
-    "title": "[HTML][HTML] Generative AI in education: Perspectives through an academic lens",
-    "link": "https://www.mdpi.com/2079-9292/14/5/1053",
-    "abstract": "In this paper, we investigated the role of generative AI in education in academic publications \nextracted from Web of Science (3506 records; 2019\u20132024). The proposed methodology \u2026"
-  },
-  {
-    "title": "\u2026\u00a0there?\u201d ChatGPT and artificial intelligence-powered large language models: reflections on potential impacts within health and physical education teacher education",
-    "link": "https://journals.humankinetics.com/view/journals/jtpe/42/3/article-p385.xml",
-    "abstract": "\u2026 the broad spectrum of (health and physical) education, there is a tendency to focus on the \n\u2026 Taking a sociocritical perspective can provide a lens through which digital (in)equity issues \u2026"
-  },
-  {
-    "title": "Artificial Intelligence, Education, and Ethics: A Bibliometric Perspective",
-    "link": "https://www.ceeol.com/search/article-detail?id=1406956",
-    "abstract": "This study analyzes the structure, trends, and focal points of scholarly production in the field \nof artificial intelligence (AI) and ethics through a bibliometric approach using VOSviewer, \u2026"
-  },
-  {
-    "title": "[PDF][PDF] Advancing SDG 4: Harnessing generative AI to transform learning, teaching, and educational equity in higher education",
-    "link": "https://www.researchgate.net/profile/Olusiji-Lasekan/publication/387823068_Advancing_SDG_4_Harnessing_Generative_AI_to_Transform_Learning_Teaching_and_Educational_Equity_in_Higher_Education/links/677e8f0c7934b95644a9c89f/Advancing-SDG-4-Harnessing-Generative-AI-to-Transform-Learning-Teaching-and-Educational-Equity-in-Higher-Education.pdf",
-    "abstract": "\u2026 to critically explore the role of generative AI in the future of education, focusing on three key \n\u2026 the challenges posed by generative AI\u2019s integration into education systems and propose a \u2026"
+    "title": "Artificial intelligence in online higher education: A systematic review of empirical research from 2011 to 2020",
+    "link": "https://link.springer.com/article/10.1007/s10639-022-10925-9",
+    "abstract": "\u2026 As an effort to further understand AI in online higher education, this systematic review \nexamines empirical research of AI applications in online higher education from the instructional \u2026"
   },
   {
     "title": "The promise and challenges of generative AI in education",
@@ -160,29 +160,49 @@
     "abstract": "\u2026 ethics of AI in education, and hybrid intelligence and instruction. Although we did not intend, \nnor claim to have a complete coverage of topics, the lineup of experts accounts for a certain \u2026"
   },
   {
-    "title": "[HTML][HTML] Generative artificial intelligence: Implications and considerations for higher education practice",
-    "link": "https://www.mdpi.com/2227-7102/13/11/1109",
-    "abstract": "\u2026 bias against certain linguistic patterns. This is an artefact of the extant biases in the data that \nmost foundation Large Language Models \u2026 , it would confirm the pre-existing bias. In turn, this \u2026"
+    "title": "Exploring health sciences students' perspectives on using generative artificial intelligence in higher education: A qualitative study",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/nhs.70030",
+    "abstract": "\u2026 The widespread adoption of artificial intelligence (AI) tools in academic settings has the \u2026 \nregarding the use of generative AI in higher education. A qualitative descriptive research design \u2026"
+  },
+  {
+    "title": "The social impact of generative ai: An analysis on chatgpt",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3582515.3609555",
+    "abstract": "\u2026 Atlas.ti is a qualitative research tool that enables the \u2026 in education, we created the code \n\"Benefits for education\". After \u2026 encompasses codes such as \"Bias concerns\", which emerged as \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Developing medical education curriculum reform strategies to address the impact of generative AI: qualitative study",
+    "link": "https://mededu.jmir.org/2023/1/e53466/",
+    "abstract": "\u2026 We conducted a qualitative analysis of the impact of GAI on medical education curricula \nand strategies for responding to it using the SWOT framework and cross-SWOT matrix. We \u2026"
+  },
+  {
+    "title": "Implementing artificial intelligence in physiotherapy education: A case study on the use of large language models (LLM) to enhance feedback",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10648793/",
+    "abstract": "\u2026 case study focusing on the innovative use of Artificial Intelligence (AI) and Large Language \nModels (LLM\u2026 learning of procedural skills in physiotherapy education. We explore how these \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Advancing SDG 4: Harnessing generative AI to transform learning, teaching, and educational equity in higher education",
+    "link": "https://www.researchgate.net/profile/Olusiji-Lasekan/publication/387823068_Advancing_SDG_4_Harnessing_Generative_AI_to_Transform_Learning_Teaching_and_Educational_Equity_in_Higher_Education/links/677e8f0c7934b95644a9c89f/Advancing-SDG-4-Harnessing-Generative-AI-to-Transform-Learning-Teaching-and-Educational-Equity-in-Higher-Education.pdf",
+    "abstract": "\u2026 to critically explore the role of generative AI in the future of education, focusing on three key \n\u2026 the challenges posed by generative AI\u2019s integration into education systems and propose a \u2026"
+  },
+  {
+    "title": "Towards responsible artificial intelligence in education: a systematic review on identifying and mitigating ethical risks",
+    "link": "https://www.nature.com/articles/s41599-025-05252-6",
+    "abstract": "\u2026 : (\u201cartificial intelligence\u201d OR AI OR AIED) AND (education OR learning OR teaching) AND \n(\u201cethical risks\u201d OR \u201cethical principles\u201d OR ethics). The subject categories were focused on \u2026"
+  },
+  {
+    "title": "Advancing transformative education: Generative AI as a catalyst for equity and innovation",
+    "link": "https://arxiv.org/abs/2411.15971",
+    "abstract": "\u2026 in education: To ensure long-term success, this study will focus on creating a roadmap for \nsustainable generative AI adoption in education. This \u2026 in integrating generative AI responsibly, \u2026"
+  },
+  {
+    "title": "Implementation of ethics of using artificial intelligence in the education system in indonesia",
+    "link": "https://journal.pandawan.id/b-front/article/view/571",
+    "abstract": "\u2026 the technology serves as an inclusive tool for education. This research adopts a qualitative \napproach to explore the different aspects of AI in education, aiming to identify and analyze its \u2026"
   },
   {
     "title": "[HTML][HTML] AI, Ethics, and Cognitive Bias: An LLM-Based Synthetic Simulation for Education and Research",
     "link": "https://www.mdpi.com/3042-8130/1/1/3",
-    "abstract": "This study examines how cognitive biases may shape ethical decision-making in AI-mediated \nenvironments, particularly within education and research. As AI tools increasingly \u2026"
-  },
-  {
-    "title": "[HTML][HTML] Generative ai in education: Mapping the research landscape through bibliometric analysis",
-    "link": "https://www.mdpi.com/2078-2489/16/8/657",
-    "abstract": "\u2026 has explored the application of artificial intelligence in education, reflecting the increasing \n\u2026 Future work should apply frameworks from critical pedagogy and digital ethics to examine \u2026"
-  },
-  {
-    "title": "Ethical framework for AI education based on large language models",
-    "link": "https://link.springer.com/article/10.1007/s10639-024-13241-6",
-    "abstract": "\u2026 upon and reference technology ethics and utilitarian ethics as our methodological \u2026 in \neducation. This section systematically dissects the principles and structures of artificial intelligence \u2026"
-  },
-  {
-    "title": "Philosophical, legal, ethical, and practical considerations in the emerging use of generative AI in academic journals: Guidelines for research in science education \u00a0\u2026",
-    "link": "https://link.springer.com/article/10.1007/s11165-024-10192-3",
-    "abstract": "\u2026 in several additional areas, including ethics, philosophy, copyright, authorship attribution \u2026 \neducation, including those that will be curated in our \u201cArtificial Intelligence in Science Education\u2026"
+    "abstract": "\u2026 AI use but lack empirical modeling of bias interactions. Consequently, a clear empirical gap \n\u2026 Our LLM-generated synthetic behavior estimation experiment directly addresses this gap by \u2026"
   },
   {
     "title": "Generative Artificial Intelligence (AI) Tools in Higher Education: A Moral Compass for the Future?",
@@ -190,13 +210,743 @@
     "abstract": "\u2026 in AI systems, they should understand where potential for bias can occur and advocate for \n\u2026 facing education is using Generative AI tools for the purpose of detecting potential AI bias. \u2026"
   },
   {
-    "title": "From hype to evidence: exploring large language models for inter-group bias classification in higher education",
-    "link": "https://www.tandfonline.com/doi/abs/10.1080/10494820.2024.2408554",
-    "abstract": "\u2026 potential of LLM-based algorithms for detecting inter-group bias in educational texts, providing \nempirical evidence to support the growing discourse around AI's role in Education. Those \u2026"
+    "title": "Promoting ethical use of generative AI in education",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3685235.3685237",
+    "abstract": "\u2026 generative AI to perpetuate existing biases in training data. This editorial discusses three \nmajor concerns in generative AI use in education \u2026 five principles of AI ethics. The editorial also \u2026"
   },
   {
-    "title": "Ethics of artificial intelligence in education",
-    "link": "https://link.springer.com/chapter/10.1007/978-3-031-32653-0_12",
-    "abstract": "\u2026 for a future where artificial intelligence plays a more significant role in education because, \nwhile it \u2026 There is also a risk that AI education systems may prioritize a restricted conception of \u2026"
+    "title": "Early perceptions of teaching and learning using generative AI in higher education",
+    "link": "https://journals.sagepub.com/doi/abs/10.1177/00472395241233290",
+    "abstract": "\u2026 Bias is also a concern when it comes to the data that the model is trained on. Artificial \nIntelligence bias is a phenomenon that occurs with AI systems \u201cwhen an AI algorithm produces \u2026"
+  },
+  {
+    "title": "Ethical framework for AI education based on large language models",
+    "link": "https://link.springer.com/article/10.1007/s10639-024-13241-6",
+    "abstract": "\u2026 upon and reference technology ethics and utilitarian ethics as our methodological \u2026 in \neducation. This section systematically dissects the principles and structures of artificial intelligence \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Exploring the impact of generative AI technologies on education: Academic expert perspectives, trends, and implications for sustainable development goals",
+    "link": "https://www.researchgate.net/profile/Kaneez-Sadriwala-2/publication/385915027_Exploring_the_impact_of_generative_AI_technologies_on_education_Academic_expert_perspectives_trends_and_implications_for_sustainable_development_goals/links/673b88b4440ad82b1893503e/Exploring-the-impact-of-generative-AI-technologies-on-education-Academic-expert-perspectives-trends-and-implications-for-sustainable-development-goals.pdf",
+    "abstract": "\u2026 Abstract: This study provides empirical data on the impact of generative AI in education, \nwith special emphasis on sustainable development goals (SDGs). By conducting a thorough \u2026"
+  },
+  {
+    "title": "The robots are here: Navigating the generative ai revolution in computing education",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3623762.3633499",
+    "abstract": "\u2026 Ethics to frame a discussion of ethical issues raised by the use of large language models in \ncomputing education\u2026 /tools on various computing education datasets, and highlight the extent \u2026"
+  },
+  {
+    "title": "The generative AI landscape in education: Mapping the terrain of opportunities, challenges, and student perception",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10681094/",
+    "abstract": "\u2026 Generative AI integration in education, a survey is designed and analyzed that includes both \nclosed-ended and open-ended questions, capturing quantitative \u2026 student perception survey \u2026"
+  },
+  {
+    "title": "ChatGPT and beyond: The generative AI revolution in education",
+    "link": "https://arxiv.org/abs/2311.15198",
+    "abstract": "\u2026 survey paper, we will explain the history and evolution of generative AI models and their \napplication in education \u2026 on the use of generative AI and ChatGPT in education (Section 4), and \u2026"
+  },
+  {
+    "title": "Philosophical, legal, ethical, and practical considerations in the emerging use of generative AI in academic journals: Guidelines for research in science education \u00a0\u2026",
+    "link": "https://link.springer.com/article/10.1007/s11165-024-10192-3",
+    "abstract": "\u2026 in several additional areas, including ethics, philosophy, copyright, authorship attribution \u2026 \neducation, including those that will be curated in our \u201cArtificial Intelligence in Science Education\u2026"
+  },
+  {
+    "title": "Social-emotional learning and generative AI: A critical literature review and framework for teacher education",
+    "link": "https://journals.sagepub.com/doi/abs/10.1177/00224871251325058",
+    "abstract": "\u2026 artificial intelligence (GenAI) and social-emotional learning (SEL), analyzing its implications \nfor teacher education. GenAI \u2026 Using thematic review methods, we review the empirical and \u2026"
+  },
+  {
+    "title": "The integration of artificial intelligence (ai) into education systems and its impact on the governance of higher education institutions",
+    "link": "https://dialnet.unirioja.es/servlet/articulo?codigo=9868422",
+    "abstract": "\u2026 Method: The research methodology in this article is based on a qualitative approach, \ncombining a review of existing literature with case studies of AI implementation in educational \u2026"
+  },
+  {
+    "title": "Use of LLM tools within higher education: Report 2",
+    "link": "https://oro.open.ac.uk/107552/",
+    "abstract": "\u2026 After screening and de-duplication, 147 articles met our inclusion criteria (empirical, \u2026 \nrelating to the use of Large Language Models (LLMs) in higher education. Furthermore, it covers \u2026"
+  },
+  {
+    "title": "The social impact of using artificial intelligence in education",
+    "link": "https://www.ceeol.com/search/article-detail?id=1214970",
+    "abstract": "\u2026 artificial intelligence in education will increase inequality when it comes to the access to \neducation \u2026 consider that the use of artificial intelligence in education will create a more educated \u2026"
+  },
+  {
+    "title": "[PDF][PDF] LLM-based literature recommender system in higher education: A case study of supervising students' term papers",
+    "link": "https://ceur-ws.org/Vol-3994/paper4.pdf",
+    "abstract": "\u2026 Exploring how to apply artificial intelligence (AI) technologies in daily teaching and learning \nin higher education [1, 2], this study focuses on a challenging and representative application \u2026"
+  },
+  {
+    "title": "AI Literacy and LLM Engagement in Higher Education: A Cross-National Quantitative Study",
+    "link": "https://arxiv.org/abs/2507.03020",
+    "abstract": "\u2026 a cross-national quantitative analysis of how university students in the United States and \nBangladesh interact with Large Language Models (LLMs). Based on an online survey of 318 \u2026"
+  },
+  {
+    "title": "The impact of Artificial Intelligence (AI) on global higher education: Opportunities and challenges of using ChatGPT and Generative AI",
+    "link": "https://books.google.com/books?hl=pt-BR&lr=&id=Xy4KEQAAQBAJ&oi=fnd&pg=PA1&dq=(%22Artificial+Intelligence%22+OR+%22Generative+AI%22+OR+%22Large+Language+Models%22+OR+%22LLM%22)+AND+(%22Education%22+OR+%22Schools%22+OR+%22Higher+Education%22+OR+%22Pedagogy%22)+AND+(%22Social+Impact%22+OR+%22Inequality%22+OR+%22Equity%22+OR+%22Ethics%22+OR+%22Bias%22+OR+%22Empirical%22+OR+%22Case+Study%22+OR+%22Experiment%22+OR+%22Survey%22+OR+%22Quantitative%22+OR+%22Qualitative%22)&ots=xiOkgLyqhj&sig=qy-RtYw__PWyULS0Fp-dNFcyUTM",
+    "abstract": "\u2026 This chapter explores the nuanced implications of artificial intelligence (AI), \u2026 of generative \nAI in academic research. By weaving together our professional perspectives with empirical \u2026"
+  },
+  {
+    "title": "Ethics education for healthcare professionals in the era of ChatGPT and other large language models: Do we still need it?",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/15265161.2023.2233358",
+    "abstract": "\u2026 ethics education as part of healthcare professional training given the abilities of chatGPT (generative \npre-trained transformer) and other large language models (LLM). We \u2026 to build ethics \u2026"
+  },
+  {
+    "title": "Against Artificial Education: Towards an Ethical Framework for Generative Artificial Intelligence (AI) Use in Education.",
+    "link": "https://eric.ed.gov/?id=EJ1428206",
+    "abstract": "\u2026 The arrival of generative artificial intelligence (AI) is \u2026 surrounding ethics, ontology, technology, \nand education, the \u2026 the use and ethics of AI in modern education contexts regarding human \u2026"
+  },
+  {
+    "title": "The potential impact of Artificial Intelligence on equity and inclusion in education",
+    "link": "https://www.oecd.org/en/publications/the-potential-impact-of-artificial-intelligence-on-equity-and-inclusion-in-education_15df715b-en.html?trk=public_post_comment-text",
+    "abstract": "This working paper reviews the impact of Artificial Intelligence (AI) on equity and inclusion in \neducation, focusing on learner-centred, teacher-led and other institutional AI tools. It \u2026"
+  },
+  {
+    "title": "The rise of artificial intelligence in educational measurement: Opportunities and ethical challenges",
+    "link": "https://arxiv.org/abs/2406.18900",
+    "abstract": "\u2026 Also, we discuss other ethical concerns, such as automation bias and the environmental \nimpacts of AI tools in education. Through a detailed exploration of these subdomains, we intend \u2026"
+  },
+  {
+    "title": "Llms are biased teachers: Evaluating llm bias in personalized education",
+    "link": "https://aclanthology.org/2025.findings-naacl.314/",
+    "abstract": "\u2026 \u2022 We demonstrate that all frontier large language models exhibit similar biases, with the \nhighest relative to both income and disability status. We find the lowest bias exists for sex/gender \u2026"
+  },
+  {
+    "title": "\" The teachers are confused as well\": A Multiple-Stakeholder Ethics Discussion on Large Language Models in Computing Education",
+    "link": "https://arxiv.org/abs/2401.12453",
+    "abstract": "\u2026 LLM policies. Our main contributions are three-fold. First, we provide timely empirical evidence \non LLMs in CS education, \u2026 coders\u2019 responsibility to understand LLM limitations. Second, \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Scaffolding critical thinking with generative AI: Design principles for integrating large language models in higher education",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666920X26000342",
+    "abstract": "\u2026 Large Language Models (LLMs) such as GPT-4 and DeepSeek R1 is transforming \nlearning in higher education\u2026 , educational theory, and AI ethics to develop a design-oriented \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Generative artificial intelligence and education: An analysis from multiple perspectives",
+    "link": "https://www.researchgate.net/profile/Francisco-Garcia-Penalvo/publication/380433806_Education_in_the_Knowledge_Society_Generative_Artificial_Intelligence_and_Education_An_Analysis_from_Multiple_Perspectives/links/663ca6e108aa54017aefa5d6/Education-in-the-Knowledge-Society-Generative-Artificial-Intelligence-and-Education-An-Analysis-from-Multiple-Perspectives.pdf",
+    "abstract": "\u2026 As we navigate this new technological landscape, we must balance bold exploration with a \nsolid commitment to ethics and equity, ensuring that the education of the future leverages the \u2026"
+  },
+  {
+    "title": "Pedagogical applications of generative AI in higher education: A systematic review of the field",
+    "link": "https://link.springer.com/article/10.1007/s11528-025-01100-1",
+    "abstract": "\u2026 Through a thematic analysis of challenges reported in 37 empirical studies, this section \nexplores critical barriers to integrating GenAI into higher education practices. Twenty-five distinct \u2026"
+  },
+  {
+    "title": "A Justice Lens on Fairness and Ethics Courses in Computing Education: LLM-Assisted Multi-Perspective and Thematic Evaluation",
+    "link": "https://arxiv.org/abs/2510.18931",
+    "abstract": "\u2026 addressing fairness and ethics in artificial intelligence (AI), \u2026 asked a large language model \n(LLM) to review syllabi through a \u2026 We also prompted the LLM to identify thematic trends across \u2026"
+  },
+  {
+    "title": "Generative artificial intelligence (AI) education policies of UK universities",
+    "link": "https://www.enhancingtandlinhe.org/index.php/1/article/view/20",
+    "abstract": "\u2026 However, others recommended users to seek guidance from their own ethics faculty before \n\u2026 Hartley (Eds.), Using generative AI effectively in higher education \u2013 Sustainable and ethical \u2026"
+  },
+  {
+    "title": "Artificial intelligence in education: Challenges and opportunities for sustainable development",
+    "link": "https://repositorio.minedu.gob.pe/handle/20.500.12799/6533",
+    "abstract": "\u2026 connected to the internet, the country is ready for the largest digital education experiment \nin the world. One of the biggest breakthroughs so far in China is the experimental design to \u2026"
+  },
+  {
+    "title": "[LIVRO][B] Generative AI in higher education: The ChatGPT effect",
+    "link": "https://www.taylorfrancis.com/books/oa-mono/10.4324/9781003459026/generative-ai-higher-education-cecilia-ka-yuk-chan-tom-colloton",
+    "abstract": "\u2026 on generative AI in education. It covers all the important components that educators need to \nsucceed with generative AI, \u2026 Qualitative data enriches the chapter, offering a comprehensive \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Generative AI and academic integrity in higher education: A systematic review and research agenda",
+    "link": "https://www.mdpi.com/2078-2489/16/4/296",
+    "abstract": "\u2026 GenAI\u2019s role in higher education from January 2021 to December \u2026 Our synthesis methods \ninvolved qualitative analysis to \u2026 We critically assessed the risk of bias in included studies and \u2026"
+  },
+  {
+    "title": "Investigating the higher education institutions' guidelines and policies regarding the use of generative AI in teaching, learning, research, and administration",
+    "link": "https://link.springer.com/article/10.1186/s41239-025-00507-3",
+    "abstract": "\u2026 , generative AI output has both explicit and implicit biases baked into it, including stereotypes. \nIt won\u2019t be possible to entirely avoid bias in generative AI, \u2026 nature of implicit bias. Be aware \u2026"
+  },
+  {
+    "title": "[PDF][PDF] The ethics of artificial intelligence in the era of generative AI",
+    "link": "https://www.researchgate.net/profile/Vassilka-Kirova/publication/377581354_The_Ethics_of_Artificial_Intelligence_in_the_Era_of_Generative_AI/links/665751020b0d284574651363/The-Ethics-of-Artificial-Intelligence-in-the-Era-of-Generative-AI.pdf",
+    "abstract": "\u2026 As predictive and generative AI continue to penetrate every sector of our society, from the \narts and journalism to science and education, these ethical considerations have become \u2026"
+  },
+  {
+    "title": "The impact of generative AI on school music education: Challenges and recommendations",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/10632913.2025.2451373",
+    "abstract": "\u2026 bias, originality, equity, and the ethical use of generative AI in school music education \u2026 a \nreview of current applications of generative AI in music education, in the process proposing a set \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Immersive Equity: Virtual Reality and Agentic Artificial Intelligence as Catalysts for Equity in Education",
+    "link": "https://www.researchgate.net/profile/Belinda-Mutunhu-Ndlovu/publication/400630853_Immersive_equity_virtual_reality_and_agentic_artificial_intelligence_as_catalysts_for_equity_in_education/links/698b7e147247bc6473df9136/Immersive-equity-virtual-reality-and-agentic-artificial-intelligence-as-catalysts-for-equity-in-education.pdf",
+    "abstract": "\u2026 Sixteen empirical studies meeting the final inclusion criteria \u2026 related to data privacy and \nalgorithmic bias. However, cross-study \u2026 frameworks for algorithmic bias and biometric data ethics. \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Systematic review of research on artificial intelligence applications in higher education\u2013where are the educators?",
+    "link": "https://link.springer.com/content/pdf/10.1186/s41239-019-0171-0%E2%80%8C.pdf",
+    "abstract": "\u2026 an AI ethics framework for Australia.\u2026 of artificial intelligence in higher education, it is \ndesirable to clarify terminology. Thus, in the next section, we explore definitions of AI in education, \u2026"
+  },
+  {
+    "title": "Adoption of artificial intelligence in higher education: an empirical study of the UTAUT model in Indian universities",
+    "link": "https://link.springer.com/article/10.1007/s13198-024-02558-7",
+    "abstract": "\u2026 AI in higher education. In order to investigate the application of artificial intelligence (AI) in \nhigher education \u2026 AI adoption in the context of higher education. We go further, examining the \u2026"
+  },
+  {
+    "title": "The role of large language models in personalized learning: a systematic review of educational impact",
+    "link": "https://link.springer.com/article/10.1007/s43621-025-01094-z",
+    "abstract": "\u2026 Studies were included based on their emphasis on knowledge enhancement and \nexcluded if they lacked empirical evidence or focus on traditional education systems. Table 4 \u2026"
+  },
+  {
+    "title": "Generative AI and future education: a review, theoretical validation, and authors' perspective on challenges and solutions",
+    "link": "https://peerj.com/articles/cs-2105/",
+    "abstract": "\u2026 education has become a subject of ongoing debate. This review examines the challenges of \nusing Gen AI like ChatGPT in education \u2026 well as discrimination and bias. Additionally, there \u2026"
+  },
+  {
+    "title": "Ethics of artificial intelligence in academia",
+    "link": "https://link.springer.com/content/pdf/10.1007/978-3-031-54144-5_188.pdf",
+    "abstract": "\u2026 we extend this discussion to broader AI ethics concepts and draw from past experiences and \n\u2026 premise of AI and Ethics to better understand the role of AI in education, content generated \u2026"
+  },
+  {
+    "title": "Effects of LLM use and note-taking on reading comprehension and memory: A randomised experiment in secondary schools",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0360131525002829",
+    "abstract": "Students\u2019 rapid uptake of Generative Artificial Intelligence tools, particularly large language \nmodels (LLMs), raises urgent questions about their effects on learning. We compared the \u2026"
+  },
+  {
+    "title": "Artificial intelligence (AI) integration in higher education: navigating opportunities and ethical frontiers in education with advanced technologies",
+    "link": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781032644509-4/artificial-intelligence-ai-integration-higher-education-seema-yadav",
+    "abstract": "\u2026 We must create practical ethics education if we are to succeed in this endeavor (Lim, Seo, \nand Kwon 2022). Teaching quality, student management, faculty construction, and teaching \u2026"
+  },
+  {
+    "title": "Evaluating the role of Artificial Intelligence in sustainable development goals with an emphasis on \u201cquality education\u201d",
+    "link": "https://link.springer.com/article/10.1007/s43621-024-00682-9",
+    "abstract": "\u2026 in education or its role in sustainable development, they often lack a targeted analysis of AI\u2019s \nimpact on the quality and equity of education \u2026 the quality and equity of education [26, 27]. By \u2026"
+  },
+  {
+    "title": "A year of generative AI in English language teaching and learning-A case study",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/15391523.2024.2404132",
+    "abstract": "\u2026 education, our current knowledge of how generative AI \u2026 generative AI in foreign language \nlearning and teaching. The study provides insights into the effective integration of generative AI \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Generative AI and higher education: Challenges and opportunities",
+    "link": "https://www.ipp-jcs.org/wp-content/uploads/2024/09/Report-AI-in-Higher-Education-IPP-1.pdf",
+    "abstract": "\u2026 with comprehensive research and detailed empirical analysis. \u2026 on higher education namely \nin three main dimensions: educators (Section 2), students (Section 3) and higher education \u2026"
+  },
+  {
+    "title": "Generative Artificial Intelligence in Education: From Deceptive to Disruptive.",
+    "link": "https://revistas.unir.net/index.php/ijimai/article/view/328",
+    "abstract": "\u2026 -Vivar and FJ Garc\u00eda-Pe\u00f1alvo, \u201cReflections on the ethics, potential, and challenges of artificial \nintelligence in the framework of quality education (SDG4),\u201d Comunicar, vol. 31, no. 74, pp. \u2026"
+  },
+  {
+    "title": "Exploring generative AI policies in higher education: A comparative perspective from China, Japan, Mongolia, and the USA",
+    "link": "https://arxiv.org/abs/2407.08986",
+    "abstract": "\u2026 toward Generative AI in higher education, Japan and the USA \u2026 to Generative AI in education. \nWe focus on comparing the \u2026 Mongolia mentions equity and access to education to deliver \u2026"
+  },
+  {
+    "title": "Cognitive bias in generative AI influences religious education",
+    "link": "https://www.nature.com/articles/s41598-025-99121-6",
+    "abstract": "\u2026 artificial intelligence (AI) in shaping religious cognition, with particular emphasis on its \nimplications for religious education. By \u2026 , the study reveals that generative AI not only reflects but \u2026"
+  },
+  {
+    "title": "Transformations in academic work and faculty perceptions of artificial intelligence in higher education",
+    "link": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1603763/full",
+    "abstract": "\u2026 to a broader understanding of how higher education is adapting to artificial intelligence. \u2026 \nempirical literature to examine how artificial intelligence is reshaping academic work in \u2026"
+  },
+  {
+    "title": "Generative AI and the future of connectivist learning in higher education",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/17516234.2024.2386085",
+    "abstract": "\u2026 Following this, we outline our qualitative research methodology and the multi-stakeholder \ninterviews conducted. We then present our findings, followed by a discussion of the \u2026"
+  },
+  {
+    "title": "Large language models in education: Vision and opportunities",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10386291/",
+    "abstract": "\u2026 education raises ethical and moral questions, such as data privacy, algorithm bias, and \nfairness in artificial intelligence. It \u2026 Balancing personalization and social equity: Smart education \u2026"
+  },
+  {
+    "title": "Trends and emerging themes in the effects of generative artificial intelligence in education: A systematic review",
+    "link": "https://www.ejmste.com/article/trends-and-emerging-themes-in-the-effects-of-generative-artificial-intelligence-in-education-a-16124",
+    "abstract": "\u2026 of Generative Artificial Intelligence (GenAI) in education from \u2026 ethical challenges such as \nalgorithmic bias, data privacy, and the \u2026 generative AI in curriculum development: A case study in \u2026"
+  },
+  {
+    "title": "Generative AI in higher education: Educators' perspectives on academic learning and integrity",
+    "link": "https://books.google.com/books?hl=pt-BR&lr=&id=RCI9EQAAQBAJ&oi=fnd&pg=PT408&dq=(%22Artificial+Intelligence%22+OR+%22Generative+AI%22+OR+%22Large+Language+Models%22+OR+%22LLM%22)+AND+(%22Education%22+OR+%22Schools%22+OR+%22Higher+Education%22+OR+%22Pedagogy%22)+AND+(%22Social+Impact%22+OR+%22Inequality%22+OR+%22Equity%22+OR+%22Ethics%22+OR+%22Bias%22+OR+%22Empirical%22+OR+%22Case+Study%22+OR+%22Experiment%22+OR+%22Survey%22+OR+%22Quantitative%22+OR+%22Qualitative%22)&ots=P5R6o9Agzh&sig=IIRhbpyEGdJDk_Q0FlbHBidjIJ0",
+    "abstract": "\u2026 of literature on GAI in education by providing empirical insights into how the use of GPTs \ninfluence the teaching and learning process in higher education and what are the perceived \u2026"
+  },
+  {
+    "title": "Generative AI in engineering and computing education: A scoping review of empirical studies and educational practices",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10883995/",
+    "abstract": "\u2026 GenAI in engineering and computing education from K-12 to tertiary levels. It is worth \nmentioning that this scoping review focuses on empirical research with evidence of application and \u2026"
+  },
+  {
+    "title": "Generative AI and educational assessments: A systematic review",
+    "link": "https://search.informit.org/doi/abs/10.3316/informit.T2025061800005500592641426",
+    "abstract": "\u2026 the existing empirical evidence on this topic. Systematically reviewing 19 empirical studies \npublished within 10 years, starting in 2014, this study assessed the current state of empirical \u2026"
+  },
+  {
+    "title": "Generative AI in education: Student skills and lecturer roles",
+    "link": "https://link.springer.com/chapter/10.1007/978-981-95-4423-3_4",
+    "abstract": "\u2026 a quantitative survey to explore essential student skills and lecturer strategies for integrating \nGenAI into education. \u2026 The top 10 student skills formed the basis of our survey design. The \u2026"
+  },
+  {
+    "title": "Software engineering education must adapt and evolve for an llm environment",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3626252.3630927",
+    "abstract": "\u2026 We also intend to look at questions as: \u25cf How to ensure the quality, reliability, security, \nand ethics of generative AI outputs and systems, especially in safety-critical or high-stakes \u2026"
+  },
+  {
+    "title": "The ethics of using AI in K-12 education: A systematic literature review",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/1475939X.2024.2428601",
+    "abstract": "\u2026 AI ethics and guide the direction of future curricula for schools, \u2026 in the ethics of AI within the \ncontext of K-12 education. From the \u2026 Artificial Intelligence (AI) has become prevalent in nearly \u2026"
+  },
+  {
+    "title": "Education in the age of Generative AI: Context and Recent Developments",
+    "link": "https://arxiv.org/abs/2309.12332",
+    "abstract": "\u2026 concerns, including equity issues, data privacy, bias, human interaction, \u2026 Another concern \ninvolves the potential for bias and \u2026 regularly monitor them to mitigate bias and ensure fairness. \u2026"
+  },
+  {
+    "title": "\u2026\u00a0a LargeLanguage Model (LLM): A qualitative study on how students and educatorsperceive the use of LLMs such as ChatGPT withinconventional university education\u00a0\u2026",
+    "link": "https://www.diva-portal.org/smash/record.jsf?pid=diva2:1881643",
+    "abstract": "\u2026 valuable insights into the influence of Large Language Models in higher education. \u2026 a \nqualitative approach for analyzing survey data concerning the use of Large To analyze survey data \u2026"
+  },
+  {
+    "title": "Generative AI in education and research: A systematic mapping review",
+    "link": "https://bera-journals.onlinelibrary.wiley.com/doi/abs/10.1002/rev3.3489",
+    "abstract": "\u2026 of GenAI into K-12 education. The failure to understand the challenges and opportunities \nspecific to K-12 education perpetuates educational inequality and also reflects a myopic focus \u2026"
+  },
+  {
+    "title": "Unveiling the potential: Artificial intelligence's negative impact on teaching and research considering ethics in higher education",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ejed.12929",
+    "abstract": "\u2026 Using an experimental philosophy approach and an online survey with case \u2026 generative \nAI on university students and higher education, using a mixed-methods approach with a survey \u2026"
+  },
+  {
+    "title": "A scoping review of empirical studies on generative artificial intelligence in language education",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/17501229.2025.2509759",
+    "abstract": "\u2026 Artificial Intelligence (AI) has long played a crucial role in language education, and the \nemergence of Generative AI \u2026 quality empirical research on GAI in language education are lacking. \u2026"
+  },
+  {
+    "title": "Impact of artificial intelligence on higher education: A literature review",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-031-78155-1_35",
+    "abstract": "\u2026 In this regard, various studies underscore the importance of addressing biases and promoting \nequity in AI across various domains, including education, healthcare, and mental health [\u2026"
+  },
+  {
+    "title": "Generative AI in legal education: A two-year experiment with ChatGPT",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/17579961.2026.2633673",
+    "abstract": "\u2026 around the use of generative AI in legal education. Currently, \u2026 reporting experiments conducted \nin law schools, with the aim \u2026 Second, I present findings from a two-year experiment of my \u2026"
+  },
+  {
+    "title": "Integrating generative AI in management education: A mixed-methods study using social construction of technology theory",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1472811724000880",
+    "abstract": "\u2026 education. Thereafter, the qualitative insights gathered from management education \nexperts helped in identifying various focal themes like assessment, curriculum, pedagogy, \u2026"
+  },
+  {
+    "title": "Educators' perspective on artificial intelligence: equity, preparedness, and development",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/2331186X.2024.2447169",
+    "abstract": "\u2026 quantitative or qualitative findings alone could not provide (Dawadi et al., Citation2021). \nWhere the quantitative \u2026 used technology and AI for education, the qualitative data provided the \u2026"
+  },
+  {
+    "title": "Ethical principles for artificial intelligence in education",
+    "link": "https://link.springer.com/article/10.1007/s10639-022-11316-w",
+    "abstract": "\u2026 Finally, we conclude by highlighting the significance of ethics in the contemporary discussion \nof education through which propose several key ethical principles that underpin ethical \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Potential risks of generative artificial intelligence integration into K-12 education: A scoping review",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666920X26000226",
+    "abstract": "\u2026 integration of Generative AI (GenAI) into K-12 education has \u2026 Existing reviews have prioritized \nhigher education and \u2026 This scoping review synthesizes 22 empirical studies from K-12 \u2026"
+  },
+  {
+    "title": "Evolution of learning: Assessing the transformative impact of generative AI on higher education",
+    "link": "https://link.springer.com/article/10.1007/s44366-025-0058-7",
+    "abstract": "\u2026 analysis, utilizing both the survey findings and insights from our literature review to explore \npotential future paths for integrating GenAI into higher education. The creation of credible \u2026"
+  },
+  {
+    "title": "A comprehensive review of large language models: issues and solutions in learning environments",
+    "link": "https://link.springer.com/article/10.1007/s43621-025-00815-8",
+    "abstract": "\u2026 Figure 1 illustrates the architecture of LLM in education. \u2026 , such as the need for bias mitigation, \nprivacy protections, and \u2026 demonstrating LLM applications in education. These include: \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Examining the role of generative AI in enhancing social work education: An analysis of curriculum and assessment design",
+    "link": "https://www.mdpi.com/2076-0760/13/12/648",
+    "abstract": "\u2026 case study that aligns with what we have discussed in the unit about youth work ethics and \n\u2026 Furthermore, using GAI to create a case study with the same aim and purpose, but with new \u2026"
+  },
+  {
+    "title": "Generative AI in higher education: Perspectives of students, educators and administrators",
+    "link": "https://search.informit.org/doi/abs/10.3316/informit.T2025091800011491582357769",
+    "abstract": "\u2026 to concerns about disrupting traditional learning and assessment methods, raising questions \nabout academic integrity, and provoking ethical dilemmas related to data privacy and bias. \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Analyzing the impact of a structured LLM workshop in different education levels",
+    "link": "https://www.mdpi.com/2076-3417/14/14/6280",
+    "abstract": "\u2026 approach to teaching students in schools and higher education the correct way to \u2026 experiment. \nTo obtain more varied results, several groups were targeted: 120 students in high schools \u2026"
+  },
+  {
+    "title": "A systematic literature review to implement large language model in higher education: issues and solutions",
+    "link": "https://link.springer.com/article/10.1007/s44217-025-00424-7",
+    "abstract": "\u2026 artificial intelligence, particularly for education. These models have redefined various sectors, \nmost notably education\u2026 challenges related to data privacy, bias in AI, and the importance of \u2026"
+  },
+  {
+    "title": "Advancing educational equity: The role of generative ai in creating accessible and inclusive higher education",
+    "link": "https://openlibindex.com/index.php/IJCET/article/view/IJCET_15_06_154",
+    "abstract": "\u2026 This article explores the transformative role of generative AI in creating more accessible \nand inclusive higher education environments. It examines how AI technologies revolutionize \u2026"
+  },
+  {
+    "title": "'I'm Categorizing LLM as a Productivity Tool': Examining Ethics of LLM Use in HCI Research Practices",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3711000",
+    "abstract": "\u2026 Education on research ethics for LLM use should be a necessary component of HCI research \nand practice, given LLMs\u2019 well-documented risks and adverse impacts [120]. One avenue \u2026"
+  },
+  {
+    "title": "Artificial intelligence in education: Addressing ethical challenges in K-12 settings",
+    "link": "https://link.springer.com/article/10.1007/s43681-021-00096-7",
+    "abstract": "Artificial intelligence (AI) is a field of study that combines the applications of machine learning, \nalgorithm productions, and natural language processing. Applications of AI transform the \u2026"
+  },
+  {
+    "title": "[PDF][PDF] FairAIED: Navigating fairness, bias, and ethics in educational AI applications",
+    "link": "https://www.researchgate.net/profile/Zichong-Wang-2/publication/382618156_FairAIED_Navigating_Fairness_Bias_and_Ethics_in_Educational_AI_Applications/links/66a505a1de060e4c7e5dd742/FairAIED-Navigating-Fairness-Bias-and-Ethics-in-Educational-AI-Applications.pdf",
+    "abstract": "\u2026 The integration of Artificial Intelligence (AI) into education has transformative potential, \nproviding tailored learning experiences and creative instructional approaches. However, the \u2026"
+  },
+  {
+    "title": "Artificial intelligence chatbots and large language models in dental education: worldwide survey of educators",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/eje.13009",
+    "abstract": "\u2026 use and implications of AI in dental education was drafted in clear, jargon\u2026 education experts \nreviewed the survey for relevance and clarity, offering improvement suggestions. The survey \u2026"
+  },
+  {
+    "title": "Reshaping higher education in MENA with generative AI: A systematic review",
+    "link": "https://www.igi-global.com/chapter/reshaping-higher-education-in-mena-with-generative-ai/358223",
+    "abstract": "\u2026 To further explore this region's educational practices with generative AI, this chapter \u2026 the \nMENA's integration of generative AI in higher education. Using qualitative thematic analysis, four \u2026"
+  },
+  {
+    "title": "Generative AI and teachers--for us or against us? A case study",
+    "link": "https://arxiv.org/abs/2404.03486",
+    "abstract": "\u2026 of a survey on the adoption of generative artificial intelligence (\u2026 of education by GenAI, \nparticularly large language models (\u2026 We prepared the online survey according to best practices \u2026"
+  },
+  {
+    "title": "From Prediction to Pedagogy: A Systematic Review and Integrated Framework for LLM Adoption in Higher Education.",
+    "link": "https://eric.ed.gov/?id=EJ1494536",
+    "abstract": "\u2026 theoretical frameworks used across 29 empirical studies on LLM adoption in higher education \nfrom 2023 to May 2025. All studies employed path-based quantitative designs, reporting \u2026"
+  },
+  {
+    "title": "Transforming education with generative AI (GAI): Key insights and future prospects",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10870136/",
+    "abstract": "\u2026 case study on the deployment of a multimodal LLM, which incorporates a three-phase prompt \nlearning methodology, within a mathematics instructional setting. This case study aims to \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Generative AI in science education: A learning revolution or a threat to academic integrity? A bibliometric analysis",
+    "link": "https://pdfs.semanticscholar.org/f036/fa632fc3e051e18ef5ea5a3c367cd60e5155.pdf",
+    "abstract": "\u2026 One of the primary benefits of generative AI in STEM education is its ability to \u2026 Generative \nAI also has the potential to address issues related to equity and diversity in STEM education. By \u2026"
+  },
+  {
+    "title": "Higher education's generative artificial intelligence paradox: The meaning of chatbot mania",
+    "link": "https://search.informit.org/doi/abs/10.3316/informit.T2024092900003290667921308",
+    "abstract": "\u2026 of AI in higher education must be grounded in the principles of ethics, equity, and the \u2026 to \ncontribute to the ongoing discourse on how higher education institutions can navigate the rise of \u2026"
+  },
+  {
+    "title": "Leveraging artificial intelligence as a learning tool in higher education",
+    "link": "https://pubs.ufs.ac.za/index.php/ijer/article/view/1153",
+    "abstract": "\u2026 The ethics of artificial intelligence in education: A framework for responsible use. Journal \nof Educational Computing Research, 59(5), 937-962. https://doi.org/10.1177/\u2026"
+  },
+  {
+    "title": "ChatGPT for education research: Exploring the potential of large language models for qualitative codebook development",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-031-64299-9_10",
+    "abstract": "\u2026 best work together for qualitative coding. As the \u2026 Large Language Models can be integrated \ninto the inductive codebook development process for qualitative data analysis in education \u2026"
+  },
+  {
+    "title": "Student perspectives on using a large language model (llm) for an assignment on professional ethics",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3649217.3653624",
+    "abstract": "\u2026 as part of discussing and writing a group assignment on professional ethics. An LLM was \u2026 \nIn the following, we introduce the course design and the theory in engineering ethics education \u2026"
+  },
+  {
+    "title": "How can Generative AI support education?",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10578716/",
+    "abstract": "\u2026 CASE STUDY We now present a case study for the use of GenAI. It refers to a first year, \nsecond semester, Java Programming course offered in four Engineering degrees in the \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Generative AI and critical thinking in online higher education: challenges and opportunities",
+    "link": "https://www.redalyc.org/journal/3314/331481521024/331481521024.pdf",
+    "abstract": "\u2026 Towards Intelligent-TPACK: An empirical study on teachers' professional knowledge to \nethically integrate artificial intelligence (AI)-based tools into education. Computers in Human \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Pedagogical alignment of large language models (llm) for personalized learning: a survey, trends and challenges",
+    "link": "https://www.researchgate.net/profile/Mahefa-Abel/publication/383231498_Pedagogical_Alignment_of_Large_Language_Models_LLM_for_Personalized_Learning_A_survey_Trends_and_Challenges/links/68259167026fee1034f8482a/Pedagogical-Alignment-of-Large-Language-Models-LLM-for-Personalized-Learning-A-survey-Trends-and-Challenges.pdf",
+    "abstract": "\u2026 This paper provides a comprehensive survey of the current state of LLMs in education, \nfocusing on several key areas. We begin with an exploration of Knowledge Editing Techniques (\u2026"
+  },
+  {
+    "title": "Artificial intelligence in education, bridging community gap: a phenomenological approach",
+    "link": "https://revistas.uma.es/index.php/NEIJ/article/view/20505",
+    "abstract": "\u2026 The participants particularly praised this equity-driven approach to education and emphasized \nthe importance of creating an inclusive learning environment where every student can \u2026"
+  },
+  {
+    "title": "[HTML][HTML] The impact of prompt engineering and a generative AI-driven tool on autonomous learning: A case study",
+    "link": "https://www.mdpi.com/2227-7102/15/2/199",
+    "abstract": "\u2026 improve professional second-language education, yet no \u2026 case study evaluates how teaching \nprompt engineering concepts and applying them through Generative Artificial Intelligence (\u2026"
+  },
+  {
+    "title": "ChatGPT and its ethical implications for STEM research and higher education: a media discourse analysis",
+    "link": "https://link.springer.com/article/10.1186/s40594-023-00452-5",
+    "abstract": "\u2026 period of post-digital education and bio-digital technology, artificial intelligence (AI) has played \n\u2026 To this end, this study adopts the concepts of research ethics, academic publishing, and \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Students' use of large language models in engineering education: A case study on technology acceptance, perceptions, efficacy, and detection chances",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666920X23000516",
+    "abstract": "\u2026 engineering higher education through an in-depth case study\u2026 combining conceptualization \nand empirical evidence analysis\u2026 The results contribute to qualitative evidence by highlighting \u2026"
+  },
+  {
+    "title": "Challenges for higher education in the era of widespread access to Generative AI",
+    "link": "https://www.ceeol.com/search/article-detail?id=1159534",
+    "abstract": "\u2026 generative AI systems, particularly in the context of educational use, and to analyse the \nresults of a survey \u2026 students\u2019 use and perception of generative AI systems. Based on these two \u2026"
+  },
+  {
+    "title": "Artificial intelligence ethics from the perspective of educational technology companies and schools",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-031-09687-7_17",
+    "abstract": "This chapter discusses the ethical issues and solutions that educational technology (EdTech) \ncompanies and schools consider during their daily work. As an example, two Finnish \u2026"
+  },
+  {
+    "title": "Ethics concerns in artificial intelligence use in education",
+    "link": "https://library.iated.org/view/weber2020eth",
+    "abstract": "\u2026 The goal of the research is to provide an overview of key ethical concerns in the use of \nArtificial Intelligence (AI) in educational settings. Intelligent systems (Artificial Intelligence) are \u2026"
+  },
+  {
+    "title": "Generative Artificial Intelligence (GenAI) for Academic Writing in Higher Education: A Scoping Review of Applications, Challenges, and Implications.",
+    "link": "https://eric.ed.gov/?id=EJ1494380",
+    "abstract": "\u2026 higher-education settings were included, and findings were synthesized via convergent \nintegration that juxtaposed quantitative distributions with qualitative \u2026 -reviewed empirical studies \u2026"
+  },
+  {
+    "title": "Artificial intelligence in higher education: exploring faculty use, self-efficacy, distinct profiles, and professional development needs",
+    "link": "https://link.springer.com/article/10.1186/s41239-024-00490-1",
+    "abstract": "\u2026 Faculty perspectives on the use of artificial intelligence (AI) in higher education are crucial for \nAI\u2019\u2026 The respondents saw greater equity in education as AI\u2019s greatest benefit, while students \u2026"
+  },
+  {
+    "title": "Artificial intelligence (AI), conversational agents, and generative AI: implications for adult education practice and research",
+    "link": "https://www.tandfonline.com/doi/full/10.1080/02601370.2024.2310448",
+    "abstract": "\u2026 They reduce critical thinking making students more prone to bias, fake information, or opinions \nrather than trustworthy references. Researchers also stress conversational agents\u2019 lack of \u2026"
+  },
+  {
+    "title": "[HTML][HTML] A comparative study of student perceptions on generative AI in programming education across Sub-Saharan Africa",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666557325000047",
+    "abstract": "\u2026 access to knowledge and reshape programming education. This quantitative study examines \nthe impact of these AI tools on fostering inclusive education in Kenya, Nigeria, and South \u2026"
+  },
+  {
+    "title": "Generative AI in education: A study of educators' awareness, sentiments, and influencing factors",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10892891/",
+    "abstract": "\u2026 survey and interview that these generative AI-based tools are going to be part of our education \n\u2026 Existing uncertainty surrounding AI tools and LLM-based technologies in education calls \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Leveraging ChatGPT for rethinking plagiarism, digital literacy, and the ethics of Co-authorship in higher education: A position paper and comparative critical\u00a0\u2026",
+    "link": "https://journal.ilta.ie/index.php/telji/article/download/131/137/743",
+    "abstract": "\u2026 artificial intelligence tools. Despite the rapid adoption of generative AI tools in higher education \n\u2026 technologyenhanced learning experiences within higher education are still evolving. To \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Student perceptions of AI-assisted writing and academic integrity: ethical concerns, academic misconduct, and use of generative AI in higher education",
+    "link": "https://www.mdpi.com/3042-8130/1/1/2",
+    "abstract": "\u2026 The rise of generative AI in higher education has disrupted \u2026 In this study, a survey of 401 \nstudents from major US \u2026 AI, this study suggests that education about AI ethics and the risk of AI \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Generative AI and the future of education: Ragnar\u00f6k or reformation? A paradoxical perspective from management educators",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1472811723000289",
+    "abstract": "\u2026 tension transpiring in the field of education. Given that Generative AI is rapidly emerging as \na \u2026 aims to (i) reconcile the great debate on Generative AI in order to (ii) lay the foundation for \u2026"
+  },
+  {
+    "title": "Navigating llm ethics: Advancements, challenges, and future directions",
+    "link": "https://link.springer.com/article/10.1007/s43681-025-00814-5",
+    "abstract": "\u2026 , reports, case studies, and frameworks regarding LLM ethics, written in English. Given that \nthere is not a specific database on LLM ethics in particular, we used the Preferred Reporting \u2026"
+  },
+  {
+    "title": "[HTML][HTML] The impact of artificial intelligence on personalized learning in higher education: A systematic review",
+    "link": "https://www.mdpi.com/2813-4346/4/2/17",
+    "abstract": "\u2026 Additionally, considerations regarding the ethical implications of AI in education\u2014such as \nstudent data privacy, algorithmic bias, and academic integrity\u2014were acknowledged to reflect \u2026"
+  },
+  {
+    "title": "Generative AI for education (GAIED): Advances, opportunities, and challenges",
+    "link": "https://arxiv.org/abs/2402.01580",
+    "abstract": "\u2026 This survey article has grown out of the GAIED (pronounced \u201cguide\u201d) workshop organized \n\u2026 to explore the potential of generative AI for enhancing education. This article aims to provide \u2026"
+  },
+  {
+    "title": "An analysis of the generative AI use as analyst in qualitative research in science education",
+    "link": "https://editora.sepq.org.br/rpq/article/view/724",
+    "abstract": "\u2026 to qualitative empirical \u2026 Generative AI tool is informed of a specific, unfamiliar theoretical \nreference, it can astoundingly produce not only a competent interpretation for its qualitative \u2026"
+  },
+  {
+    "title": "A Survey on Responsible Generative AI: What to Generate and What Not",
+    "link": "https://arxiv.org/abs/2404.05783",
+    "abstract": "In recent years, generative AI (GenAI), like large language models and text-to-image models\u2026 \nof responsible GenAI across healthcare, education, finance, and artificial general \u2026"
+  },
+  {
+    "title": "Generative AI (GenAI) in the language classroom: A systematic review",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/10494820.2025.2498537",
+    "abstract": "\u2026 of generative AI (GenAI) into language education has \u2026 gap by examining 49 empirical studies \npublished between January \u2026 Findings show that higher education was the dominant setting \u2026"
+  },
+  {
+    "title": "Navigating the adoption of artificial intelligence in higher education",
+    "link": "https://ejournal.unimap.edu.my/index.php/ijbt/article/view/433",
+    "abstract": "\u2026 By employing a quantitative research design, this study will leverage Structural \u2026 empirical \ntesting, thereby enriching the scholarly discourse surrounding AI adoption in higher education. \u2026"
+  },
+  {
+    "title": "Development of Evidence\u2010Based Guidelines for the Integration of Generative AI in University Education Through a Multidisciplinary, Consensus\u2010Based Approach",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/eje.13069",
+    "abstract": "\u2026 of AI use: the development of an Education Ethics Committee; the education of the existing \nResearch Ethics Committee; the appointment of a Chief AI Ethics officer. In their review of AI \u2026"
+  },
+  {
+    "title": "Barriers to and opportunities for the adoption of generative artificial intelligence in higher education in the global south: Insights from Sri Lanka",
+    "link": "https://link.springer.com/article/10.1007/s40593-024-00439-5",
+    "abstract": "\u2026 in the higher education \u2026 artificial intelligence (GenAI) in higher education and explore \npotential opportunities, with a specific focus on Sri Lanka as the country setting. Using a case study \u2026"
+  },
+  {
+    "title": "Catalyst for future education: An empirical study on the Impact of artificial intelligence generated content on college students' innovation ability and autonomous\u00a0\u2026",
+    "link": "https://link.springer.com/article/10.1007/s10639-024-13209-6",
+    "abstract": "\u2026 of artificial intelligence (AI) technology, particularly in its application within the field of education, \nartificial intelligence \u2026 the application of AIGC technology in education and its impact on \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Ethics of generative AI use in Higher Education: A focus group study",
+    "link": "https://end-educationconference.org/wp-content/uploads/2024/07/202402OP018.pdf",
+    "abstract": "Generative Artificial Intelligence (GenAI) tools like ChatGPT and DALL-E are increasingly \nimpacting all aspects of our lives, including education. Educators and students are trying to \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Harnessing generative AI in chemical engineering education: Implementation and evaluation of the large language model ChatGPT v3. 5",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1749772825000028",
+    "abstract": "\u2026 to the qualitative data obtained in \u2026 LLM output, of the potential pitfalls associated with its \nuse, and concerns over the quality of the output. As such, this work provides not just a case study \u2026"
+  },
+  {
+    "title": "Exploring the role of AI in higher education: a natural language processing analysis of emerging trends and discourses",
+    "link": "https://www.emerald.com/tqm/article/38/3/673/1258553",
+    "abstract": "\u2026 scientific discourse on artificial intelligence (AI) in higher education using Natural Language \n\u2026 The frequency analysis reveals concerns about educational equity, including disparities in \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Investigating the tripartite interaction among teachers, students, and generative AI in EFL education: A mixed-methods study",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666920X25000244",
+    "abstract": "\u2026 artificial intelligence (AI) in English as a Foreign Language (EFL) education, addressing \nsignificant gaps in empirical \u2026 on the ecological views of AI in education, the study conceptualizes \u2026"
+  },
+  {
+    "title": "Exploring undercurrents of learning tensions in an LLM-enhanced landscape: A student-centered qualitative perspective on LLM vs Search",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-031-98465-5_48",
+    "abstract": "\u2026 integrated into education. Yet, there is limited research capturing students\u2019 complex, qualitative \n\u2026 Here, we present qualitative results from an interview with 20 university students who are \u2026"
+  },
+  {
+    "title": "Perceived artificial intelligence readiness in medical and health sciences education: a survey study of students in Saudi Arabia",
+    "link": "https://link.springer.com/article/10.1186/s12909-025-06995-1",
+    "abstract": "\u2026 survey was conducted between October and November 2023, targeting students from various \nuniversities and medical schools \u2026 Data were collected via a 20-minute Google Form survey\u2026"
+  },
+  {
+    "title": "Artificial intelligence in higher education: Research notes from a longitudinal study",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0040162525001465",
+    "abstract": "\u2026 of GenAI in higher education comes with \u2026 ethics and academic misconduct. Therefore, our \nstudy aims to understand the impact of GenAI on students' experiences in the higher education \u2026"
+  },
+  {
+    "title": "Artificial intelligence in education: A review",
+    "link": "https://ieeexplore.ieee.org/abstract/document/9069875/",
+    "abstract": "\u2026 Generally, a qualitative research design, incorporating qualitative content and thematic \nanalysis is used to assess the different ways. Thematic and content analysis entails undertaking \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Machine learning and generative AI in learning analytics for higher education: A systematic review of models, trends, and challenges",
+    "link": "https://www.mdpi.com/2076-3417/15/15/8679",
+    "abstract": "\u2026 applications remain limited and underexplored in terms of pedagogy and ethics. Some \nstudies caution that GenAI\u2019s \u201cblack-box\u201d nature and lack of pedagogical grounding may \u2026"
+  },
+  {
+    "title": "Qualitative ethical technology assessment of artificial intelligence (AI) and the internet of things (IoT) among filipino Gen Z members: implications for ethics education\u00a0\u2026",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/02188791.2024.2303048",
+    "abstract": "\u2026 study can inform AI ethics education in a number of ways. Teaching AI ethics should be \ndegree-\u2026 AI ethics education should also make students aware about autonomy, beneficence, non-\u2026"
+  },
+  {
+    "title": "Postplagiarism: Transdisciplinary ethics and integrity in the age of artificial intelligence and neurotechnology",
+    "link": "https://link.springer.com/article/10.1007/s40979-023-00144-1",
+    "abstract": "\u2026 ethical implications of advanced technologies in education, emphasizing that such research \ncan be \u2026 of ubiquitous artificial intelligence and neurotechnology (eg, BCIs) in education are \u2026"
+  },
+  {
+    "title": "A complete survey on llm-based ai chatbots",
+    "link": "https://arxiv.org/abs/2406.16937",
+    "abstract": "\u2026 In addition to what we have discussed so far, LLMbased chatbots are transforming education \nthrough numerous other innovative approaches. For example, they offer grammar exercises\u2026"
+  },
+  {
+    "title": "[HTML][HTML] Artificial intelligence and the transformation of higher education institutions: A systems approach",
+    "link": "https://www.mdpi.com/2071-1050/16/14/6118",
+    "abstract": "\u2026 what is new about generative AI in the broader historical context of AI use in higher education. \n\u2026 , which drives decision bias, which leads to even more human bias and bias in the data. \u2026"
+  },
+  {
+    "title": "Artificial intelligence and quality education: the need for digital culture in teaching",
+    "link": "https://www.ledonline.it/index.php/ECPS-Journal/article/view/6485",
+    "abstract": "\u2026 Education of quality is often defined through the lens of equity and inclusivity, concepts \nthat have been central to sociological discourse. Equity in education means recognizing and \u2026"
+  },
+  {
+    "title": "Is ChatGPT an opportunity or a threat?: Preventive strategies employed by academics related to a GenAI-based LLM at a faculty of education",
+    "link": "https://search.informit.org/doi/abs/10.3316/informit.T2025091900005500038300336",
+    "abstract": "\u2026 Literature and empirical findings in this study reported two \u2026 based LLM research in the \ncontext of a faculty of education. \u2026 artificial intelligence applied by academics in education. The \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Teaching and learning with AI: a qualitative study on K-12 teachers' use and engagement with artificial intelligence",
+    "link": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1651217/full?utm_source=chatgpt.com",
+    "abstract": "IntroductionAs artificial intelligence technologies rapidly enter educational settings, teachers \nfind themselves navigating fundamental pedagogical shifts while maintaining professional \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Transforming education: A comprehensive review of generative artificial intelligence in educational settings through bibliometric and content analysis",
+    "link": "https://www.mdpi.com/2071-1050/15/17/12983",
+    "abstract": "\u2026 artificial intelligence (GAI) emerges as a transformative force, revolutionizing education. \u2026 \n, presents a comprehensive analysis of GAI in education, synthesizing key insights from a \u2026"
+  },
+  {
+    "title": "Analysis of Artificial Intelligence Policies for Higher Education in Europe.",
+    "link": "https://revistas.unir.net/index.php/ijimai/article/view/266",
+    "abstract": "\u2026 The uptake of these tools has given rise to a debate in education institutions about readiness, \nethics, trust, and the impact and added value of AI, as well as the need for governance, \u2026"
+  },
+  {
+    "title": "An exploratory survey about using ChatGPT in education, healthcare, and research",
+    "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292216",
+    "abstract": "\u2026 The introduction of OpenAI\u2019s ChatGPT has delivered large language model (LLM) systems \n\u2026 multiplying possible use cases of LLM, especially in education, healthcare and research \u2026"
+  },
+  {
+    "title": "[PDF][PDF] Revitalizing the higher education curriculum through an artificial intelligence approach: An overview",
+    "link": "https://pdfs.semanticscholar.org/14d9/81c33ede77b22d5b35d4b4107cbc2768729b.pdf",
+    "abstract": "\u2026 adopts a quantitative approach with a survey design (\u2026 Based on the survey results, it can be \nidentified that the majority \u2026 of Artificial Intelligence (AI) in learning in higher education. Of the \u2026"
+  },
+  {
+    "title": "[HTML][HTML] A systematic review of generative AI for teaching and learning practice",
+    "link": "https://www.mdpi.com/2227-7102/14/6/636",
+    "abstract": "\u2026 Overall, our TM results indicate that topics such as the implications of GenAI, GenAI for \neducation and research, support systems, bias and inclusion, intelligent tutoring systems, \u2026"
+  },
+  {
+    "title": "A tutorial for integrating generative AI in mixed methods data analysis",
+    "link": "https://link.springer.com/article/10.1007/s44217-024-00214-7",
+    "abstract": "\u2026 to use a generative AI platform to analyse quantitative and qualitative data and integrate \u2026 \nfor the qualitative phase or assist in designing an interview protocol based on the qualitative \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Designing digital escape rooms with generative ai in university contexts: A qualitative study",
+    "link": "https://www.mdpi.com/2414-4088/9/3/20",
+    "abstract": "\u2026 Despite these challenges, the potential of generative AI in education warrants critical \nconsideration. Empirical evidence [21,22,23] suggests that these tools can optimize innovative \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Cognitive dissonance in programming education: A qualitative exploration of the impact of generative AI on application-directed learning",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2451958825001393",
+    "abstract": "\u2026 this might mean for higher education practice. In this \u2026 qualitative data revealed trends in \nthe perceived advantages and disadvantages of using LLMs, as well as different levels of LLM \u2026"
+  },
+  {
+    "title": "A review of the ethics of artificial intelligence and its applications in the United States",
+    "link": "https://arxiv.org/abs/2310.05751",
+    "abstract": "\u2026 AI in Education Within the realm of education, the integration of artificial intelligence (AI) \u2026 \nArtificial Intelligence in Education (AIEd) has demonstrated its potential to benefit not only \u2026"
+  },
+  {
+    "title": "Generative AI in higher education: Uncertain students, ambiguous use cases, and mercenary perspectives",
+    "link": "https://journals.sagepub.com/doi/abs/10.1177/00986283241305398",
+    "abstract": "\u2026 Generative AI is not new, but recent progress in transformerbased neural networks has \nproduced large language models (\u2026 to demographic differences and issues of inequality and bias. \u2026"
+  },
+  {
+    "title": "The role of generative AI in education: Perceptions of Saudi students",
+    "link": "https://www.cedtech.net/article/the-role-of-generative-ai-in-education-perceptions-of-saudi-students-15496",
+    "abstract": "\u2026 Student perspectives on the role of artificial intelligence in education: A survey-based \nanalysis. Journal of Educational Management and Learning, 1(1), 8\u201315. https://doi.org/10.60084/ \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Artificial Intelligence in Health Professions Education: Qualitative Study of Student Experiences",
+    "link": "https://www.jmir.org/2026/1/e82432/",
+    "abstract": "Background Artificial intelligence (AI) is increasingly integrated into education and health care, \nraising questions about how students use these technologies and how AI influences their \u2026"
+  },
+  {
+    "title": "Artificial intelligence in education: Ethical considerations and insights from Ancient Greek philosophy",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3688671.3688772",
+    "abstract": "\u2026 This concern extends to issues of equity in access to AI-enhanced education, as disparities \nin technological resources could further widen the educational gap between privileged and \u2026"
+  },
+  {
+    "title": "Artificial intelligence in education",
+    "link": "https://link.springer.com/content/pdf/10.1007/978-3-030-10576-1_107.pdf",
+    "abstract": "\u2026 An empirical study is conducted on elementary school teachers to analyze the determinants \nof the adoption intention of ITLS. The moderation effect of the cognitive style on the adoption \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Towards Intelligent-TPACK: An empirical study on teachers' professional knowledge to ethically integrate artificial intelligence (AI)-based tools into education",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0747563222002886",
+    "abstract": "\u2026 The affordances of artificial intelligence (AI) have not been totally utilized in education. To \u2026 \nSecondly, we built a model to investigate the interplay of TPACK components and ethics. The \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Shaping the future of higher education: A technology usage study on generative AI innovations",
+    "link": "https://www.mdpi.com/2078-2489/16/2/95",
+    "abstract": "\u2026 Artificial Intelligence (GAI) is rapidly reshaping the landscape of higher education, offering \u2026 \n, and ethical concerns regarding data privacy and bias. Further, it emphasizes the importance \u2026"
+  },
+  {
+    "title": "[HTML][HTML] Considerations for adapting higher education technology courses for AI large language models: A critical review of the impact of ChatGPT",
+    "link": "https://www.sciencedirect.com/science/article/pii/S266682702300066X",
+    "abstract": "\u2026 In particular, the education sector is considered as one of the \u2026 Furthermore, many Higher \nEducation institutions are \u2026 and decision makers at Higher Education institutions concerning their \u2026"
   }
 ]
